@@ -1,10 +1,7 @@
-# Claude Code Flags 2.1.161
+# Claude Code Flags 2.1.162
 
 ## Feature Gates
 
-- `tengu_ccr_bridge`
-- `tengu_ccr_bundle_seed_enabled`
-- `tengu_harbor`
 
 ## Dynamic Configs
 
