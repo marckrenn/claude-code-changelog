@@ -4,11 +4,11 @@
 
 - Commands: 41
 - Options: 94
-- Env vars: 620
+- Env vars: 619
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 105
+- Models: 106
 - Providers: 8
 
 ## Commands
@@ -617,7 +617,6 @@
 - `CLAUDE_CODE_SYNC_PLUGINS_INSTALL_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNC_PLUGINS_MCP_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNC_SKILLS`
-- `CLAUDE_CODE_SYNC_SKILLS_WAIT_TIMEOUT_MS`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_SYSTEM_PROMPT_GB_FEATURE`
 - `CLAUDE_CODE_TAGS`
@@ -988,6 +987,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
+- `claude-empty-r`
 - `claude-export-import`
 - `claude-folder`
 - `claude-for-financial-services`
