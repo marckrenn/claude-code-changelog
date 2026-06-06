@@ -988,7 +988,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-s`
+- `claude-empty-`
 - `claude-export-import`
 - `claude-folder`
 - `claude-for-financial-services`
