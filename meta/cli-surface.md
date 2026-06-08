@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 41
-- Options: 94
-- Env vars: 620
+- Options: 95
+- Env vars: 623
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 106
+- Models: 109
 - Providers: 8
 
 ## Commands
@@ -171,6 +171,7 @@
 - `--remote-control-session-name-prefix`
 - `--replay-user-messages`
 - `--resume`
+- `--safe-mode`
 - `--scope`
 - `--session-id`
 - `--setting-sources`
@@ -260,6 +261,7 @@
 - `--remote <name>`
 - `--remote-control-session-name-prefix <prefix>`
 - `--replay-user-messages`
+- `--safe-mode`
 - `--scope <scope>`
 - `--session-id <uuid>`
 - `--setting-sources <sources>`
@@ -407,10 +409,14 @@
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BG_AUTH_SNAPSHOT_PATH`
 - `CLAUDE_BG_BACKEND`
+- `CLAUDE_BG_CLAIM_AUTH`
 - `CLAUDE_BG_ISOLATION`
 - `CLAUDE_BG_MEMORY_TOGGLED_OFF`
+- `CLAUDE_BG_PTY_AUTH`
 - `CLAUDE_BG_RENDEZVOUS_SOCK`
+- `CLAUDE_BG_RV_AUTH`
 - `CLAUDE_BG_SESSION_PERMISSION_RULES`
+- `CLAUDE_BG_SOCKET_TOKENS_PATH`
 - `CLAUDE_BG_SOURCE`
 - `CLAUDE_BG_STARTUP_WEDGE_MS`
 - `CLAUDE_BG_TCC_DISCLAIMED`
@@ -465,6 +471,7 @@
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_CLAUDE_API_SKILL`
 - `CLAUDE_CODE_DISABLE_CLAUDE_CODE_SKILL`
+- `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_CRON`
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`
 - `CLAUDE_CODE_DISABLE_FAST_MODE`
@@ -546,7 +553,6 @@
 - `CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE`
 - `CLAUDE_CODE_PERFETTO_TRACE`
 - `CLAUDE_CODE_PERFORCE_MODE`
-- `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
@@ -578,6 +584,7 @@
 - `CLAUDE_CODE_RESUME_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_RESUME_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_RETRY_WATCHDOG`
+- `CLAUDE_CODE_SAFE_MODE`
 - `CLAUDE_CODE_SANDBOXED`
 - `CLAUDE_CODE_SCRIPT_CAPS`
 - `CLAUDE_CODE_SCROLL_SPEED`
@@ -651,7 +658,6 @@
 - `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE`
 - `CLAUDE_ENABLE_BYTE_WATCHDOG`
 - `CLAUDE_ENABLE_BYTE_WATCHDOG_BEDROCK`
-- `CLAUDE_ENABLE_STREAM_WATCHDOG`
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_IMPORT_CONVERSATIONS`
@@ -697,7 +703,6 @@
 - `DEVPOD`
 - `DEVPOD_WORKSPACE_UID`
 - `DISABLE_AUTO_COMPACT`
-- `DISABLE_AUTOUPDATER`
 - `DISABLE_BRIEF_MODE_STOP_HOOK`
 - `DISABLE_ERROR_REPORTING`
 - `DISABLE_GROWTHBOOK`
@@ -711,7 +716,6 @@
 - `DISPLAY`
 - `DO_NOT_TRACK`
 - `DS_CHROMIUM_PATH`
-- `DS_VALIDATE_CAP_SECONDS`
 - `DYNO`
 - `EDITOR`
 - `ENABLE_BETA_TRACING_DETAILED`
@@ -862,6 +866,7 @@
 - `SLASH_COMMAND_TOOL_CHAR_BUDGET`
 - `SPACE_CREATOR_USER_ID`
 - `SRT_DEBUG`
+- `SRT_WIN_PATH`
 - `SSH_CLIENT`
 - `SSH_CONNECTION`
 - `SSH_TTY`
@@ -984,7 +989,9 @@ _None detected_
 - `claude-code-remote`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
+- `claude-community`
 - `claude-context`
+- `claude-design-contextual`
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
@@ -1020,6 +1027,7 @@ _None detected_
 - `claude-plugin-directory`
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
+- `claude-plugins-community`
 - `claude-plugins-official`
 - `claude-proactive`
 - `claude-prompt`
