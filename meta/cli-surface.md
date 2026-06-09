@@ -4,11 +4,11 @@
 
 - Commands: 41
 - Options: 95
-- Env vars: 623
+- Env vars: 628
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 109
+- Models: 113
 - Providers: 8
 
 ## Commands
@@ -315,6 +315,9 @@
 - `ANTHROPIC_CUSTOM_MODEL_OPTION`
 - `ANTHROPIC_CUSTOM_MODEL_OPTION_DESCRIPTION`
 - `ANTHROPIC_CUSTOM_MODEL_OPTION_NAME`
+- `ANTHROPIC_DEFAULT_FABLE_MODEL`
+- `ANTHROPIC_DEFAULT_FABLE_MODEL_DESCRIPTION`
+- `ANTHROPIC_DEFAULT_FABLE_MODEL_NAME`
 - `ANTHROPIC_DEFAULT_HAIKU_MODEL`
 - `ANTHROPIC_DEFAULT_HAIKU_MODEL_DESCRIPTION`
 - `ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME`
@@ -553,6 +556,7 @@
 - `CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE`
 - `CLAUDE_CODE_PERFETTO_TRACE`
 - `CLAUDE_CODE_PERFORCE_MODE`
+- `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
@@ -709,6 +713,7 @@
 - `DISABLE_INSTALLATION_CHECKS`
 - `DISABLE_INTERLEAVED_THINKING`
 - `DISABLE_PROMPT_CACHING`
+- `DISABLE_PROMPT_CACHING_FABLE`
 - `DISABLE_PROMPT_CACHING_HAIKU`
 - `DISABLE_PROMPT_CACHING_OPUS`
 - `DISABLE_PROMPT_CACHING_SONNET`
@@ -997,6 +1002,8 @@ _None detected_
 - `claude-dev`
 - `claude-empty-`
 - `claude-export-import`
+- `claude-fable-`
+- `claude-fable-5`
 - `claude-folder`
 - `claude-for-financial-services`
 - `claude-for-legal`
@@ -1012,6 +1019,8 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-mcp-browser-bridge-`
+- `claude-mythos-`
+- `claude-mythos-5`
 - `claude-mythos-preview`
 - `claude-opus-4`
 - `claude-opus-4-0`
