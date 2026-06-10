@@ -4,11 +4,11 @@
 
 - Commands: 41
 - Options: 95
-- Env vars: 628
+- Env vars: 627
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 113
+- Models: 115
 - Providers: 8
 
 ## Commands
@@ -556,7 +556,6 @@
 - `CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE`
 - `CLAUDE_CODE_PERFETTO_TRACE`
 - `CLAUDE_CODE_PERFORCE_MODE`
-- `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PLUGIN_CACHE_DIR`
@@ -996,6 +995,7 @@ _None detected_
 - `claude-code-user`
 - `claude-community`
 - `claude-context`
+- `claude-coworker`
 - `claude-design-contextual`
 - `claude-desktop`
 - `claude-desktop-3p`
@@ -1014,6 +1014,7 @@ _None detected_
 - `claude-hidden`
 - `claude-http-`
 - `claude-in-chrome`
+- `claude-in-slack`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
