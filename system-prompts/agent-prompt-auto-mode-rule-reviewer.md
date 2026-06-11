@@ -834,6 +834,24 @@ Evaluate clarity and completeness of classifier rules.
 
 Evaluate clarity and completeness of classifier rules.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+
+# Raw Prompt Text
+# Agent Prompt: auto-mode-rule-reviewer
+
+- Source: native-reference-match
+
+## Summary
+
+Evaluate clarity and completeness of classifier rules.
+
 # Raw Prompt Text
 You are an expert reviewer of auto mode classifier rules for Claude Code.
 
