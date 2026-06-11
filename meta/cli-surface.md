@@ -1000,7 +1000,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-`
+- `claude-empty-D`
 - `claude-export-import`
 - `claude-fable-`
 - `claude-fable-5`
