@@ -90,6 +90,21 @@ Writes a file to the local filesystem.
 # Raw Prompt Text
 # Tool Description: write
 
+- Source: native-reference-match
+
+## Summary
+
+Writes a file to the local filesystem.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: write
+
 - Source: native-prompt-markdown-tool
 
 ## Summary
