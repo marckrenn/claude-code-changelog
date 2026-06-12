@@ -4,7 +4,7 @@
 
 - Commands: 41
 - Options: 95
-- Env vars: 627
+- Env vars: 628
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -669,6 +669,7 @@
 - `CLAUDE_LOCAL_OAUTH_APPS_BASE`
 - `CLAUDE_LOCAL_OAUTH_CONSOLE_BASE`
 - `CLAUDE_MEMORY_STORES`
+- `CLAUDE_PROJECT_UUID`
 - `CLAUDE_PTY_HEARTBEAT_MS`
 - `CLAUDE_PTY_HOST_EXEC`
 - `CLAUDE_PTY_ORPHAN_CHECK_MS`
@@ -1000,7 +1001,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
-- `claude-empty-D`
+- `claude-empty-`
 - `claude-export-import`
 - `claude-fable-`
 - `claude-fable-5`
