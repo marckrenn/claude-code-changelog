@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 117
+- Models: 116
 - Providers: 8
 
 ## Commands
@@ -994,7 +994,6 @@ _None detected_
 - `claude-code-remote`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
-- `claude-codeI`
 - `claude-community`
 - `claude-context`
 - `claude-coworker`

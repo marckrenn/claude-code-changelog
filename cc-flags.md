@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.176
+# Claude Code Flags 2.1.177
 
 ## Feature Gates
 
