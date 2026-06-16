@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 116
+- Models: 117
 - Providers: 8
 
 ## Commands
@@ -1025,6 +1025,7 @@ _None detected_
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
+- `claude-inv-`
 - `claude-local`
 - `claude-mcp-browser-bridge-`
 - `claude-mythos-`
