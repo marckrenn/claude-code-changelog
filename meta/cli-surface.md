@@ -4,11 +4,11 @@
 
 - Commands: 41
 - Options: 95
-- Env vars: 633
+- Env vars: 634
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 117
+- Models: 118
 - Providers: 8
 
 ## Commands
@@ -633,8 +633,8 @@
 - `CLAUDE_CODE_SYSTEM_PROMPT_GB_FEATURE`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TASK_LIST_ID`
-- `CLAUDE_CODE_TEAM_ONBOARDING`
 - `CLAUDE_CODE_TEE_SDK_STDOUT`
+- `CLAUDE_CODE_TERMINAL_MCP_TOOLS`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_TMPDIR`
 - `CLAUDE_CODE_TMUX_PREFIX`
@@ -786,6 +786,7 @@
 - `HOME`
 - `HTTP_PROXY`
 - `HTTPS_PROXY`
+- `INK_SCREEN_READER`
 - `INTELLIJ_TERMINAL_COMMAND_BLOCKS`
 - `INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED`
 - `IS_DEMO`
@@ -1052,6 +1053,7 @@ _None detected_
 - `claude-pwd-ps-`
 - `claude-resume-`
 - `claude-review`
+- `claude-security`
 - `claude-settings`
 - `claude-skill-`
 - `claude-socks-`
