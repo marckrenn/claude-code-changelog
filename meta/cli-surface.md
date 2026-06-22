@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 41
-- Options: 95
-- Env vars: 635
+- Options: 96
+- Env vars: 634
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 118
+- Models: 117
 - Providers: 8
 
 ## Commands
@@ -81,7 +81,9 @@
 - `install <plugin>`
 - `list`
 - `login`
+- `login <name>`
 - `logout`
+- `logout <name>`
 - `marketplace`
 - `mcp`
 - `plugin`
@@ -159,6 +161,7 @@
 - `--message`
 - `--model`
 - `--name`
+- `--no-browser`
 - `--no-chrome`
 - `--no-session-persistence`
 - `--permission-mode`
@@ -251,6 +254,7 @@
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
+- `--no-browser`
 - `--no-chrome`
 - `--no-session-persistence`
 - `--permission-mode <mode>`
@@ -458,7 +462,6 @@
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
 - `CLAUDE_CODE_COLD_COMPACT`
 - `CLAUDE_CODE_COMMIT_LOG`
-- `CLAUDE_CODE_CONNECT_TIMEOUT_MS`
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_COORDINATOR_EXTRA_TOOLS`
 - `CLAUDE_CODE_COORDINATOR_MODE`
@@ -1027,7 +1030,6 @@ _None detected_
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
-- `claude-inv-`
 - `claude-local`
 - `claude-mcp-browser-bridge-`
 - `claude-mythos-`
