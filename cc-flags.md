@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.186
+# Claude Code Flags 2.1.187
 
 ## Feature Gates
 
@@ -20,6 +20,7 @@
 - `tengu_kairos_push_notifications`
 - `tengu_malort_pedway`
 - `tengu_max_version_config`
+- `tengu_startup_announcements`
 - `tengu_version_config`
 
 ## Experiments
