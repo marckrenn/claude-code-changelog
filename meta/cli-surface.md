@@ -4,11 +4,11 @@
 
 - Commands: 41
 - Options: 96
-- Env vars: 634
+- Env vars: 638
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 117
+- Models: 122
 - Providers: 8
 
 ## Commands
@@ -300,6 +300,7 @@
 ## Env Vars
 
 - `__CFB`
+- `__MINIMATCH_TESTING_PLATFORM__`
 - `AGENT_PROXY_AUTH_TOKEN`
 - `AGENT_PROXY_URL`
 - `AI_AGENT`
@@ -389,6 +390,7 @@
 - `BAT_THEME`
 - `BETA_TRACING_ENDPOINT`
 - `BROWSER`
+- `BUF_BIGINT_DISABLE`
 - `BUGHUNTER_DEV_BUNDLE_B64`
 - `BUGHUNTER_FLEET_SIZE`
 - `BUILDKITE`
@@ -468,6 +470,7 @@
 - `CLAUDE_CODE_CUSTOM_OAUTH_URL`
 - `CLAUDE_CODE_DAEMON_COLD_START`
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
+- `CLAUDE_CODE_DD_ERROR_TRACKING_FLUSH_INTERVAL_MS`
 - `CLAUDE_CODE_DEBUG_LOG_LEVEL`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DECSTBM`
@@ -832,6 +835,7 @@
 - `NODE_OPTIONS`
 - `NODE_TLS_REJECT_UNAUTHORIZED`
 - `NODE_UNIQUE_ID`
+- `NODE_USE_ENV_PROXY`
 - `NODE_USE_SYSTEM_CA`
 - `OSTYPE`
 - `OTEL_EXPORTER_OTLP_ENDPOINT`
@@ -988,6 +992,7 @@ _None detected_
 - `claude-ai`
 - `claude-ai-external-token`
 - `claude-api`
+- `claude-bg-`
 - `claude-channel-`
 - `claude-cli`
 - `claude-cli-design-sync`
@@ -995,6 +1000,7 @@ _None detected_
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-docs`
+- `claude-code-error-tracking`
 - `claude-code-github-action`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
@@ -1072,12 +1078,15 @@ _None detected_
 - `claude-vscode`
 - `haiku-3-5`
 - `haiku-4-5`
+- `o5-qn`
+- `o5-u:`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`
 - `opus-4-6`
 - `opus-4-7`
 - `opus-4-8`
+- `opus-on-pro-near-limit`
 - `sonnet-3-7`
 - `sonnet-4`
 - `sonnet-4-5`
