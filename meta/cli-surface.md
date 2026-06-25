@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 41
-- Options: 96
-- Env vars: 638
+- Options: 95
+- Env vars: 641
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 122
+- Models: 121
 - Providers: 8
 
 ## Commands
@@ -157,7 +157,6 @@
 - `--json`
 - `--keep-data`
 - `--mcp-config`
-- `--mcp-debug`
 - `--message`
 - `--model`
 - `--name`
@@ -252,7 +251,6 @@
 - `--keep-data`
 - `--mcp-config <config>`
 - `--mcp-config <configs...>`
-- `--mcp-debug`
 - `--model <model>`
 - `--no-browser`
 - `--no-chrome`
@@ -528,6 +526,7 @@
 - `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_FORCE_MID_CONVERSATION_SYSTEM`
 - `CLAUDE_CODE_FORCE_SYNC_OUTPUT`
+- `CLAUDE_CODE_FORCE_TIP_ID`
 - `CLAUDE_CODE_FORK_SUBAGENT`
 - `CLAUDE_CODE_FRAME_TIMING_LOG`
 - `CLAUDE_CODE_GIT_BASH_PATH`
@@ -611,6 +610,7 @@
 - `CLAUDE_CODE_SESSIONEND_HOOKS_TIMEOUT_MS`
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SHELL_PREFIX`
+- `CLAUDE_CODE_SHOJI_ENGINE`
 - `CLAUDE_CODE_SIMPLE`
 - `CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT`
 - `CLAUDE_CODE_SIMULATE_PROXY_USAGE`
@@ -799,6 +799,7 @@
 - `IS_DEMO`
 - `IS_SANDBOX`
 - `ITERM_SESSION_ID`
+- `JAVA_TOOL_OPTIONS`
 - `K_CONFIGURATION`
 - `K_SERVICE`
 - `KITTY_WINDOW_ID`
@@ -1078,14 +1079,13 @@ _None detected_
 - `claude-vscode`
 - `haiku-3-5`
 - `haiku-4-5`
-- `o5-qn`
-- `o5-u:`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`
 - `opus-4-6`
 - `opus-4-7`
 - `opus-4-8`
+- `opus-fast-mode-deprecation`
 - `opus-on-pro-near-limit`
 - `sonnet-3-7`
 - `sonnet-4`
