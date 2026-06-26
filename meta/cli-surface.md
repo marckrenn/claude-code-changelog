@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 41
+- Commands: 42
 - Options: 95
-- Env vars: 641
+- Env vars: 642
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 121
+- Models: 122
 - Providers: 8
 
 ## Commands
@@ -29,6 +29,7 @@
 - `disable`
 - `doctor`
 - `enable`
+- `gateway`
 - `get`
 - `import-conversations`
 - `init`
@@ -74,6 +75,7 @@
 - `disable [plugin]`
 - `doctor`
 - `enable <plugin>`
+- `gateway`
 - `get <name>`
 - `import-conversations <exportPath>`
 - `init <name>`
@@ -528,7 +530,6 @@
 - `CLAUDE_CODE_FORCE_SYNC_OUTPUT`
 - `CLAUDE_CODE_FORCE_TIP_ID`
 - `CLAUDE_CODE_FORK_SUBAGENT`
-- `CLAUDE_CODE_FRAME_TIMING_LOG`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
@@ -654,6 +655,7 @@
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
 - `CLAUDE_CODE_USE_FOUNDRY`
+- `CLAUDE_CODE_USE_GATEWAY`
 - `CLAUDE_CODE_USE_MANTLE`
 - `CLAUDE_CODE_USE_POWERSHELL_TOOL`
 - `CLAUDE_CODE_USE_VERTEX`
@@ -673,6 +675,7 @@
 - `CLAUDE_ENABLE_BYTE_WATCHDOG_BEDROCK`
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
+- `CLAUDE_GATEWAY_ALLOW_LOOPBACK`
 - `CLAUDE_IMPORT_CONVERSATIONS`
 - `CLAUDE_INTERNAL_ASSISTANT_TEAM_NAME`
 - `CLAUDE_JOB_DIR`
@@ -1025,6 +1028,7 @@ _None detected_
 - `claude-folder`
 - `claude-for-financial-services`
 - `claude-for-legal`
+- `claude-gateway`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
