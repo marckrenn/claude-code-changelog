@@ -1,14 +1,14 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **22**
+- Total prompt files: **26**
 
 ## Categories
 
 - System prompts (2)
-- Tool prompts (16)
+- Tool prompts (19)
 - Agent prompts (1)
 - Skills (1)
-- System reminders (2)
+- System reminders (3)
 
 ## System prompts (2)
 
@@ -16,21 +16,24 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-reference-documentation-for-agents.md`](../system-prompts/system-prompt-reference-documentation-for-agents.md) | System Data Block: reference-documentation-for-agents - Source: native-reference-match Summary Guidance on language-specific documentation for agents. | 1,326 | 2.1.118 | 2.1.195 |
-| [`system-prompt-auto-mode-classifier-rules-review.md`](../system-prompts/system-prompt-auto-mode-classifier-rules-review.md) | System Prompt: auto-mode-classifier-rules-review - Source: native-reference-match Summary Evaluate clarity and completeness of classifier rules. | 580 | 2.1.118 | 2.1.195 |
+| [`system-prompt-reference-documentation-for-agents.md`](../system-prompts/system-prompt-reference-documentation-for-agents.md) | System Data Block: reference-documentation-for-agents - Source: native-reference-match Summary Guidance on language-specific documentation for agents. | 1,326 | 2.1.118 | 2.1.196 |
+| [`system-prompt-auto-mode-classifier-rules-review.md`](../system-prompts/system-prompt-auto-mode-classifier-rules-review.md) | System Prompt: auto-mode-classifier-rules-review - Source: native-reference-match Summary Evaluate clarity and completeness of classifier rules. | 580 | 2.1.118 | 2.1.196 |
 
-## Tool prompts (16)
+## Tool prompts (19)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.195 |
-| [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | A powerful search tool built on ripgrep Usage: - ALWAYS use Grep for search tasks. | 1,115 | 2.1.118 | 2.1.195 |
+| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.196 |
+| [`tool-description-read-local-file-content-4.md`](../system-prompts/tool-description-read-local-file-content-4.md) | Reads a file from the local filesystem. | 1,357 | 2.1.196 | 2.1.196 |
+| [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | Tool Description: … - Source: native-prompt-markdown-tool Summary A powerful search tool built on ripgrep Usage: - ALWAYS use Grep for search tasks. | 1,115 | 2.1.118 | 2.1.196 |
+| [`tool-description-invoke-in-conversation-4.md`](../system-prompts/tool-description-invoke-in-conversation-4.md) | Tool Description: invoke-in-conversation-… - Source: native-reference-match Summary Execute a skill within the main conversation. | 721 | 2.1.196 | 2.1.196 |
+| [`tool-description-file-pattern-matching-4.md`](../system-prompts/tool-description-file-pattern-matching-4.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 556 | 2.1.196 | 2.1.196 |
+| [`tool-description-file-pattern-matching-3.md`](../system-prompts/tool-description-file-pattern-matching-3.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 440 | 2.1.195 | 2.1.196 |
+| [`tool-description-write.md`](../system-prompts/tool-description-write.md) | Writes a file to the local filesystem. | 280 | 2.1.118 | 2.1.196 |
 | [`tool-description-read-local-file-content-3.md`](../system-prompts/tool-description-read-local-file-content-3.md) | Reads a file from the local filesystem. | 1,061 | 2.1.195 | 2.1.195 |
 | [`tool-description-invoke-in-conversation-3.md`](../system-prompts/tool-description-invoke-in-conversation-3.md) | Tool Description: invoke-in-conversation-… - Source: native-reference-match Summary Execute a skill within the main conversation. | 591 | 2.1.195 | 2.1.195 |
-| [`tool-description-file-pattern-matching-3.md`](../system-prompts/tool-description-file-pattern-matching-3.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 440 | 2.1.195 | 2.1.195 |
-| [`tool-description-write.md`](../system-prompts/tool-description-write.md) | Writes a file to the local filesystem. | 280 | 2.1.118 | 2.1.195 |
 | [`tool-description-launch-new-handle-complex-multi.md`](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks. | 1,977 | 2.1.118 | 2.1.193 |
 | [`tool-description-read-local-file-content-2.md`](../system-prompts/tool-description-read-local-file-content-2.md) | Reads a file from the local filesystem. | 765 | 2.1.193 | 2.1.193 |
 | [`tool-description-invoke-in-conversation-2.md`](../system-prompts/tool-description-invoke-in-conversation-2.md) | Execute a skill within the main conversation. | 480 | 2.1.193 | 2.1.193 |
@@ -48,7 +51,7 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`agent-prompt-auto-mode-rule-reviewer.md`](../system-prompts/agent-prompt-auto-mode-rule-reviewer.md) | Evaluate clarity and completeness of classifier rules. | 312 | 2.1.118 | 2.1.195 |
+| [`agent-prompt-auto-mode-rule-reviewer.md`](../system-prompts/agent-prompt-auto-mode-rule-reviewer.md) | Evaluate clarity and completeness of classifier rules. | 312 | 2.1.118 | 2.1.196 |
 
 ## Skills (1)
 
@@ -56,13 +59,14 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`skill-build-with-claude-api-reference-guide.md`](../system-prompts/skill-build-with-claude-api-reference-guide.md) | Guide for using Claude API documentation effectively. | 675 | 2.1.118 | 2.1.195 |
+| [`skill-build-with-claude-api-reference-guide.md`](../system-prompts/skill-build-with-claude-api-reference-guide.md) | Guide for using Claude API documentation effectively. | 675 | 2.1.118 | 2.1.196 |
 
-## System reminders (2)
+## System reminders (3)
 
-_Sorted by last edit (newest first). Showing **2** reminders with more than **30** tokens._
+_Sorted by last edit (newest first). Showing **3** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-anthropic-billing-header-version-native.md`](../system-prompts/system-reminder-anthropic-billing-header-version-native.md) | Assist users with software engineering tasks. | 4,368 | 2.1.136 | 2.1.195 |
-| [`system-reminder-interactive-software.md`](../system-prompts/system-reminder-interactive-software.md) | Assist users with software engineering tasks. | 4,189 | 2.1.195 | 2.1.195 |
+| [`system-reminder-anthropic-billing-header-version-native.md`](../system-prompts/system-reminder-anthropic-billing-header-version-native.md) | Assist users with software engineering tasks. | 4,368 | 2.1.136 | 2.1.196 |
+| [`system-reminder-interactive-software-2.md`](../system-prompts/system-reminder-interactive-software-2.md) | Assist users with software engineering tasks. | 4,329 | 2.1.196 | 2.1.196 |
+| [`system-reminder-interactive-software.md`](../system-prompts/system-reminder-interactive-software.md) | Assist users with software engineering tasks. | 4,189 | 2.1.195 | 2.1.196 |

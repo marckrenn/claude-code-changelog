@@ -4,11 +4,11 @@
 
 - Commands: 42
 - Options: 95
-- Env vars: 642
+- Env vars: 643
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 122
+- Models: 121
 - Providers: 8
 
 ## Commands
@@ -690,6 +690,7 @@
 - `CLAUDE_PTY_RECORD`
 - `CLAUDE_REMOTE_CONTROL_SESSION_NAME_PREFIX`
 - `CLAUDE_REPL_VARIANT`
+- `CLAUDE_RUNNER_ACTIVITY_FD`
 - `CLAUDE_SECURESTORAGE_CONFIG_DIR`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_SLOW_FIRST_BYTE_MS`
@@ -1089,7 +1090,6 @@ _None detected_
 - `opus-4-6`
 - `opus-4-7`
 - `opus-4-8`
-- `opus-fast-mode-deprecation`
 - `opus-on-pro-near-limit`
 - `sonnet-3-7`
 - `sonnet-4`
