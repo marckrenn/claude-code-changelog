@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 121
+- Models: 123
 - Providers: 8
 
 ## Commands
@@ -1079,6 +1079,7 @@ _None detected_
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
 - `claude-sonnet-4-6`
+- `claude-sonnet-5`
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-vscode`
@@ -1096,6 +1097,7 @@ _None detected_
 - `sonnet-4-5`
 - `sonnet-4-5-20250929`
 - `sonnet-4-6`
+- `sonnet-5`
 
 ## Providers
 
