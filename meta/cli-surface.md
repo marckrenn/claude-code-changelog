@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 42
-- Options: 95
-- Env vars: 643
+- Commands: 43
+- Options: 107
+- Env vars: 644
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 123
+- Models: 124
 - Providers: 8
 
 ## Commands
@@ -29,6 +29,7 @@
 - `disable`
 - `doctor`
 - `enable`
+- `eval`
 - `gateway`
 - `get`
 - `import-conversations`
@@ -75,9 +76,11 @@
 - `disable [plugin]`
 - `doctor`
 - `enable <plugin>`
+- `eval [target]`
 - `gateway`
 - `get <name>`
 - `import-conversations <exportPath>`
+- `init [name]`
 - `init <name>`
 - `install [target]`
 - `install <plugin>`
@@ -113,11 +116,13 @@
 
 ### Flags
 
+- `--ablation`
 - `--add-dir`
 - `--agent`
 - `--agents`
 - `--all`
 - `--allow-dangerously-skip-permissions`
+- `--allow-tools`
 - `--allowed-tools`
 - `--allowedTools`
 - `--author`
@@ -126,6 +131,7 @@
 - `--bare`
 - `--betas`
 - `--callback-port`
+- `--case`
 - `--chrome`
 - `--claudeai`
 - `--client-id`
@@ -157,14 +163,19 @@
 - `--include-partial-messages`
 - `--interactive`
 - `--json`
+- `--judge-model`
 - `--keep-data`
+- `--keep-temp`
+- `--max-cost-usd`
 - `--mcp-config`
 - `--message`
 - `--model`
 - `--name`
 - `--no-browser`
 - `--no-chrome`
+- `--no-scaffold`
 - `--no-session-persistence`
+- `--output-dir`
 - `--permission-mode`
 - `--plugin-dir`
 - `--plugin-url`
@@ -175,7 +186,9 @@
 - `--remote-control-session-name-prefix`
 - `--replay-user-messages`
 - `--resume`
+- `--runs`
 - `--safe-mode`
+- `--scaffold`
 - `--scope`
 - `--session-id`
 - `--setting-sources`
@@ -184,7 +197,9 @@
 - `--sso`
 - `--strict`
 - `--strict-mcp-config`
+- `--tag`
 - `--text`
+- `--threshold`
 - `--timeout`
 - `--tmux`
 - `--tools`
@@ -211,12 +226,14 @@
 
 ### Specs
 
+- `--ablation <mode>`
 - `--add-dir <directories...>`
 - `--add-dir <directory>`
 - `--agent <agent>`
 - `--agents <json>`
 - `--all`
 - `--allow-dangerously-skip-permissions`
+- `--allow-tools <tools...>`
 - `--allowedTools, --allowed-tools <tools...>`
 - `--author <name>`
 - `--author-email <email>`
@@ -224,6 +241,7 @@
 - `--bare`
 - `--betas <betas...>`
 - `--callback-port <port>`
+- `--case <glob>`
 - `--chrome`
 - `--claudeai`
 - `--client-id <clientId>`
@@ -250,13 +268,18 @@
 - `--include-hook-events`
 - `--include-partial-messages`
 - `--json`
+- `--judge-model <model>`
 - `--keep-data`
+- `--keep-temp`
+- `--max-cost-usd <usd>`
 - `--mcp-config <config>`
 - `--mcp-config <configs...>`
 - `--model <model>`
 - `--no-browser`
 - `--no-chrome`
+- `--no-scaffold`
 - `--no-session-persistence`
+- `--output-dir <dir>`
 - `--permission-mode <mode>`
 - `--plugin-dir <path>`
 - `--plugin-url <url>`
@@ -265,7 +288,9 @@
 - `--remote <name>`
 - `--remote-control-session-name-prefix <prefix>`
 - `--replay-user-messages`
+- `--runs <n>`
 - `--safe-mode`
+- `--scaffold`
 - `--scope <scope>`
 - `--session-id <uuid>`
 - `--setting-sources <sources>`
@@ -274,7 +299,9 @@
 - `--sso`
 - `--strict`
 - `--strict-mcp-config`
+- `--tag <tag...>`
 - `--text`
+- `--threshold <0..1>`
 - `--timeout <minutes>`
 - `--tmux`
 - `--tools <tools...>`
@@ -912,6 +939,7 @@
 - `TEST_ENABLE_SESSION_PERSISTENCE`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
+- `TMPDIR`
 - `TMUX`
 - `TMUX_PANE`
 - `TRACEPARENT`
@@ -1023,6 +1051,7 @@ _None detected_
 - `claude-desktop-3p`
 - `claude-dev`
 - `claude-empty-`
+- `claude-eval-`
 - `claude-export-import`
 - `claude-fable-`
 - `claude-fable-5`
