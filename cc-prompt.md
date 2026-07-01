@@ -1,4 +1,4 @@
-# Claude Code Version 2.1.197
+# Claude Code Version 2.1.198
 
 Release Date: Unknown
 
@@ -50,11 +50,11 @@ Today's date is 2026-04-16.
 </system-reminder>
 
 
-2026-06-30T18:03:26+00:00 is the date. Write a haiku about it.
+2026-07-01T20:51:39+00:00 is the date. Write a haiku about it.
 
 # System Prompt
 
-x-anthropic-billing-header: cc_version=2.1.197.native; cc_entrypoint=sdk-cli; cch=00000;
+x-anthropic-billing-header: cc_version=2.1.198.native; cc_entrypoint=sdk-cli; cch=00000;
 
 [Bun] Hot update was not accepted because it or its importers do not call `import.meta.hot.accept`. To prevent full page reloads, call `import.meta.hot.accept` in one of the following files to handle the update:
 IMPORTANT: Assist with authorized security testing, defensive security, CTF challenges, and educational contexts. Refuse requests for destructive techniques, DoS attacks, mass targeting, supply chain compromise, or detection evasion for malicious purposes. Dual-use security tools (C2 frameworks, credential testing, exploit development) require clear authorization context: pentesting engagements, CTF competitions, security research, or defensive use cases.
