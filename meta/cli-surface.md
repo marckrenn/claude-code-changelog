@@ -4,11 +4,11 @@
 
 - Commands: 43
 - Options: 107
-- Env vars: 644
+- Env vars: 645
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 124
+- Models: 125
 - Providers: 8
 
 ## Commands
@@ -482,6 +482,7 @@
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
 - `CLAUDE_CODE_BENCH_LIVE_COUNTS`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
+- `CLAUDE_CODE_BRIDGE_SESSION_ID`
 - `CLAUDE_CODE_BRIEF_UPLOAD`
 - `CLAUDE_CODE_BYOC_ENABLE_DATADOG`
 - `CLAUDE_CODE_CERT_STORE`
@@ -1029,6 +1030,7 @@ _None detected_
 - `claude-channel-`
 - `claude-cli`
 - `claude-cli-design-sync`
+- `claude-cli-design-tool`
 - `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
