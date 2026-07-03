@@ -1,5 +1,26 @@
 # Tool Description: grep
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: … - Source: native-prompt-markdown-tool Summary A powerful search tool built on ripgrep Usage: - ALWAYS use Grep for search tasks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+
+# Raw Prompt Text
+# Tool Description: grep
+
 - Source: native-prompt-markdown-tool
 
 ## Summary
@@ -19,7 +40,7 @@ A powerful search tool built on ripgrep
   - Multiline matching: By default patterns match within single lines only. For cross-line patterns like `struct \{[\s\S]*?field`, use `multiline: true`
 
 {
-  "$schema": "${URL}
+  "$schema": "${EXPR_1}
   "type": "object",
   "properties": {
     "pattern": {
@@ -35,7 +56,7 @@ A powerful search tool built on ripgrep
       "type": "string"
     },
     "output_mode": {
-      "description": "Output mode: \"content\" shows matching lines (supports -A${PATH} context, -n line numbers, head_limit), \"files_with_matches\" shows file paths (supports head_limit), \"count\" shows match counts (supports head_limit). Defaults to \"files_with_matches\".",
+      "description": "Output mode: \"content\" shows matching lines (supports -A${EXPR_2} context, -n line numbers, head_limit), \"files_with_matches\" shows file paths (supports head_limit), \"count\" shows match counts (supports head_limit). Defaults to \"files_with_matches\".",
       "type": "string",
       "enum": [
         "content",
@@ -72,11 +93,11 @@ A powerful search tool built on ripgrep
       "type": "string"
     },
     "head_limit": {
-      "description": "Limit output to first N lines${PATH}, equivalent to \"| head -N\". Works across all output modes: content (limits output lines), files_with_matches (limits file paths), count (limits count entries). Defaults to ${NUM} when unspecified. Pass ${NUM} for unlimited (use sparingly — large result sets waste context).",
+      "description": "Limit output to first N lines${EXPR_3}, equivalent to \"| head -N\". Works across all output modes: content (limits output lines), files_with_matches (limits file paths), count (limits count entries). Defaults to ${EXPR_4} when unspecified. Pass ${EXPR_5} for unlimited (use sparingly — large result sets waste context).",
       "type": "number"
     },
     "offset": {
-      "description": "Skip first N lines${PATH} before applying head_limit, equivalent to \"| tail -n +N | head -N\". Works across all output modes. Defaults to ${NUM}.",
+      "description": "Skip first N lines${EXPR_6} before applying head_limit, equivalent to \"| tail -n +N | head -N\". Works across all output modes. Defaults to ${EXPR_7}.",
       "type": "number"
     },
     "multiline": {
