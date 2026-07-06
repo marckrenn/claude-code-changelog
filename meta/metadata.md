@@ -7,13 +7,13 @@
 
 ## Bundle
 
-- Entry bytes: 31347727 bytes
-- Entry lines: 773071
+- Entry bytes: 34760396 bytes
+- Entry lines: 773820
 
 ## Inventory
 
 - File count: 4
-- Size bytes: 251301250
+- Size bytes: 261787010
 
 ### Extension Counts
 
@@ -33,22 +33,20 @@ _None detected_
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-07-03 23:54:49 UTC
+- Snapshot generated at: 2026-07-06 22:58:05 UTC
 - Node runtime: `v20.20.1`
-- Config hash: `36fb8079e43566dc3665dc0ed7ad3ee915ac91ff261865a4e53d5a8d214bfaa6`
-- Embedded build timestamp: 2026-07-03 19:53:38 UTC
-- Relative to embedded build timestamp: 4h 1m 11s (2026-07-03 19:53:38 UTC → 2026-07-03 23:54:49 UTC)
+- Config hash: `696ce859c8497d6c6ede98e616e28b5f5e28b6932858596cc6ab37da8126f87a`
+- Embedded build timestamp: 2026-07-06 19:54:35 UTC
+- Relative to embedded build timestamp: 3h 3m 30s (2026-07-06 19:54:35 UTC → 2026-07-06 22:58:05 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 73,781
-- Token p95 / p99: 5,478 / 5,861
+- Total prompt tokens: 85,359
+- Token p95 / p99: 5,861 / 6,244
 
 ### By Kind
 
-- `system-reminder`: 40,276 tokens (54.6%)
-- `tool`: 30,612 tokens (41.5%)
-- `system-data`: 1,326 tokens (1.8%)
-- `skill`: 675 tokens (0.9%)
-- `system`: 580 tokens (0.8%)
+- `system-reminder`: 46,903 tokens (54.9%)
+- `tool`: 37,564 tokens (44.0%)
+- `system`: 580 tokens (0.7%)
 - `agent`: 312 tokens (0.4%)

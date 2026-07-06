@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 125
+- Models: 116
 - Providers: 8
 
 ## Commands
@@ -790,6 +790,7 @@
 - `GH_ENTERPRISE_TOKEN`
 - `GH_HOST`
 - `GH_TOKEN`
+- `GIT_CONFIG_GLOBAL`
 - `GITHUB_ACTION_INPUTS`
 - `GITHUB_ACTION_PATH`
 - `GITHUB_ACTIONS`
@@ -882,7 +883,6 @@
 - `OTEL_EXPORTER_PROMETHEUS_PORT`
 - `OTEL_LOG_RAW_API_BODIES`
 - `OTEL_LOG_TOOL_CONTENT`
-- `OTEL_LOG_TOOL_DETAILS`
 - `OTEL_LOG_USER_PROMPTS`
 - `OTEL_LOGS_EXPORT_INTERVAL`
 - `OTEL_LOGS_EXPORTER`
@@ -1060,11 +1060,9 @@ _None detected_
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
-- `claude-haiku-3-5`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
-- `claude-hidden`
 - `claude-http-`
 - `claude-in-chrome`
 - `claude-in-slack`
@@ -1102,7 +1100,6 @@ _None detected_
 - `claude-settings`
 - `claude-skill-`
 - `claude-socks-`
-- `claude-sonnet-3-7`
 - `claude-sonnet-4`
 - `claude-sonnet-4-0`
 - `claude-sonnet-4-20250514`
@@ -1113,17 +1110,11 @@ _None detected_
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-vscode`
-- `haiku-3-5`
-- `haiku-4-5`
-- `opus-4`
-- `opus-4-1`
 - `opus-4-5`
 - `opus-4-6`
 - `opus-4-7`
 - `opus-4-8`
 - `opus-on-pro-near-limit`
-- `sonnet-3-7`
-- `sonnet-4`
 - `sonnet-4-5`
 - `sonnet-4-5-20250929`
 - `sonnet-4-6`
