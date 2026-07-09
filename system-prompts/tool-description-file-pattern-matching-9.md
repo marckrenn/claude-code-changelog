@@ -64,7 +64,7 @@
 
 ## Summary
 
-- Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so…
+Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so…
 
 ## Placeholder Hints (source-backed)
 
