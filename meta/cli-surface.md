@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 43
-- Options: 108
+- Options: 110
 - Env vars: 642
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 116
+- Models: 117
 - Providers: 8
 
 ## Commands
@@ -182,10 +182,12 @@
 - `--plugin-url`
 - `--print`
 - `--prune`
+- `--publish-report`
 - `--push`
 - `--remote`
 - `--remote-control-session-name-prefix`
 - `--replay-user-messages`
+- `--report`
 - `--resume`
 - `--runs`
 - `--safe-mode`
@@ -269,6 +271,7 @@
 - `--include-hook-events`
 - `--include-partial-messages`
 - `--json`
+- `--json [path]`
 - `--judge-model <model>`
 - `--keep-data`
 - `--keep-temp`
@@ -286,10 +289,12 @@
 - `--plugin-dir <path>`
 - `--plugin-url <url>`
 - `--prune`
+- `--publish-report`
 - `--push`
 - `--remote <name>`
 - `--remote-control-session-name-prefix <prefix>`
 - `--replay-user-messages`
+- `--report <path>`
 - `--runs <n>`
 - `--safe-mode`
 - `--scaffold`
@@ -1060,6 +1065,7 @@ _None detected_
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
+- `claude-haiku-`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
