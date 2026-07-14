@@ -3,7 +3,7 @@
 ## Summary
 
 - Commands: 43
-- Options: 107
+- Options: 108
 - Env vars: 642
 - Config keys: 0
 - Tools: 10
@@ -166,6 +166,7 @@
 - `--judge-model`
 - `--keep-data`
 - `--keep-temp`
+- `--label`
 - `--max-cost-usd`
 - `--mcp-config`
 - `--message`
@@ -271,6 +272,7 @@
 - `--judge-model <model>`
 - `--keep-data`
 - `--keep-temp`
+- `--label <prefix>`
 - `--max-cost-usd <usd>`
 - `--mcp-config <config>`
 - `--mcp-config <configs...>`
@@ -432,6 +434,7 @@
 - `C9_USER`
 - `CCR_ENABLE_BUNDLE`
 - `CCR_FORCE_BUNDLE`
+- `CCR_ON_BRANCH_DEFAULT_GUARD`
 - `CCR_SPAWN_TIMESTAMP_MS`
 - `CF_PAGES`
 - `CHOKIDAR_INTERVAL`
@@ -915,7 +918,6 @@
 - `SLASH_COMMAND_TOOL_CHAR_BUDGET`
 - `SPACE_CREATOR_USER_ID`
 - `SRT_DEBUG`
-- `SRT_WIN_PATH`
 - `SSH_CLIENT`
 - `SSH_CONNECTION`
 - `SSH_TTY`

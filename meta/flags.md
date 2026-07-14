@@ -1,4 +1,4 @@
-# Claude Code 2.1.207 – Flags
+# Claude Code 2.1.208 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -17,5 +17,6 @@
 | `tengu_kairos_push_notifications` | config | tools | Enables the PushNotification tool to notify users in-terminal and, with Remote Control, on mobile. | Also checks an agent setting (agentPushNotifEnabled) before allowing mobile push. | high | 1 |
 | `tengu_malort_pedway` | config | ui | Enables a “Chicago” UI feature (with coordinateMode) only for max/pro tiers. | Flag name is opaque; behavior inferred from exported getters and hotkey usage nearby. | medium | 1 |
 | `tengu_max_version_config` | config | tools | Minimum-version config used to block applying an update when the target version is too old. | Config also exposes optional `external` and `external_message` fields, likely for update messaging. | medium | 1 |
+| `tengu_on_branch_default_guard_observe` | gate | telemetry | Observes or logs default guard behavior for “on-branch” flow in Tengu. | Only the flag name and type are present; behavior inferred from naming (“observe”, “default_guard”). | low | 1 |
 | `tengu_startup_announcements` | config | ui | Enables startup announcements to be shown on app launch. | Only the flag name and type are present; no behavior or call sites shown. | low | 1 |
 | `tengu_version_config` | config | tools | Fetches a minimum required Claude Code version and shows an update-required message. | Minimum version appears server-configured via the config fetch. | high | 1 |
