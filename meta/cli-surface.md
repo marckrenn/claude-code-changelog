@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 43
-- Options: 110
+- Options: 111
 - Env vars: 642
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 117
+- Models: 118
 - Providers: 8
 
 ## Commands
@@ -155,6 +155,7 @@
 - `--file`
 - `--force`
 - `--fork-session`
+- `--forward-subagent-text`
 - `--from-pr`
 - `--header`
 - `--id-token`
@@ -265,6 +266,7 @@
 - `--file <specs...>`
 - `--force`
 - `--fork-session`
+- `--forward-subagent-text`
 - `--from-pr [value]`
 - `--id-token <jwt>`
 - `--ide`
@@ -1032,6 +1034,7 @@ _None detected_
 - `claude-api`
 - `claude-bg-`
 - `claude-channel-`
+- `claude-chrome-screenshots-`
 - `claude-cli`
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
