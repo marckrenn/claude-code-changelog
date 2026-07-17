@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.211
+# Claude Code Flags 2.1.212
 
 ## Feature Gates
 
@@ -14,6 +14,7 @@
 - `tengu_bridge_poll_interval_config`
 - `tengu_bridge_repl_v2_config`
 - `tengu_desktop_upsell`
+- `tengu_juniper_relay_config`
 - `tengu_kairos_brief`
 - `tengu_kairos_cron`
 - `tengu_kairos_cron_config`

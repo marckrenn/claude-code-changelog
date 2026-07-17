@@ -1,4 +1,4 @@
-# Claude Code 2.1.211 – Flags
+# Claude Code 2.1.212 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -10,6 +10,7 @@
 | `tengu_ccr_bundle_seed_enabled` | gate | tools | Enables seeding a CCR bundle for remote sessions when repo/env gate is set | Also influenced by CCR_FORCE_BUNDLE and CCR_ENABLE_BUNDLE env vars and various git/GitHub checks. | high | 3 |
 | `tengu_desktop_upsell` | config | prompts | Enables a startup dialog upsell for a desktop app on macOS or Windows x64. | Gate appears limited to darwin/win32 x64 and checks an enable_startup_dialog setting. | medium | 1 |
 | `tengu_harbor` | gate | auth | Gate controlling onboarding/opt-in flows and channel access including Claude AI OAuth token checks | Also influences UI dialogs (Onboarding, Trust, AutoMode opt-in) and a channel allowlist; not all behavior is fully visible. | medium | 1 |
+| `tengu_juniper_relay_config` | config | networking | Configuration for a “juniper relay” used by the “tengu” component. | Only the flag name and type are present; no observable behavior or fields in the provided context. | low | 1 |
 | `tengu_kairos_brief` | config | prompts | Enables a “brief” user message/tool (markdown) when entitled or CLAUDE_CODE_BRIEF is set. | Gated by an entitlement check plus another condition (By()\|\|kZ()). | medium | 1 |
 | `tengu_kairos_cron` | config | tools | Enables session-only cron tools to schedule prompts to run later or on a recurring schedule. | Disabled when CLAUDE_CODE_DISABLE_CRON is set. | high | 1 |
 | `tengu_kairos_cron_config` | config | tools | Configures cron scheduling jitter/recurrence limits for a background job runner. | Only schema and accessor names are visible; the specific jobs affected aren’t shown. | medium | 1 |
