@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 44
+- Commands: 45
 - Options: 111
-- Env vars: 528
+- Env vars: 529
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 116
+- Models: 117
 - Providers: 8
 
 ## Commands
@@ -32,6 +32,7 @@
 - `eval`
 - `gateway`
 - `get`
+- `import`
 - `import-conversations`
 - `init`
 - `install`
@@ -80,6 +81,7 @@
 - `eval [target]`
 - `gateway`
 - `get <name>`
+- `import`
 - `import-conversations <exportPath>`
 - `init [name]`
 - `init <name>`
@@ -318,6 +320,7 @@
 - `--tools <tools...>`
 - `--verbose`
 - `--with <components...>`
+- `--yes`
 - `-a, --all`
 - `-c, --continue`
 - `-d, --debug`
@@ -616,6 +619,7 @@
 - `CLAUDE_CODE_TUI_JUST_SWITCHED`
 - `CLAUDE_CODE_ULTRAREVIEW_PREFLIGHT_FIXTURE`
 - `CLAUDE_CODE_USE_ANTHROPIC_AWS`
+- `CLAUDE_CODE_USE_ANTHROPIC_GOOGLE_CLOUD`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_FOUNDRY`
 - `CLAUDE_CODE_USE_GATEWAY`
@@ -636,7 +640,6 @@
 - `CLAUDE_ENABLE_BYTE_WATCHDOG_BEDROCK`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_GATEWAY_ALLOW_LOOPBACK`
-- `CLAUDE_IMPORT_CONVERSATIONS`
 - `CLAUDE_INTERNAL_ASSISTANT_TEAM_NAME`
 - `CLAUDE_INTERNAL_FC_OVERRIDES`
 - `CLAUDE_JOB_DIR`
@@ -777,6 +780,7 @@
 - `NETLIFY`
 - `NO_COLOR`
 - `NO_PROXY`
+- `NODE_CHANNEL_FD`
 - `NODE_CLUSTER_SCHED_POLICY`
 - `NODE_DEBUG`
 - `NODE_ENV`
@@ -1006,6 +1010,7 @@ _None detected_
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-vscode`
+- `gemini-extension.json`
 - `opus-4-5`
 - `opus-4-6`
 - `opus-4-7`
