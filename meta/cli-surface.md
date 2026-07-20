@@ -935,7 +935,7 @@ _None detected_
 - `claude-code-docs`
 - `claude-code-error-tracking`
 - `claude-code-github-action`
-- `claude-code-guideG`
+- `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
 - `Claude-Code-Plugin-Manager`
