@@ -4,7 +4,7 @@
 
 - Commands: 45
 - Options: 111
-- Env vars: 529
+- Env vars: 528
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -842,7 +842,6 @@
 - `TERMINAL_EMULATOR`
 - `TERMINATOR_UUID`
 - `TERMUX_VERSION`
-- `TEST_ENABLE_SESSION_PERSISTENCE`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
 - `TMPDIR`
