@@ -4,11 +4,11 @@
 
 - Commands: 45
 - Options: 111
-- Env vars: 528
+- Env vars: 527
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 117
+- Models: 118
 - Providers: 8
 
 ## Commands
@@ -520,7 +520,6 @@
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
-- `CLAUDE_CODE_ENABLE_XAA`
 - `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_ENVIRONMENT_KIND`
@@ -945,6 +944,7 @@ _None detected_
 - `claude-community`
 - `claude-context`
 - `claude-coworker`
+- `claude-coworker-terminal`
 - `claude-design-contextual`
 - `claude-desktop`
 - `claude-desktop-3p`
