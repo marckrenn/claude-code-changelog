@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 118
+- Models: 121
 - Providers: 8
 
 ## Commands
@@ -984,6 +984,7 @@ _None detected_
 - `claude-opus-4-6`
 - `claude-opus-4-7`
 - `claude-opus-4-8`
+- `claude-opus-5`
 - `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
@@ -1010,10 +1011,12 @@ _None detected_
 - `claude-swarm-`
 - `claude-vscode`
 - `gemini-extension.json`
+- `o5-bmin`
 - `opus-4-5`
 - `opus-4-6`
 - `opus-4-7`
 - `opus-4-8`
+- `opus-5`
 - `sonnet-4-5`
 - `sonnet-4-5-20250929`
 - `sonnet-4-6`
