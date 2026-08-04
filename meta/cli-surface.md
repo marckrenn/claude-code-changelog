@@ -4,7 +4,7 @@
 
 - Commands: 45
 - Options: 111
-- Env vars: 530
+- Env vars: 529
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -598,7 +598,6 @@
 - `CLAUDE_CODE_SPAWN_TIMESTAMP_MS`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_STOP_HOOK_BLOCK_CAP`
-- `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB`
 - `CLAUDE_CODE_SUBSCRIPTION_TYPE`
 - `CLAUDE_CODE_SUPERVISED`
@@ -926,7 +925,7 @@ _None detected_
 - `claude-ai-external-token`
 - `claude-api`
 - `claude-channel-`
-- `claude-chrome-screenshots-`
+- `claude-chrome-screenshots-8`
 - `claude-cli`
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
