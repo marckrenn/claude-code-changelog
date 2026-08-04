@@ -4,11 +4,11 @@
 
 - Commands: 45
 - Options: 111
-- Env vars: 527
+- Env vars: 530
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 121
+- Models: 123
 - Providers: 8
 
 ## Commands
@@ -471,6 +471,7 @@
 - `CLAUDE_CODE_ALT_SCREEN_FULL_REPAINT`
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
+- `CLAUDE_CODE_ARTIFACTS_API_TOKEN`
 - `CLAUDE_CODE_ATTRIBUTION_HEADER`
 - `CLAUDE_CODE_AUTO_COMPACT_WINDOW`
 - `CLAUDE_CODE_BASE_REFS`
@@ -571,7 +572,6 @@
 - `CLAUDE_CODE_REPL`
 - `CLAUDE_CODE_REPO_CHECKOUTS`
 - `CLAUDE_CODE_RESUME_FROM_SESSION`
-- `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_RESUME_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_RESUME_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_RETRY_WATCHDOG`
@@ -720,6 +720,7 @@
 - `GH_ENTERPRISE_TOKEN`
 - `GH_HOST`
 - `GH_TOKEN`
+- `GIT_CONFIG_COUNT`
 - `GIT_CONFIG_GLOBAL`
 - `GITHUB_ACTION_INPUTS`
 - `GITHUB_ACTION_PATH`
@@ -779,12 +780,14 @@
 - `NETLIFY`
 - `NO_COLOR`
 - `NO_PROXY`
+- `NODE`
 - `NODE_CHANNEL_FD`
 - `NODE_CLUSTER_SCHED_POLICY`
 - `NODE_DEBUG`
 - `NODE_ENV`
 - `NODE_EXTRA_CA_CERTS`
 - `NODE_OPTIONS`
+- `NODE_TEST_WORKER_ID`
 - `NODE_TLS_REJECT_UNAUTHORIZED`
 - `NODE_UNIQUE_ID`
 - `NODE_USE_ENV_PROXY`
@@ -930,6 +933,7 @@ _None detected_
 - `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
+- `claude-code-cli`
 - `claude-code-docs`
 - `claude-code-error-tracking`
 - `claude-code-github-action`
@@ -1011,6 +1015,7 @@ _None detected_
 - `claude-swarm-`
 - `claude-vscode`
 - `gemini-extension.json`
+- `O4-b.:`
 - `o5-bmin`
 - `opus-4-5`
 - `opus-4-6`
