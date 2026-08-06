@@ -4,7 +4,7 @@
 
 - Commands: 45
 - Options: 111
-- Env vars: 529
+- Env vars: 528
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -542,7 +542,6 @@
 - `CLAUDE_CODE_IDLE_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_IDLE_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
-- `CLAUDE_CODE_INVESTIGATE_FIRST`
 - `CLAUDE_CODE_LOOP_KEEPALIVE`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
@@ -925,7 +924,7 @@ _None detected_
 - `claude-ai-external-token`
 - `claude-api`
 - `claude-channel-`
-- `claude-chrome-screenshots-8`
+- `claude-chrome-screenshots-`
 - `claude-cli`
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
