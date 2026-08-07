@@ -1,4 +1,4 @@
-# Claude Code 2.1.223 – Flags
+# Claude Code 2.1.224 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -22,3 +22,4 @@
 | `tengu_on_branch_default_guard_observe` | gate | telemetry | Observes or logs default guard behavior for “on-branch” flow in Tengu. | Only the flag name and type are present; behavior inferred from naming (“observe”, “default_guard”). | low | 1 |
 | `tengu_startup_announcements` | config | ui | Enables startup announcements to be shown on app launch. | Only the flag name and type are present; no behavior or call sites shown. | low | 1 |
 | `tengu_version_config` | config | tools | Fetches a minimum required Claude Code version and shows an update-required message. | Minimum version appears server-configured via the config fetch. | high | 1 |
+| `tengu_violin_wood` | gate | other | Gate check for feature flag "tengu_violin_wood" is present in the JS bundle. | No surrounding code or behavior shown beyond the flag name and that it is a gate. | low | 1 |
