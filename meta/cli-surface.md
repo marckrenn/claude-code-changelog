@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 124
+- Models: 125
 - Providers: 8
 
 ## Commands
@@ -966,6 +966,7 @@ _None detected_
 - `claude-code-20250219`
 - `claude-code-cli`
 - `claude-code-debug.txt`
+- `claude-code-device`
 - `claude-code-docs`
 - `claude-code-error-tracking`
 - `claude-code-github-action`
