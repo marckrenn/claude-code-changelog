@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 125
+- Models: 126
 - Providers: 8
 
 ## Commands
@@ -970,6 +970,7 @@ _None detected_
 - `claude-code-docs`
 - `claude-code-error-tracking`
 - `claude-code-github-action`
+- `claude-code-github-actionX1`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
