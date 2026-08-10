@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 45
-- Options: 112
-- Env vars: 559
+- Options: 114
+- Env vars: 557
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 126
+- Models: 128
 - Providers: 8
 
 ## Commands
@@ -179,6 +179,7 @@
 - `--name`
 - `--no-browser`
 - `--no-chrome`
+- `--no-post`
 - `--no-publish`
 - `--no-scaffold`
 - `--no-session-persistence`
@@ -186,6 +187,7 @@
 - `--permission-mode`
 - `--plugin-dir`
 - `--plugin-url`
+- `--post`
 - `--print`
 - `--prune`
 - `--publish-report`
@@ -289,6 +291,7 @@
 - `--model <model>`
 - `--no-browser`
 - `--no-chrome`
+- `--no-post`
 - `--no-publish`
 - `--no-scaffold`
 - `--no-session-persistence`
@@ -296,6 +299,7 @@
 - `--permission-mode <mode>`
 - `--plugin-dir <path>`
 - `--plugin-url <url>`
+- `--post`
 - `--prune`
 - `--publish-report`
 - `--push`
@@ -463,7 +467,10 @@
 - `CLAUDE_BG_SOURCE`
 - `CLAUDE_BG_TCC_DISCLAIMED`
 - `CLAUDE_BRIDGE_REATTACH_GROUPING`
+- `CLAUDE_BRIDGE_REATTACH_NO_BACKFILL`
 - `CLAUDE_BRIDGE_REATTACH_OUTBOUND_ONLY`
+- `CLAUDE_BRIDGE_REATTACH_OWNER_ACCT`
+- `CLAUDE_BRIDGE_REATTACH_OWNER_ORG`
 - `CLAUDE_BRIDGE_REATTACH_SEQ`
 - `CLAUDE_BRIDGE_REATTACH_SESSION`
 - `CLAUDE_BYTE_STREAM_IDLE_TIMEOUT_MS`
@@ -489,7 +496,6 @@
 - `CLAUDE_CODE_CLASSIFIER_SUMMARY`
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_COLD_COMPACT`
-- `CLAUDE_CODE_COMMIT_LOG`
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_COORDINATOR_EXTRA_TOOLS`
 - `CLAUDE_CODE_COORDINATOR_MODE`
@@ -497,8 +503,6 @@
 - `CLAUDE_CODE_DAEMON_COLD_START`
 - `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
 - `CLAUDE_CODE_DD_ERROR_TRACKING_FLUSH_INTERVAL_MS`
-- `CLAUDE_CODE_DEBUG_LOG_LEVEL`
-- `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DECSTBM`
 - `CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING`
 - `CLAUDE_CODE_DISABLE_AGENT_VIEW`
@@ -682,7 +686,6 @@
 - `DAYTONA_WS_ID`
 - `DEBUG`
 - `DEBUG_AUTH`
-- `DEBUG_SDK`
 - `DENO_DEPLOYMENT_ID`
 - `DETECT_GCP_RETRIES`
 - `DEVPOD`
@@ -894,7 +897,6 @@
 - `WEBSITE_SITE_NAME`
 - `WEBSITE_SKU`
 - `WSL_DISTRO_NAME`
-- `WSL_INTEROP`
 - `WT_SESSION`
 - `XDG_CONFIG_HOME`
 - `XDG_RUNTIME_DIR`
@@ -957,26 +959,24 @@ _None detected_
 - `claude-ai-external-token`
 - `claude-api`
 - `claude-channel-`
-- `claude-chrome-screenshots-`
 - `claude-cli`
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
 - `claude-cli-native-`
+- `claude-cli.`
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-cli`
 - `claude-code-debug.txt`
 - `claude-code-device`
 - `claude-code-docs`
-- `claude-code-error-tracking`
 - `claude-code-github-action`
-- `claude-code-github-actionX1`
-- `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
-- `Claude-Code-Plugin-Manager`
+- `Claude-Code-Plugin-Manager2`
 - `claude-code-plugins`
 - `claude-code-remote`
+- `claude-code-ultrareview-post`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
 - `claude-community`
@@ -1056,10 +1056,14 @@ _None detected_
 - `opus-4-7`
 - `opus-4-8`
 - `opus-5`
+- `opus-limit`
+- `opus-warning`
 - `sonnet-4-5`
 - `sonnet-4-5-20250929`
 - `sonnet-4-6`
 - `sonnet-5`
+- `sonnet-limit`
+- `sonnet-warning`
 
 ## Providers
 
