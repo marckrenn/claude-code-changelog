@@ -4,11 +4,11 @@
 
 - Commands: 45
 - Options: 114
-- Env vars: 494
+- Env vars: 496
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 130
+- Models: 129
 - Providers: 8
 
 ## Commands
@@ -433,7 +433,6 @@
 - `BUN_FEEDBACK_URL`
 - `BUN_INSPECT_NOTIFY`
 - `BUN_INSTALL`
-- `BUN_JS_DEBUG`
 - `C`
 - `C9_PID`
 - `C9_USER`
@@ -737,8 +736,11 @@
 - `NODE_CLUSTER_SCHED_POLICY`
 - `NODE_DEBUG`
 - `NODE_ENV`
+- `NODE_ENVC`
 - `NODE_EXTRA_CA_CERTS`
 - `NODE_OPTIONS`
+- `NODE_REPL_EXTERNAL_MODULE`
+- `NODE_TEST_CONTEXT`
 - `NODE_TEST_WORKER_ID`
 - `NODE_TLS_REJECT_UNAUTHORIZED`
 - `NODE_UNIQUE_ID`
@@ -988,7 +990,6 @@ _None detected_
 - `claude-swarm-`
 - `claude-vscode`
 - `gemini-extension.json`
-- `O4-b.:`
 - `o5-bmin`
 - `opus-4-5`
 - `opus-4-6`
