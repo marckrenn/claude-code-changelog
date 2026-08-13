@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 129
+- Models: 128
 - Providers: 8
 
 ## Commands
@@ -909,12 +909,12 @@ _None detected_
 - `claude-code-debug.txt`
 - `claude-code-device`
 - `claude-code-docs`
-- `claude-code-error-tracking`
+- `claude-code-error-tracking3`
 - `claude-code-github-action`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
-- `Claude-Code-Plugin-Manager`
+- `Claude-Code-Plugin-Manager1`
 - `claude-code-plugins`
 - `claude-code-remote`
 - `claude-code-ultrareview-post`
@@ -967,7 +967,6 @@ _None detected_
 - `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
-- `claude-plugin-telemetry-v1`
 - `claude-plugins-community`
 - `claude-plugins-official`
 - `claude-proactive`
