@@ -112,6 +112,22 @@ Tool Description: … - Source: native-prompt-markdown-tool Summary Performs exa
 # Raw Prompt Text
 # Tool Description: edit
 
+- Source: native-reference-match
+
+## Summary
+
+Tool Description: … - Source: native-prompt-markdown-tool Summary Performs exact string replacements in files.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+# Tool Description: edit
+
 - Source: native-prompt-markdown-tool
 
 ## Summary
