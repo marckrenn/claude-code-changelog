@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 45
+- Commands: 46
 - Options: 114
 - Env vars: 474
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 131
+- Models: 132
 - Providers: 8
 
 ## Commands
@@ -49,6 +49,7 @@
 - `remove`
 - `reset`
 - `reset-project-choices`
+- `sandbox`
 - `serve`
 - `setup`
 - `setup-token`
@@ -85,6 +86,7 @@
 - `import-conversations <exportPath>`
 - `init [name]`
 - `init <name>`
+- `install`
 - `install [target]`
 - `install <plugin>`
 - `list`
@@ -102,6 +104,7 @@
 - `remove <name>`
 - `reset`
 - `reset-project-choices`
+- `sandbox`
 - `serve`
 - `setup`
 - `setup-token`
@@ -885,6 +888,7 @@ _None detected_
 - `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
+- `claude-code-bash`
 - `claude-code-cli`
 - `claude-code-debug.txt`
 - `claude-code-device`
