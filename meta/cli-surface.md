@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 46
-- Options: 114
+- Options: 115
 - Env vars: 476
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 132
+- Models: 131
 - Providers: 8
 
 ## Commands
@@ -158,6 +158,7 @@
 - `--effort`
 - `--email`
 - `--env`
+- `--eval-dir`
 - `--fallback-model`
 - `--file`
 - `--force`
@@ -272,6 +273,7 @@
 - `--dry-run`
 - `--effort <level>`
 - `--email <email>`
+- `--eval-dir <dir>`
 - `--fallback-model <model>`
 - `--file <specs...>`
 - `--force`
@@ -919,7 +921,6 @@ _None detected_
 - `claude-export-import`
 - `claude-fable-`
 - `claude-fable-5`
-- `claude-folder`
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
