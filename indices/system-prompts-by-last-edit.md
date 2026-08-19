@@ -1,31 +1,32 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **48**
+- Total prompt files: **51**
 
 ## Categories
 
-- System prompts (21)
-- Tool prompts (27)
+- System prompts (22)
+- Tool prompts (29)
 
-## System prompts (21)
+## System prompts (22)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-user-memory-project-one-10.md`](../system-prompts/system-prompt-user-memory-project-one-10.md) | Assist with authorized security testing and educational contexts. | 7,423 | 2.1.223 | 2.1.235 |
-| [`system-prompt-user-memory-project-one-11.md`](../system-prompts/system-prompt-user-memory-project-one-11.md) | Assist with authorized security testing and educational contexts. | 7,423 | 2.1.223 | 2.1.235 |
-| [`system-prompt-user-memory-project-one-12.md`](../system-prompts/system-prompt-user-memory-project-one-12.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.235 |
-| [`system-prompt-user-memory-project-one-13.md`](../system-prompts/system-prompt-user-memory-project-one-13.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.235 |
-| [`system-prompt-user-memory-project-one.md`](../system-prompts/system-prompt-user-memory-project-one.md) | Assist with authorized security testing and educational contexts. | 4,192 | 2.1.207 | 2.1.235 |
-| [`system-prompt-user-memory-project-one-14.md`](../system-prompts/system-prompt-user-memory-project-one-14.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.234 |
-| [`system-prompt-user-memory-project-one-15.md`](../system-prompts/system-prompt-user-memory-project-one-15.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.233 |
-| [`system-prompt-user-memory-project-one-16.md`](../system-prompts/system-prompt-user-memory-project-one-16.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.232 |
-| [`system-prompt-user-memory-project-one-17.md`](../system-prompts/system-prompt-user-memory-project-one-17.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.231 |
-| [`system-prompt-user-memory-project-one-18.md`](../system-prompts/system-prompt-user-memory-project-one-18.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.229 |
-| [`system-prompt-user-memory-project-one-19.md`](../system-prompts/system-prompt-user-memory-project-one-19.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.228 |
-| [`system-prompt-user-memory-project-one-20.md`](../system-prompts/system-prompt-user-memory-project-one-20.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.227 |
-| [`system-prompt-user-memory-project-one-21.md`](../system-prompts/system-prompt-user-memory-project-one-21.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.226 |
+| [`system-prompt-user-memory-project-one-10.md`](../system-prompts/system-prompt-user-memory-project-one-10.md) | Assist with authorized security testing and educational contexts. | 7,423 | 2.1.223 | 2.1.236 |
+| [`system-prompt-user-memory-project-one-11.md`](../system-prompts/system-prompt-user-memory-project-one-11.md) | Assist with authorized security testing and educational contexts. | 7,423 | 2.1.223 | 2.1.236 |
+| [`system-prompt-user-memory-project-one-12.md`](../system-prompts/system-prompt-user-memory-project-one-12.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.236 |
+| [`system-prompt-user-memory-project-one-13.md`](../system-prompts/system-prompt-user-memory-project-one-13.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.236 |
+| [`system-prompt-user-memory-project-one.md`](../system-prompts/system-prompt-user-memory-project-one.md) | Assist with authorized security testing and educational contexts. | 4,192 | 2.1.207 | 2.1.236 |
+| [`system-prompt-user-memory-project-one-14.md`](../system-prompts/system-prompt-user-memory-project-one-14.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.235 |
+| [`system-prompt-user-memory-project-one-15.md`](../system-prompts/system-prompt-user-memory-project-one-15.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.234 |
+| [`system-prompt-user-memory-project-one-16.md`](../system-prompts/system-prompt-user-memory-project-one-16.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.233 |
+| [`system-prompt-user-memory-project-one-17.md`](../system-prompts/system-prompt-user-memory-project-one-17.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.232 |
+| [`system-prompt-user-memory-project-one-18.md`](../system-prompts/system-prompt-user-memory-project-one-18.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.231 |
+| [`system-prompt-user-memory-project-one-19.md`](../system-prompts/system-prompt-user-memory-project-one-19.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.229 |
+| [`system-prompt-user-memory-project-one-20.md`](../system-prompts/system-prompt-user-memory-project-one-20.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.228 |
+| [`system-prompt-user-memory-project-one-21.md`](../system-prompts/system-prompt-user-memory-project-one-21.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.227 |
+| [`system-prompt-user-memory-project-one-22.md`](../system-prompts/system-prompt-user-memory-project-one-22.md) | Assist with authorized security testing and educational contexts. | 7,365 | 2.1.225 | 2.1.226 |
 | [`system-prompt-user-memory-project-one-9.md`](../system-prompts/system-prompt-user-memory-project-one-9.md) | Assist with authorized security testing and educational contexts. | 7,034 | 2.1.222 | 2.1.224 |
 | [`system-prompt-user-memory-project-one-8.md`](../system-prompts/system-prompt-user-memory-project-one-8.md) | Assist with authorized security testing and educational contexts. | 6,645 | 2.1.221 | 2.1.223 |
 | [`system-prompt-user-memory-project-one-7.md`](../system-prompts/system-prompt-user-memory-project-one-7.md) | Assist with authorized security testing and educational contexts. | 6,256 | 2.1.220 | 2.1.222 |
@@ -35,25 +36,27 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-user-memory-project-one-3.md`](../system-prompts/system-prompt-user-memory-project-one-3.md) | Assist with authorized security testing and educational contexts. | 4,700 | 2.1.216 | 2.1.218 |
 | [`system-prompt-user-memory-project-one-2.md`](../system-prompts/system-prompt-user-memory-project-one-2.md) | Assist with authorized security testing and educational contexts. | 4,311 | 2.1.215 | 2.1.217 |
 
-## Tool prompts (27)
+## Tool prompts (29)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,488 | 2.1.118 | 2.1.235 |
-| [`tool-description-read-local-file-content-10.md`](../system-prompts/tool-description-read-local-file-content-10.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.235 |
-| [`tool-description-read-local-file-content-11.md`](../system-prompts/tool-description-read-local-file-content-11.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.235 |
-| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.235 |
-| [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | A powerful search tool built on ripgrep. | 1,115 | 2.1.118 | 2.1.235 |
-| [`tool-description-file-pattern-matching-3.md`](../system-prompts/tool-description-file-pattern-matching-3.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 440 | 2.1.235 | 2.1.235 |
-| [`tool-description-edit.md`](../system-prompts/tool-description-edit.md) | Tool Description: … - Source: native-prompt-markdown-tool Summary Performs exact string replacements in files. | 285 | 2.1.118 | 2.1.235 |
-| [`tool-description-write.md`](../system-prompts/tool-description-write.md) | Writes a file to the local filesystem. | 280 | 2.1.118 | 2.1.235 |
-| [`tool-description-read-local-file-content-12.md`](../system-prompts/tool-description-read-local-file-content-12.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.234 |
+| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,488 | 2.1.118 | 2.1.236 |
+| [`tool-description-read-local-file-content-10.md`](../system-prompts/tool-description-read-local-file-content-10.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.236 |
+| [`tool-description-read-local-file-content-11.md`](../system-prompts/tool-description-read-local-file-content-11.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.236 |
+| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.236 |
+| [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | A powerful search tool built on ripgrep. | 1,115 | 2.1.118 | 2.1.236 |
+| [`tool-description-file-pattern-matching-4.md`](../system-prompts/tool-description-file-pattern-matching-4.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 556 | 2.1.236 | 2.1.236 |
+| [`tool-description-file-pattern-matching-3.md`](../system-prompts/tool-description-file-pattern-matching-3.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 440 | 2.1.235 | 2.1.236 |
+| [`tool-description-edit.md`](../system-prompts/tool-description-edit.md) | Tool Description: … - Source: native-prompt-markdown-tool Summary Performs exact string replacements in files. | 285 | 2.1.118 | 2.1.236 |
+| [`tool-description-write.md`](../system-prompts/tool-description-write.md) | Writes a file to the local filesystem. | 280 | 2.1.118 | 2.1.236 |
+| [`tool-description-read-local-file-content-12.md`](../system-prompts/tool-description-read-local-file-content-12.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.235 |
+| [`tool-description-read-local-file-content-13.md`](../system-prompts/tool-description-read-local-file-content-13.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.234 |
 | [`tool-description-file-pattern-matching-2.md`](../system-prompts/tool-description-file-pattern-matching-2.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 324 | 2.1.234 | 2.1.234 |
-| [`tool-description-read-local-file-content-13.md`](../system-prompts/tool-description-read-local-file-content-13.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.233 |
-| [`tool-description-read-local-file-content-14.md`](../system-prompts/tool-description-read-local-file-content-14.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.232 |
-| [`tool-description-read-local-file-content-15.md`](../system-prompts/tool-description-read-local-file-content-15.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.231 |
+| [`tool-description-read-local-file-content-14.md`](../system-prompts/tool-description-read-local-file-content-14.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.233 |
+| [`tool-description-read-local-file-content-15.md`](../system-prompts/tool-description-read-local-file-content-15.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.232 |
+| [`tool-description-read-local-file-content-16.md`](../system-prompts/tool-description-read-local-file-content-16.md) | Reads a file from the local filesystem. | 3,406 | 2.1.229 | 2.1.231 |
 | [`tool-description-read-local-file-content-9.md`](../system-prompts/tool-description-read-local-file-content-9.md) | Reads a file from the local filesystem. | 3,032 | 2.1.228 | 2.1.228 |
 | [`tool-description-launch-new-handle-complex-multi.md`](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks. | 1,977 | 2.1.118 | 2.1.228 |
 | [`tool-description-read-local-file-content-8.md`](../system-prompts/tool-description-read-local-file-content-8.md) | Reads a file from the local filesystem. | 2,671 | 2.1.227 | 2.1.227 |

@@ -885,7 +885,7 @@ _None detected_
 - `claude-api`
 - `claude-channel-`
 - `claude-checkpoint-index.`
-- `claude-chrome-screenshots-`
+- `claude-chrome-screenshots-C`
 - `claude-cli`
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
@@ -902,7 +902,6 @@ _None detected_
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
-- `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-remote`
 - `claude-code-ultrareview-post`
@@ -912,6 +911,7 @@ _None detected_
 - `claude-context`
 - `claude-coworker`
 - `claude-coworker-terminal`
+- `claude-design-command`
 - `claude-design-contextual`
 - `claude-desktop`
 - `claude-desktop-3p`
