@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.237
+# Claude Code Flags 2.1.238
 
 ## Feature Gates
 
@@ -6,6 +6,7 @@
 - `tengu_ccr_bundle_seed_enabled`
 - `tengu_harbor`
 - `tengu_on_branch_default_guard_observe`
+- `tengu_violin_strad`
 - `tengu_violin_wood`
 
 ## Dynamic Configs

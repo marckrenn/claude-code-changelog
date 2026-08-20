@@ -4,7 +4,7 @@
 
 - Commands: 46
 - Options: 115
-- Env vars: 476
+- Env vars: 478
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -507,6 +507,7 @@
 - `CLAUDE_CODE_ENABLE_BACKGROUND_PLUGIN_REFRESH`
 - `CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
+- `CLAUDE_CODE_ENABLE_PROXY_AUTH_HELPER`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`
 - `CLAUDE_CODE_ENTRYPOINT`
@@ -765,6 +766,7 @@
 - `SELF_HOSTED_RUNNER_CONFINE_REPO_SETTINGS`
 - `SELF_HOSTED_RUNNER_DEBUG_DIR`
 - `SELF_HOSTED_RUNNER_DEBUG_TOKEN_DIR`
+- `SELF_HOSTED_RUNNER_DEFER_SHUTDOWN_MAX_MS`
 - `SELF_HOSTED_RUNNER_DRAIN_GRACE_MS`
 - `SELF_HOSTED_RUNNER_DRAIN_WAIT_MS`
 - `SELF_HOSTED_RUNNER_ENVIRONMENT_SECRET`
@@ -890,6 +892,7 @@ _None detected_
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
 - `claude-cli-native-`
+- `claude-cli:`
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-bash`
@@ -902,7 +905,6 @@ _None detected_
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
-- `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-remote`
 - `claude-code-ultrareview-post`
@@ -955,7 +957,6 @@ _None detected_
 - `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
-- `claude-plugin-telemetry-v1`
 - `claude-plugins-community`
 - `claude-plugins-official`
 - `claude-proactive`
@@ -964,6 +965,7 @@ _None detected_
 - `claude-resume-`
 - `claude-review`
 - `claude-security`
+- `claude-self-hosted-runner`
 - `claude-settings`
 - `claude-skill-`
 - `claude-socks-`
