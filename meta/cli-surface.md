@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 131
+- Models: 132
 - Providers: 8
 
 ## Commands
@@ -885,7 +885,7 @@ _None detected_
 - `claude-api`
 - `claude-channel-`
 - `claude-checkpoint-index.`
-- `claude-chrome-screenshots-C`
+- `claude-chrome-screenshots-`
 - `claude-cli`
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
@@ -902,6 +902,7 @@ _None detected_
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
+- `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-remote`
 - `claude-code-ultrareview-post`
