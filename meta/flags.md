@@ -1,8 +1,7 @@
-# Claude Code 2.1.238 – Flags
+# Claude Code 2.1.239 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
-| `tengu_auto_mode_config` | config | ui | Gates “auto mode” availability, with circuit-breaker disable plus model and org allowlist checks. | Also respects user settings (disableAutoMode) and can disable fast mode. | high | 1 |
 | `tengu_bridge_min_version` | config | tools | Blocks Remote Control when Claude Code is below a configured minimum version. |  | high | 1 |
 | `tengu_bridge_poll_interval_config` | config | networking | Sets Tengu bridge poll interval (0 disables) plus session reclaim and keepalive timings. | Config is schema-validated; invalid values fall back to defaults. | medium | 1 |
 | `tengu_bridge_repl_v2_config` | config | other | Config named "tengu_bridge_repl_v2_config" referenced, likely for a "bridge" REPL v2 setting set. | Only the config name/type is shown; no observable behavior or UI impact in the provided context. | low | 1 |
@@ -18,9 +17,8 @@
 | `tengu_kairos_cron_durable` | config | filesystem | Controls whether scheduled prompts are persisted to .claude/scheduled_tasks.json (durable vs session-only). | Set durable: true to write to disk; otherwise schedules are session-only. | high | 1 |
 | `tengu_kairos_push_notifications` | config | tools | Enables the PushNotification tool to notify users in-terminal and, with Remote Control, on mobile. | Also checks an agent setting (agentPushNotifEnabled) before allowing mobile push. | high | 1 |
 | `tengu_malort_pedway` | config | ui | Enables a “Chicago” UI feature (with coordinateMode) only for max/pro tiers. | Flag name is opaque; behavior inferred from exported getters and hotkey usage nearby. | medium | 1 |
-| `tengu_max_version_config` | config | tools | Minimum-version config used to block applying an update when the target version is too old. | Config also exposes optional `external` and `external_message` fields, likely for update messaging. | medium | 1 |
 | `tengu_on_branch_default_guard_observe` | gate | telemetry | Observes or logs default guard behavior for “on-branch” flow in Tengu. | Only the flag name and type are present; behavior inferred from naming (“observe”, “default_guard”). | low | 1 |
 | `tengu_startup_announcements` | config | ui | Enables startup announcements to be shown on app launch. | Only the flag name and type are present; no behavior or call sites shown. | low | 1 |
-| `tengu_version_config` | config | tools | Fetches a minimum required Claude Code version and shows an update-required message. | Minimum version appears server-configured via the config fetch. | high | 1 |
+| `tengu_violin_amati` | gate | other | Bundle references a gate named “tengu_violin_amati”; no functional behavior is shown in the snippet. | Only the flag name and type are present; cannot infer what it affects from this context. | low | 1 |
 | `tengu_violin_strad` | gate | other | Internal feature gate labeled “tengu_violin_strad”. | No surrounding code or callsite shown, so the gated feature can’t be inferred. | low | 1 |
 | `tengu_violin_wood` | gate | other | Gate check for feature flag "tengu_violin_wood" is present in the JS bundle. | No surrounding code or behavior shown beyond the flag name and that it is a gate. | low | 1 |

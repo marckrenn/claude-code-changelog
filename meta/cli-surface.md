@@ -4,11 +4,11 @@
 
 - Commands: 46
 - Options: 115
-- Env vars: 478
+- Env vars: 473
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 132
+- Models: 133
 - Providers: 8
 
 ## Commands
@@ -391,9 +391,6 @@
 - `AUTOMODE_DECISION_LOG`
 - `AWS_ACCESS_KEY_ID`
 - `AWS_BEARER_TOKEN_BEDROCK`
-- `AWS_CONFIG_FILE`
-- `AWS_CONTAINER_CREDENTIALS_FULL_URI`
-- `AWS_CONTAINER_CREDENTIALS_RELATIVE_URI`
 - `AWS_DEFAULT_REGION`
 - `AWS_EXECUTION_ENV`
 - `AWS_LAMBDA_BENCHMARK_MODE`
@@ -401,11 +398,8 @@
 - `AWS_LOGIN_CACHE_DIRECTORY`
 - `AWS_PROFILE`
 - `AWS_REGION`
-- `AWS_ROLE_ARN`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
-- `AWS_SHARED_CREDENTIALS_FILE`
-- `AWS_WEB_IDENTITY_TOKEN_FILE`
 - `AZURE_ADDITIONALLY_ALLOWED_TENANTS`
 - `AZURE_AUTHORITY_HOST`
 - `AZURE_CLIENT_CERTIFICATE_PASSWORD`
@@ -484,6 +478,7 @@
 - `CLAUDE_CODE_ATTRIBUTION_HEADER`
 - `CLAUDE_CODE_AUTO_COMPACT_WINDOW`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
+- `CLAUDE_CODE_BRIDGE_MCP_CARRIER`
 - `CLAUDE_CODE_BRIDGE_SESSION_ID`
 - `CLAUDE_CODE_BYOC_ENABLE_DATADOG`
 - `CLAUDE_CODE_CLASSIFIER_SUMMARY`
@@ -573,6 +568,7 @@
 - `CLAUDE_CODE_SYSTEM_PROMPT_GB_FEATURE`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TEE_SDK_STDOUT`
+- `CLAUDE_CODE_TEST_ALLOW_REAL_NETWORK`
 - `CLAUDE_CODE_TMPDIR`
 - `CLAUDE_CODE_TMUX_TRUECOLOR`
 - `CLAUDE_CODE_USE_ANTHROPIC_AWS`
@@ -614,7 +610,6 @@
 - `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
-- `CLOUDSDK_AUTH_ACCESS_TOKEN`
 - `CLOUDSDK_CONFIG`
 - `CODER`
 - `CODER_WORKSPACE_NAME`
@@ -892,7 +887,6 @@ _None detected_
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
 - `claude-cli-native-`
-- `claude-cli:`
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-bash`
@@ -943,6 +937,7 @@ _None detected_
 - `claude-mythos-`
 - `claude-mythos-5`
 - `claude-mythos-preview`
+- `claude-nfa-`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
@@ -957,6 +952,7 @@ _None detected_
 - `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
+- `claude-plugin-telemetry-v1`
 - `claude-plugins-community`
 - `claude-plugins-official`
 - `claude-proactive`
@@ -965,7 +961,7 @@ _None detected_
 - `claude-resume-`
 - `claude-review`
 - `claude-security`
-- `claude-self-hosted-runner`
+- `claude-self-hosted-runnerW`
 - `claude-settings`
 - `claude-skill-`
 - `claude-socks-`
