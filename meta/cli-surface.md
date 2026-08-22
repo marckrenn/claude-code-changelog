@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 133
+- Models: 132
 - Providers: 8
 
 ## Commands
@@ -899,6 +899,7 @@ _None detected_
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
+- `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-remote`
 - `claude-code-ultrareview-post`
@@ -952,7 +953,6 @@ _None detected_
 - `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
-- `claude-plugin-telemetry-v1`
 - `claude-plugins-community`
 - `claude-plugins-official`
 - `claude-proactive`
@@ -961,7 +961,6 @@ _None detected_
 - `claude-resume-`
 - `claude-review`
 - `claude-security`
-- `claude-self-hosted-runnerW`
 - `claude-settings`
 - `claude-skill-`
 - `claude-socks-`
