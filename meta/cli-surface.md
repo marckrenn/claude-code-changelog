@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 132
+- Models: 133
 - Providers: 8
 
 ## Commands
@@ -961,6 +961,7 @@ _None detected_
 - `claude-resume-`
 - `claude-review`
 - `claude-security`
+- `claude-self-hosted-runner`
 - `claude-settings`
 - `claude-skill-`
 - `claude-socks-`

@@ -7,8 +7,8 @@
 
 ## Bundle
 
-- Entry bytes: 50730266 bytes
-- Entry lines: 953595
+- Entry bytes: 50829481 bytes
+- Entry lines: 970013
 
 ## Inventory
 
@@ -33,18 +33,18 @@ _None detected_
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-08-22 14:58:48 UTC
+- Snapshot generated at: 2026-08-23 01:01:07 UTC
 - Node runtime: `v20.20.1`
-- Config hash: `600dfb60f912fd2b7efbf9e3ab688e01c6494ca94b9351b6fdd8f8ac43730696`
-- Embedded build timestamp: 2026-08-22 05:07:39 UTC
-- Relative to embedded build timestamp: 9h 51m 9s (2026-08-22 05:07:39 UTC → 2026-08-22 14:58:48 UTC)
+- Config hash: `9e640571ca6d549268544db88999db0ffbbe8c2f4101e7ce4cb8c3deb2fa88d2`
+- Embedded build timestamp: 2026-08-22 22:46:48 UTC
+- Relative to embedded build timestamp: 2h 14m 19s (2026-08-22 22:46:48 UTC → 2026-08-23 01:01:07 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 245,128
+- Total prompt tokens: 257,230
 - Token p95 / p99: 7,365 / 7,423
 
 ### By Kind
 
-- `system`: 174,893 tokens (71.3%)
-- `tool`: 70,235 tokens (28.7%)
+- `system`: 182,258 tokens (70.9%)
+- `tool`: 74,972 tokens (29.1%)
