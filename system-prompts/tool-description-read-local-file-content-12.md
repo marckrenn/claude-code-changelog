@@ -413,6 +413,7 @@ Reads a file from the local filesystem.
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
 
 # Raw Prompt Text
 # Tool Description: read-local-file-content-${EXPR_10}
@@ -449,6 +450,7 @@ Reads a file from the local filesystem.
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
 
 # Raw Prompt Text
 # Tool Description: read-local-file-content-${EXPR_11}
@@ -484,6 +486,7 @@ Reads a file from the local filesystem.
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
 
 # Raw Prompt Text
 # Tool Description: read-local-file-content-${EXPR_12}
@@ -518,6 +521,7 @@ Reads a file from the local filesystem.
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
 
 # Raw Prompt Text
 # Tool Description: read-local-file-content-${EXPR_13}
@@ -551,6 +555,7 @@ Reads a file from the local filesystem.
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
 
 # Raw Prompt Text
 # Tool Description: read-local-file-content-${EXPR_14}
@@ -583,6 +588,7 @@ Reads a file from the local filesystem.
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
 
 # Raw Prompt Text
 # Tool Description: read-local-file-content-${EXPR_15}
@@ -614,9 +620,41 @@ Reads a file from the local filesystem.
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
 
 # Raw Prompt Text
 # Tool Description: read-local-file-content-${EXPR_16}
+
+- Source: native-reference-match
+
+## Summary
+
+Reads a file from the local filesystem.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+
+# Raw Prompt Text
+# Tool Description: read-local-file-content-${EXPR_17}
 
 - Source: native-reference-match
 
@@ -661,17 +699,17 @@ Assume this tool is able to read all files on the machine. If the User provides 
 
 Usage:
 - The file_path parameter must be an absolute path, not a relative path
-- By default, it reads up to ${EXPR_17} lines starting from the beginning of the file
+- By default, it reads up to ${EXPR_18} lines starting from the beginning of the file
 - When you already know which part of the file you need, only read that part. This can be important for larger files.
-- Results are returned using cat -n format, with line numbers starting at ${EXPR_18}
+- Results are returned using cat -n format, with line numbers starting at ${EXPR_19}
 - This tool allows Claude Code to read images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as Claude Code is a multimodal LLM.
-- This tool can read PDF files (.pdf). For large PDFs (more than ${EXPR_19} pages), you MUST provide the pages parameter to read specific page ranges (e.g., pages: "${EXPR_20}-${EXPR_21}"). Reading a large PDF without the pages parameter will fail. Maximum ${EXPR_22} pages per request.
+- This tool can read PDF files (.pdf). For large PDFs (more than ${EXPR_20} pages), you MUST provide the pages parameter to read specific page ranges (e.g., pages: "${EXPR_21}-${EXPR_22}"). Reading a large PDF without the pages parameter will fail. Maximum ${EXPR_23} pages per request.
 - This tool can read Jupyter notebooks (.ipynb files) and returns all cells with their outputs, combining code, text, and visualizations.
 - This tool can only read files, not directories. To read a directory, use an ls command via the Bash tool.
 - You will regularly be asked to read screenshots. If the user provides a path to a screenshot, ALWAYS use this tool to view the file at the path. This tool will work with all temporary file paths.
 - If you read a file that exists but has empty contents you will receive a system reminder warning in place of file contents.
 {
-  "$schema": "${EXPR_23}
+  "$schema": "${EXPR_24}
   "type": "object",
   "properties": {
     "file_path": {
@@ -681,17 +719,17 @@ Usage:
     "offset": {
       "description": "The line number to start reading from. Only provide if the file is too large to read at once",
       "type": "integer",
-      "minimum": ${EXPR_24},
-      "maximum": ${EXPR_25}
+      "minimum": ${EXPR_25},
+      "maximum": ${EXPR_26}
     },
     "limit": {
       "description": "The number of lines to read. Only provide if the file is too large to read at once.",
       "type": "integer",
-      "exclusiveMinimum": ${EXPR_26},
-      "maximum": ${EXPR_27}
+      "exclusiveMinimum": ${EXPR_27},
+      "maximum": ${EXPR_28}
     },
     "pages": {
-      "description": "Page range for PDF files (e.g., \"${EXPR_28}-${EXPR_29}\", \"${EXPR_30}\", \"${EXPR_31}-${EXPR_32}\"). Only applicable to PDF files. Maximum ${EXPR_33} pages per request.",
+      "description": "Page range for PDF files (e.g., \"${EXPR_29}-${EXPR_30}\", \"${EXPR_31}\", \"${EXPR_32}-${EXPR_33}\"). Only applicable to PDF files. Maximum ${EXPR_34} pages per request.",
       "type": "string"
     }
   },
