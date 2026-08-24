@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 46
-- Options: 115
-- Env vars: 473
+- Options: 116
+- Env vars: 467
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 133
+- Models: 152
 - Providers: 8
 
 ## Commands
@@ -179,6 +179,7 @@
 - `--max-cost-usd`
 - `--mcp-config`
 - `--message`
+- `--mocks`
 - `--model`
 - `--name`
 - `--no-browser`
@@ -293,6 +294,7 @@
 - `--max-cost-usd <usd>`
 - `--mcp-config <config>`
 - `--mcp-config <configs...>`
+- `--mocks <mode>`
 - `--model <model>`
 - `--no-browser`
 - `--no-chrome`
@@ -425,9 +427,7 @@
 - `BUILDKITE`
 - `BUN_DISABLE_DYNAMIC_CHUNK_SIZE`
 - `BUN_ENV`
-- `BUN_FEEDBACK_URL`
 - `BUN_INSPECT_NOTIFY`
-- `BUN_INSTALL`
 - `C`
 - `C9_PID`
 - `C9_USER`
@@ -575,7 +575,6 @@
 - `CLAUDE_CODE_USE_ANTHROPIC_GOOGLE_CLOUD`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_FOUNDRY`
-- `CLAUDE_CODE_USE_GATEWAY`
 - `CLAUDE_CODE_USE_MANTLE`
 - `CLAUDE_CODE_USE_POWERSHELL_TOOL`
 - `CLAUDE_CODE_USE_VERTEX`
@@ -641,14 +640,11 @@
 - `ENABLE_CLAUDEAI_MCP_SERVERS`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
-- `ENABLE_PROMPT_CACHING_1H`
-- `ENABLE_PROMPT_CACHING_1H_BEDROCK`
 - `ENABLE_TOOL_SEARCH`
 - `FLY_APP_NAME`
 - `FLY_MACHINE_ID`
 - `FORCE_CODE_TERMINAL`
 - `FORCE_COLOR`
-- `FORCE_PROMPT_CACHING_5M`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
 - `GAE_MODULE_NAME`
@@ -704,7 +700,6 @@
 - `MAX_THINKING_TOKENS`
 - `MCP_CLIENT_SECRET`
 - `MCP_CONNECTION_NONBLOCKING`
-- `MCP_OAUTH_CLIENT_METADATA_URL`
 - `MCP_REMOTE_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_TOOL_TIMEOUT`
@@ -818,6 +813,7 @@
 - `WAYLAND_DISPLAY`
 - `WEBSITE_SITE_NAME`
 - `WEBSITE_SKU`
+- `WINDIR`
 - `WSL_DISTRO_NAME`
 - `WT_SESSION`
 - `XDG_CONFIG_HOME`
@@ -870,6 +866,7 @@ _None detected_
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
 - `claude-3-7-sonnet-latest`
+- `claude-3-7-sonneti`
 - `claude-3-haiku`
 - `claude-3-opus`
 - `claude-3-opus-20240229`
@@ -880,6 +877,7 @@ _None detected_
 - `claude-ai-external-token`
 - `claude-ai-oauth`
 - `claude-api`
+- `claude-audio-`
 - `claude-channel-`
 - `claude-checkpoint-index.`
 - `claude-chrome-screenshots-`
@@ -887,6 +885,7 @@ _None detected_
 - `claude-cli-design-sync`
 - `claude-cli-design-tool`
 - `claude-cli-native-`
+- `claude-cloud-trash`
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-bash`
@@ -896,9 +895,11 @@ _None detected_
 - `claude-code-docs`
 - `claude-code-error-tracking`
 - `claude-code-github-action`
+- `claude-code-github-actionG`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
+- `claude-code-mcp.d.tsP`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-remote`
@@ -913,7 +914,9 @@ _None detected_
 - `claude-design-contextual`
 - `claude-desktop`
 - `claude-desktop-3p`
+- `claude-desktop-3p-prompt-suggest`
 - `claude-dev`
+- `claude-device-hooks-`
 - `claude-empty-`
 - `claude-eval-`
 - `claude-export-import`
@@ -929,6 +932,7 @@ _None detected_
 - `claude-http-`
 - `claude-in-chrome`
 - `claude-in-slack`
+- `claude-in-slack-`
 - `claude-in-teams`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
@@ -943,26 +947,35 @@ _None detected_
 - `claude-opus-4-0`
 - `claude-opus-4-1`
 - `claude-opus-4-1-20250805`
+- `claude-opus-4-1-20250805h`
 - `claude-opus-4-20250514`
 - `claude-opus-4-5`
 - `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
 - `claude-opus-4-7`
 - `claude-opus-4-8`
+- `claude-opus-4-8.`
+- `claude-opus-4-8V`
 - `claude-opus-5`
-- `claude-plugin-`
+- `claude-opus-5H`
 - `claude-plugin-directory`
+- `claude-plugin-oa`
 - `claude-plugin-session-`
+- `claude-plugin-telemetry-v1`
 - `claude-plugins-community`
 - `claude-plugins-official`
 - `claude-proactive`
 - `claude-prompt`
+- `claude-PW`
 - `claude-pwd-ps-`
 - `claude-resume-`
 - `claude-review`
 - `claude-security`
+- `claude-seed`
+- `claude-seed-stage-`
 - `claude-self-hosted-runner`
 - `claude-settings`
+- `claude-shallow-`
 - `claude-skill-`
 - `claude-socks-`
 - `claude-sonnet-4`
@@ -971,6 +984,7 @@ _None detected_
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
 - `claude-sonnet-4-6`
+- `claude-sonnet-4-6z.js`
 - `claude-sonnet-5`
 - `claude-swarm`
 - `claude-swarm-`
@@ -981,6 +995,7 @@ _None detected_
 - `opus-4-6`
 - `opus-4-7`
 - `opus-4-8`
+- `opus-4-8n`
 - `opus-5`
 - `opus-limit`
 - `opus-warning`
