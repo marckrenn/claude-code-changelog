@@ -4,11 +4,11 @@
 
 - Commands: 46
 - Options: 116
-- Env vars: 467
+- Env vars: 469
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 152
+- Models: 157
 - Providers: 8
 
 ## Commands
@@ -427,7 +427,9 @@
 - `BUILDKITE`
 - `BUN_DISABLE_DYNAMIC_CHUNK_SIZE`
 - `BUN_ENV`
+- `BUN_FEEDBACK_URL`
 - `BUN_INSPECT_NOTIFY`
+- `BUN_INSTALL`
 - `C`
 - `C9_PID`
 - `C9_USER`
@@ -866,7 +868,10 @@ _None detected_
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
 - `claude-3-7-sonnet-latest`
-- `claude-3-7-sonneti`
+- `claude-3-7-sonnetc`
+- `claude-3-7-sonnetETH`
+- `claude-3-7-sonnetk`
+- `claude-3-g`
 - `claude-3-haiku`
 - `claude-3-opus`
 - `claude-3-opus-20240229`
@@ -874,12 +879,11 @@ _None detected_
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
 - `claude-ai`
-- `claude-ai-external-token`
+- `claude-ai-external-tokenq`
 - `claude-ai-oauth`
 - `claude-api`
 - `claude-audio-`
 - `claude-channel-`
-- `claude-checkpoint-index.`
 - `claude-chrome-screenshots-`
 - `claude-cli`
 - `claude-cli-design-sync`
@@ -887,7 +891,7 @@ _None detected_
 - `claude-cli-native-`
 - `claude-cloud-trash`
 - `claude-code`
-- `claude-code-20250219`
+- `claude-code-20250219W`
 - `claude-code-bash`
 - `claude-code-cli`
 - `claude-code-debug.txt`
@@ -895,28 +899,26 @@ _None detected_
 - `claude-code-docs`
 - `claude-code-error-tracking`
 - `claude-code-github-action`
-- `claude-code-github-actionG`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
-- `claude-code-mcp.d.tsP`
+- `claude-code-mcp.d.tsies`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-remote`
 - `claude-code-ultrareview-post`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
+- `claude-code5`
 - `claude-community`
 - `claude-context`
 - `claude-coworker`
 - `claude-coworker-terminal`
 - `claude-design-command`
-- `claude-design-contextual`
+- `claude-design-contextualh`
 - `claude-desktop`
 - `claude-desktop-3p`
-- `claude-desktop-3p-prompt-suggest`
 - `claude-dev`
-- `claude-device-hooks-`
 - `claude-empty-`
 - `claude-eval-`
 - `claude-export-import`
@@ -932,7 +934,6 @@ _None detected_
 - `claude-http-`
 - `claude-in-chrome`
 - `claude-in-slack`
-- `claude-in-slack-`
 - `claude-in-teams`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
@@ -941,32 +942,38 @@ _None detected_
 - `claude-mcp-browser-bridge-`
 - `claude-mythos-`
 - `claude-mythos-5`
+- `claude-mythos-5S`
 - `claude-mythos-preview`
 - `claude-nfa-`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
 - `claude-opus-4-1-20250805`
+- `claude-opus-4-1-20250805f`
 - `claude-opus-4-1-20250805h`
 - `claude-opus-4-20250514`
+- `claude-opus-4-20250514h`
 - `claude-opus-4-5`
 - `claude-opus-4-5-20251101`
+- `claude-opus-4-5O`
+- `claude-opus-4-5S`
 - `claude-opus-4-6`
 - `claude-opus-4-7`
+- `claude-opus-4-7e`
 - `claude-opus-4-8`
-- `claude-opus-4-8.`
-- `claude-opus-4-8V`
+- `claude-opus-4-8i`
+- `claude-opus-4-8s`
+- `claude-opus-4-8S`
 - `claude-opus-5`
-- `claude-opus-5H`
+- `claude-opus-5pro`
+- `claude-plugin-`
 - `claude-plugin-directory`
-- `claude-plugin-oa`
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
 - `claude-plugins-community`
 - `claude-plugins-official`
 - `claude-proactive`
 - `claude-prompt`
-- `claude-PW`
 - `claude-pwd-ps-`
 - `claude-resume-`
 - `claude-review`
@@ -974,18 +981,19 @@ _None detected_
 - `claude-seed`
 - `claude-seed-stage-`
 - `claude-self-hosted-runner`
-- `claude-settings`
 - `claude-shallow-`
 - `claude-skill-`
 - `claude-socks-`
 - `claude-sonnet-4`
 - `claude-sonnet-4-0`
+- `claude-sonnet-4-0ESSAGINGDESTINA`
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
 - `claude-sonnet-4-6`
-- `claude-sonnet-4-6z.js`
+- `claude-sonnet-4-6PIC`
 - `claude-sonnet-5`
+- `claude-sonnet-5N`
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-vscode`
@@ -995,13 +1003,12 @@ _None detected_
 - `opus-4-6`
 - `opus-4-7`
 - `opus-4-8`
-- `opus-4-8n`
 - `opus-5`
 - `opus-limit`
 - `opus-warning`
 - `sonnet-4-5`
-- `sonnet-4-5-20250929`
 - `sonnet-4-6`
+- `sonnet-4-6s`
 - `sonnet-5`
 - `sonnet-limit`
 - `sonnet-warning`
