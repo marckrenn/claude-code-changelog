@@ -4,11 +4,11 @@
 
 - Commands: 46
 - Options: 116
-- Env vars: 469
+- Env vars: 467
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 157
+- Models: 145
 - Providers: 8
 
 ## Commands
@@ -373,8 +373,6 @@
 - `ANTHROPIC_DEFAULT_HAIKU_MODEL`
 - `ANTHROPIC_DEFAULT_OPUS_MODEL_DESCRIPTION`
 - `ANTHROPIC_DEFAULT_OPUS_MODEL_NAME`
-- `ANTHROPIC_ENVIRONMENT_ID`
-- `ANTHROPIC_ENVIRONMENT_KEY`
 - `ANTHROPIC_FEDERATION_RULE_ID`
 - `ANTHROPIC_FOUNDRY_API_KEY`
 - `ANTHROPIC_LOG`
@@ -427,9 +425,7 @@
 - `BUILDKITE`
 - `BUN_DISABLE_DYNAMIC_CHUNK_SIZE`
 - `BUN_ENV`
-- `BUN_FEEDBACK_URL`
 - `BUN_INSPECT_NOTIFY`
-- `BUN_INSTALL`
 - `C`
 - `C9_PID`
 - `C9_USER`
@@ -513,11 +509,13 @@
 - `CLAUDE_CODE_EXIT_AFTER_FIRST_RENDER`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_EXTRA_METADATA`
+- `CLAUDE_CODE_FORCE_WINDOWS_CREDMAN`
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
 - `CLAUDE_CODE_HOST_AUTH_ENV_VAR`
 - `CLAUDE_CODE_HOST_AUTH_REFRESH_TIMEOUT_MS`
 - `CLAUDE_CODE_HOST_PLATFORM`
+- `CLAUDE_CODE_HOVER_REST`
 - `CLAUDE_CODE_IDLE_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_IDLE_TOKEN_THRESHOLD`
 - `CLAUDE_CODE_INCLUDE_PARTIAL_MESSAGES`
@@ -860,18 +858,14 @@ _None detected_
 - `claude-2.0`
 - `claude-2.1`
 - `claude-3-`
-- `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
 - `claude-3-5-haiku-latest`
+- `claude-3-5-haikuV`
 - `claude-3-5-sonnet`
 - `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
 - `claude-3-7-sonnet-latest`
-- `claude-3-7-sonnetc`
-- `claude-3-7-sonnetETH`
-- `claude-3-7-sonnetk`
-- `claude-3-g`
 - `claude-3-haiku`
 - `claude-3-opus`
 - `claude-3-opus-20240229`
@@ -879,7 +873,7 @@ _None detected_
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
 - `claude-ai`
-- `claude-ai-external-tokenq`
+- `claude-ai-external-token`
 - `claude-ai-oauth`
 - `claude-api`
 - `claude-audio-`
@@ -891,7 +885,7 @@ _None detected_
 - `claude-cli-native-`
 - `claude-cloud-trash`
 - `claude-code`
-- `claude-code-20250219W`
+- `claude-code-20250219`
 - `claude-code-bash`
 - `claude-code-cli`
 - `claude-code-debug.txt`
@@ -901,38 +895,38 @@ _None detected_
 - `claude-code-github-action`
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
+- `claude-code-keeper`
 - `claude-code-marketplace`
-- `claude-code-mcp.d.tsies`
+- `claude-code-mcp.d.ts`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-remote`
 - `claude-code-ultrareview-post`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
-- `claude-code5`
 - `claude-community`
 - `claude-context`
 - `claude-coworker`
 - `claude-coworker-terminal`
 - `claude-design-command`
-- `claude-design-contextualh`
+- `claude-design-contextual`
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
+- `claude-device-hooks-`
 - `claude-empty-`
-- `claude-eval-`
-- `claude-export-import`
+- `claude-eval-9`
 - `claude-fable-`
 - `claude-fable-5`
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
 - `claude-haiku-`
+- `claude-haiku-3-55`
 - `claude-haiku-4`
-- `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-http-`
-- `claude-in-chrome`
+- `claude-in-chrome8`
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-instant-1.1`
@@ -942,37 +936,25 @@ _None detected_
 - `claude-mcp-browser-bridge-`
 - `claude-mythos-`
 - `claude-mythos-5`
-- `claude-mythos-5S`
 - `claude-mythos-preview`
 - `claude-nfa-`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
 - `claude-opus-4-1-20250805`
-- `claude-opus-4-1-20250805f`
-- `claude-opus-4-1-20250805h`
 - `claude-opus-4-20250514`
-- `claude-opus-4-20250514h`
 - `claude-opus-4-5`
-- `claude-opus-4-5-20251101`
-- `claude-opus-4-5O`
-- `claude-opus-4-5S`
 - `claude-opus-4-6`
 - `claude-opus-4-7`
-- `claude-opus-4-7e`
 - `claude-opus-4-8`
-- `claude-opus-4-8i`
-- `claude-opus-4-8s`
-- `claude-opus-4-8S`
 - `claude-opus-5`
-- `claude-opus-5pro`
 - `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
 - `claude-plugins-community`
 - `claude-plugins-official`
-- `claude-proactive`
+- `claude-proactiveN`
 - `claude-prompt`
 - `claude-pwd-ps-`
 - `claude-resume-`
@@ -981,24 +963,26 @@ _None detected_
 - `claude-seed`
 - `claude-seed-stage-`
 - `claude-self-hosted-runner`
+- `claude-settings`
 - `claude-shallow-`
 - `claude-skill-`
 - `claude-socks-`
+- `claude-sonnet-3-7`
 - `claude-sonnet-4`
 - `claude-sonnet-4-0`
-- `claude-sonnet-4-0ESSAGINGDESTINA`
-- `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
 - `claude-sonnet-4-6`
-- `claude-sonnet-4-6PIC`
 - `claude-sonnet-5`
-- `claude-sonnet-5N`
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-vscode`
 - `gemini-extension.json`
+- `haiku-3-5`
+- `haiku-4-5`
 - `o5-bmin`
+- `opus-4`
+- `opus-4-1`
 - `opus-4-5`
 - `opus-4-6`
 - `opus-4-7`
@@ -1006,9 +990,11 @@ _None detected_
 - `opus-5`
 - `opus-limit`
 - `opus-warning`
+- `sonnet-3-7`
+- `sonnet-4`
 - `sonnet-4-5`
+- `sonnet-4-5-20250929`
 - `sonnet-4-6`
-- `sonnet-4-6s`
 - `sonnet-5`
 - `sonnet-limit`
 - `sonnet-warning`
