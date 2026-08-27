@@ -1,12 +1,10 @@
-# Claude Code Flags 2.1.247
+# Claude Code Flags 2.1.248
 
 ## Feature Gates
 
-- `tengu_ccr_bridge`
 
 ## Dynamic Configs
 
-- `tengu_bridge_min_version`
 
 ## Experiments
 
