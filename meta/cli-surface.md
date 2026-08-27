@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 145
+- Models: 147
 - Providers: 8
 
 ## Commands
@@ -876,6 +876,7 @@ _None detected_
 - `claude-ai-external-token`
 - `claude-ai-oauth`
 - `claude-api`
+- `claude-artifact-preview-`
 - `claude-audio-`
 - `claude-channel-`
 - `claude-chrome-screenshots-`
@@ -961,6 +962,7 @@ _None detected_
 - `claude-review`
 - `claude-security`
 - `claude-seed`
+- `claude-seed-admin-`
 - `claude-seed-stage-`
 - `claude-self-hosted-runner`
 - `claude-settings`
