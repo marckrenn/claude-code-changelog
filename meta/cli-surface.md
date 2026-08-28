@@ -4,7 +4,7 @@
 
 - Commands: 46
 - Options: 117
-- Env vars: 443
+- Env vars: 441
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -727,7 +727,6 @@
 - `RUNNER_OS`
 - `S`
 - `SAFEUSER`
-- `SCREENSHOT_DIR`
 - `SDK_NATIVE_BIN`
 - `SELF_HOSTED_RUNNER_BASE_DIR`
 - `SELF_HOSTED_RUNNER_CLIENT_LABEL`
@@ -782,7 +781,6 @@
 - `TILIX_ID`
 - `TMUX`
 - `USER`
-- `USERPROFILE`
 - `V`
 - `VERBOSE_SSR`
 - `VERCEL`
