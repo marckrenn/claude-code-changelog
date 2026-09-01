@@ -4,11 +4,11 @@
 
 - Commands: 46
 - Options: 117
-- Env vars: 441
+- Env vars: 435
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 147
+- Models: 154
 - Providers: 8
 
 ## Commands
@@ -470,7 +470,6 @@
 - `CLAUDE_CODE_ALT_SCREEN_FULL_REPAINT`
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
-- `CLAUDE_CODE_ARTIFACTS_API_TOKEN`
 - `CLAUDE_CODE_ATTRIBUTION_HEADER`
 - `CLAUDE_CODE_AUTO_COMPACT_WINDOW`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
@@ -503,6 +502,7 @@
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_EXTRA_METADATA`
 - `CLAUDE_CODE_FORCE_WINDOWS_CREDMAN`
+- `CLAUDE_CODE_GATEWAY_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
 - `CLAUDE_CODE_HOST_AUTH_ENV_VAR`
@@ -536,6 +536,7 @@
 - `CLAUDE_CODE_SCRIPT_CAPS`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSION_ID`
+- `CLAUDE_CODE_SESSION_KIND`
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SIMPLE`
 - `CLAUDE_CODE_SKIP_ANTHROPIC_AWS_AUTH`
@@ -544,7 +545,6 @@
 - `CLAUDE_CODE_SKIP_MANTLE_AUTH`
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
-- `CLAUDE_CODE_SLACK_TAG_TOKEN`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SPAWN_TIMESTAMP_MS`
 - `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB`
@@ -561,7 +561,6 @@
 - `CLAUDE_CODE_USE_MANTLE`
 - `CLAUDE_CODE_USE_POWERSHELL_TOOL`
 - `CLAUDE_CODE_USE_VERTEX`
-- `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_WORKER_EPOCH`
 - `CLAUDE_CONFIG_DIR`
 - `CLAUDE_COWORK_MEMORY_EXTRA_GUIDELINES`
@@ -589,7 +588,6 @@
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
 - `CLAUDE_TMPDIR`
 - `CLAUDE_TRUSTED_DEVICE_TOKEN`
-- `CLI_WIDTH`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `CLOUDSDK_CONFIG`
@@ -716,7 +714,6 @@
 - `P4PORT`
 - `PATH`
 - `PATHEXT`
-- `PKG_CONFIG_PATH`
 - `PROJECT_DOMAIN`
 - `RAILWAY_ENVIRONMENT_NAME`
 - `RAILWAY_SERVICE_NAME`
@@ -757,8 +754,6 @@
 - `SELF_HOSTED_RUNNER_TRUST_WORKSPACE`
 - `SESSION_INGRESS_URL`
 - `SESSIONNAME`
-- `SHARP_FORCE_GLOBAL_LIBVIPS`
-- `SHARP_IGNORE_GLOBAL_LIBVIPS`
 - `SHELL`
 - `SLASH_COMMAND_TOOL_CHAR_BUDGET`
 - `SPACE_CREATOR_USER_ID`
@@ -789,7 +784,6 @@
 - `WAYLAND_DISPLAY`
 - `WEBSITE_SITE_NAME`
 - `WEBSITE_SKU`
-- `WINDIR`
 - `WSL_DISTRO_NAME`
 - `WT_SESSION`
 - `XDG_CONFIG_HOME`
@@ -834,9 +828,9 @@ _None detected_
 - `claude-2.0`
 - `claude-2.1`
 - `claude-3-`
-- `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
 - `claude-3-5-haiku-latest`
+- `claude-3-5-haikuV`
 - `claude-3-5-sonnet`
 - `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet`
@@ -873,10 +867,13 @@ _None detected_
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-keeper`
+- `claude-code-manifest-v1`
 - `claude-code-marketplace`
 - `claude-code-mcp.d.ts`
+- `claude-code-model-catalog-v1`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
+- `claude-code-release-signing-key`
 - `claude-code-remote`
 - `claude-code-ultrareview-post`
 - `claude-code-url-handler.desktop`
@@ -893,8 +890,10 @@ _None detected_
 - `claude-device-hooks-`
 - `claude-empty-`
 - `claude-eval-9`
+- `claude-eval-auth-`
 - `claude-fable-`
 - `claude-fable-5`
+- `claude-fable-5-1`
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
@@ -913,6 +912,7 @@ _None detected_
 - `claude-mcp-browser-bridge-`
 - `claude-mythos-`
 - `claude-mythos-5`
+- `claude-mythos-5-1`
 - `claude-mythos-preview`
 - `claude-nfa-`
 - `claude-opus-4`
@@ -954,6 +954,7 @@ _None detected_
 - `claude-sonnet-5`
 - `claude-swarm`
 - `claude-swarm-`
+- `claude-tag-plugins`
 - `claude-vscode`
 - `gemini-extension.json`
 - `haiku-3-5`
