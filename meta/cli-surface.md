@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 154
+- Models: 155
 - Providers: 8
 
 ## Commands
@@ -878,6 +878,7 @@ _None detected_
 - `claude-code-ultrareview-post`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
+- `claude-code.d.ts.`
 - `claude-community`
 - `claude-context`
 - `claude-coworker`
