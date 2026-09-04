@@ -4,11 +4,11 @@
 
 - Commands: 46
 - Options: 117
-- Env vars: 430
+- Env vars: 429
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 156
+- Models: 155
 - Providers: 8
 
 ## Commands
@@ -384,7 +384,6 @@
 - `ANTHROPIC_SMALL_FAST_MODEL`
 - `ANTHROPIC_UNIX_SOCKET`
 - `ANTHROPIC_VERTEX_BASE_URL`
-- `ANTHROPIC_VERTEX_PROJECT_ID`
 - `ANTHROPIC_WORKSPACE_ID`
 - `API_FORCE_IDLE_TIMEOUT`
 - `API_TIMEOUT_MS`
@@ -955,7 +954,6 @@ _None detected_
 - `gemini-extension.json`
 - `haiku-3-5`
 - `haiku-4-5`
-- `O1-c.R.4-`
 - `o5-bmin`
 - `opus-4`
 - `opus-4-1`
