@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 155
+- Models: 158
 - Providers: 8
 
 ## Commands
@@ -949,7 +949,10 @@ _None detected_
 - `claude-sonnet-5`
 - `claude-swarm`
 - `claude-swarm-`
+- `claude-tag-data-viz`
+- `claude-tag-oncall`
 - `claude-tag-plugins`
+- `claude-tag-troubleshoot`
 - `claude-vscode`
 - `gemini-extension.json`
 - `haiku-3-5`
