@@ -4,11 +4,11 @@
 
 - Commands: 46
 - Options: 117
-- Env vars: 429
+- Env vars: 430
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 158
+- Models: 159
 - Providers: 8
 
 ## Commands
@@ -741,6 +741,7 @@
 - `SELF_HOSTED_RUNNER_POOL_SECRET`
 - `SELF_HOSTED_RUNNER_POST_SESSION_HOOK_TIMEOUT_MS`
 - `SELF_HOSTED_RUNNER_PUSH_OUTCOME_ON_RELEASE`
+- `SELF_HOSTED_RUNNER_REMOVE_SESSION_STATE`
 - `SELF_HOSTED_RUNNER_RETIRE_AT`
 - `SELF_HOSTED_RUNNER_SESSION_IDLE_MS`
 - `SELF_HOSTED_RUNNER_SESSION_STOP_GRACE_MS`
@@ -822,9 +823,9 @@ _None detected_
 - `claude-2.0`
 - `claude-2.1`
 - `claude-3-`
+- `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
 - `claude-3-5-haiku-latest`
-- `claude-3-5-haikuV`
 - `claude-3-5-sonnet`
 - `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet`
@@ -931,6 +932,7 @@ _None detected_
 - `claude-pwd-ps-`
 - `claude-resume-`
 - `claude-review`
+- `claude-runner-upstream-`
 - `claude-security`
 - `claude-seed`
 - `claude-seed-admin-`
