@@ -2,9 +2,9 @@
 
 ## Summary
 
-- Commands: 46
-- Options: 117
-- Env vars: 430
+- Commands: 49
+- Options: 121
+- Env vars: 431
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -28,6 +28,9 @@
 - `details`
 - `disable`
 - `doctor`
+- `edit-hook`
+- `edit-memory-settings`
+- `edit-permission-rules`
 - `enable`
 - `eval`
 - `gateway`
@@ -78,6 +81,9 @@
 - `details <name>`
 - `disable [plugin]`
 - `doctor`
+- `edit-hook`
+- `edit-memory-settings`
+- `edit-permission-rules`
 - `enable <plugin>`
 - `eval [target]`
 - `gateway`
@@ -129,6 +135,7 @@
 - `--agents`
 - `--all`
 - `--allow-dangerously-skip-permissions`
+- `--allow-real-servers`
 - `--allow-tools`
 - `--allowed-tools`
 - `--allowedTools`
@@ -143,6 +150,7 @@
 - `--claudeai`
 - `--client-id`
 - `--client-secret`
+- `--concurrency`
 - `--config`
 - `--console`
 - `--continue`
@@ -221,6 +229,7 @@
 - `--tmux`
 - `--tools`
 - `--transport`
+- `--trust-plugin`
 - `--verbose`
 - `--with`
 - `--worktree`
@@ -232,6 +241,7 @@
 - `-f`
 - `-H`
 - `-i`
+- `-j`
 - `-m`
 - `-n`
 - `-p`
@@ -250,6 +260,7 @@
 - `--agents <json>`
 - `--all`
 - `--allow-dangerously-skip-permissions`
+- `--allow-real-servers`
 - `--allow-tools <tools...>`
 - `--allowedTools, --allowed-tools <tools...>`
 - `--author <name>`
@@ -333,6 +344,7 @@
 - `--timeout <minutes>`
 - `--tmux`
 - `--tools <tools...>`
+- `--trust-plugin`
 - `--verbose`
 - `--with <components...>`
 - `--yes`
@@ -344,6 +356,7 @@
 - `-f, --force`
 - `-H, --header <header...>`
 - `-i, --interactive`
+- `-j, --concurrency <n>`
 - `-m, --message <msg>`
 - `-n, --name <name>`
 - `-p, --print`
@@ -498,6 +511,7 @@
 - `CLAUDE_CODE_ENVIRONMENT_RUNNER_VERSION`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_EXTRA_METADATA`
+- `CLAUDE_CODE_FORCE_WINDOWS_CREDMAN`
 - `CLAUDE_CODE_GATEWAY_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_GLOB_HIDDEN`
 - `CLAUDE_CODE_GLOB_NO_IGNORE`
@@ -870,7 +884,6 @@ _None detected_
 - `claude-code-plugins`
 - `claude-code-release-signing-key`
 - `claude-code-remote`
-- `claude-code-ultrareview-post`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
 - `claude-code.d.ts.`
@@ -960,6 +973,7 @@ _None detected_
 - `haiku-3-5`
 - `haiku-4-5`
 - `o5-bmin`
+- `o5-Dn`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`
