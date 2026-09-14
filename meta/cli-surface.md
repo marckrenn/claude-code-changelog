@@ -4,11 +4,11 @@
 
 - Commands: 49
 - Options: 121
-- Env vars: 431
+- Env vars: 433
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 159
+- Models: 164
 - Providers: 8
 
 ## Commands
@@ -742,12 +742,14 @@
 - `SELF_HOSTED_RUNNER_DEBUG_TOKEN_DIR`
 - `SELF_HOSTED_RUNNER_DEFER_SHUTDOWN_MAX_MS`
 - `SELF_HOSTED_RUNNER_DRAIN_GRACE_MS`
+- `SELF_HOSTED_RUNNER_DRAIN_MARKER_FILE`
 - `SELF_HOSTED_RUNNER_DRAIN_WAIT_MS`
 - `SELF_HOSTED_RUNNER_ENVIRONMENT_SECRET`
 - `SELF_HOSTED_RUNNER_EXEC_PATH`
 - `SELF_HOSTED_RUNNER_HEALTH_PORT`
 - `SELF_HOSTED_RUNNER_HOOKS_DIR`
 - `SELF_HOSTED_RUNNER_HOST_CONFIG_DIR`
+- `SELF_HOSTED_RUNNER_HOST_CONFIG_SNAPSHOT`
 - `SELF_HOSTED_RUNNER_IDLE_SHUTDOWN_MS`
 - `SELF_HOSTED_RUNNER_LOCK_TO_ACCOUNT`
 - `SELF_HOSTED_RUNNER_LOG_FILE`
@@ -878,10 +880,11 @@ _None detected_
 - `claude-code-keeper`
 - `claude-code-manifest-v1`
 - `claude-code-marketplace`
-- `claude-code-mcp.d.ts`
+- `claude-code-mcp.d.tsX`
 - `claude-code-model-catalog-v1`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
+- `claude-code-plugins.d.ts`
 - `claude-code-release-signing-key`
 - `claude-code-remote`
 - `claude-code-url-handler.desktop`
@@ -930,6 +933,7 @@ _None detected_
 - `claude-opus-4-1-20250805`
 - `claude-opus-4-20250514`
 - `claude-opus-4-5`
+- `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
 - `claude-opus-4-7`
 - `claude-opus-4-8`
@@ -938,6 +942,8 @@ _None detected_
 - `claude-plugin-directory`
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
+- `claude-plugin-test`
+- `claude-plugin-test-`
 - `claude-plugins-community`
 - `claude-plugins-official`
 - `claude-proactiveN`
@@ -972,8 +978,9 @@ _None detected_
 - `gemini-extension.json`
 - `haiku-3-5`
 - `haiku-4-5`
+- `o5-2q`
 - `o5-bmin`
-- `o5-Dn`
+- `o5-Er`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`

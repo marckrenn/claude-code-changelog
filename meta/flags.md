@@ -1,4 +1,4 @@
-# Claude Code 2.1.270 – Flags
+# Claude Code 2.1.271 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
