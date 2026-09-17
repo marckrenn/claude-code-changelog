@@ -4,11 +4,11 @@
 
 - Commands: 49
 - Options: 121
-- Env vars: 433
+- Env vars: 434
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 164
+- Models: 170
 - Providers: 8
 
 ## Commands
@@ -557,6 +557,7 @@
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SPAWN_TIMESTAMP_MS`
+- `CLAUDE_CODE_STARTUP_FAILURE_RESULTS`
 - `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB`
 - `CLAUDE_CODE_SUBSCRIPTION_TYPE`
 - `CLAUDE_CODE_SUPERVISED`
@@ -887,6 +888,7 @@ _None detected_
 - `claude-code-plugins.d.ts`
 - `claude-code-release-signing-key`
 - `claude-code-remote`
+- `claude-code-sparse-paths.json`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
 - `claude-code.d.ts.`
@@ -946,7 +948,7 @@ _None detected_
 - `claude-plugin-test-`
 - `claude-plugins-community`
 - `claude-plugins-official`
-- `claude-proactiveN`
+- `claude-proactive`
 - `claude-prompt`
 - `claude-pwd-ps-`
 - `claude-resume-`
@@ -974,6 +976,11 @@ _None detected_
 - `claude-tag-oncall`
 - `claude-tag-plugins`
 - `claude-tag-troubleshoot`
+- `claude-test`
+- `claude-test-draft`
+- `claude-test-execute`
+- `claude-test:author`
+- `claude-test:runner`
 - `claude-vscode`
 - `gemini-extension.json`
 - `haiku-3-5`
