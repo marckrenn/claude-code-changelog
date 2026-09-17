@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 49
-- Options: 121
+- Options: 122
 - Env vars: 434
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 170
+- Models: 171
 - Providers: 8
 
 ## Commands
@@ -205,6 +205,7 @@
 - `--prune`
 - `--publish-report`
 - `--push`
+- `--registry`
 - `--remote`
 - `--remote-control-session-name-prefix`
 - `--replay-user-messages`
@@ -322,6 +323,7 @@
 - `--prune`
 - `--publish-report`
 - `--push`
+- `--registry <url>`
 - `--remote <name>`
 - `--remote-control-session-name-prefix <prefix>`
 - `--replay-user-messages`
@@ -979,6 +981,7 @@ _None detected_
 - `claude-test`
 - `claude-test-draft`
 - `claude-test-execute`
+- `claude-test:`
 - `claude-test:author`
 - `claude-test:runner`
 - `claude-vscode`
