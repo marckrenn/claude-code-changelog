@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 49
-- Options: 122
-- Env vars: 434
+- Commands: 50
+- Options: 123
+- Env vars: 433
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 171
+- Models: 175
 - Providers: 8
 
 ## Commands
@@ -25,6 +25,7 @@
 - `config`
 - `critique`
 - `defaults`
+- `design-login`
 - `details`
 - `disable`
 - `doctor`
@@ -78,6 +79,7 @@
 - `config`
 - `critique`
 - `defaults`
+- `design-login`
 - `details <name>`
 - `disable [plugin]`
 - `doctor`
@@ -221,6 +223,7 @@
 - `--settings`
 - `--sparse`
 - `--sso`
+- `--status`
 - `--strict`
 - `--strict-mcp-config`
 - `--tag`
@@ -338,6 +341,7 @@
 - `--settings <file-or-json>`
 - `--sparse <paths...>`
 - `--sso`
+- `--status`
 - `--strict`
 - `--strict-mcp-config`
 - `--tag <tag...>`
@@ -781,7 +785,6 @@
 - `SWE_BENCH_INSTANCE_ID`
 - `SWE_BENCH_RUN_ID`
 - `SWE_BENCH_TASK_ID`
-- `TASK_MAX_OUTPUT_LENGTH`
 - `TERM`
 - `TERM_PROGRAM`
 - `TERMINAL_EMULATOR`
@@ -926,6 +929,9 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-mcp-browser-bridge-`
+- `claude-md`
+- `claude-md-and-agents-md`
+- `claude-md-or-agents-md`
 - `claude-mythos-`
 - `claude-mythos-5`
 - `claude-mythos-5-1`
@@ -942,6 +948,7 @@ _None detected_
 - `claude-opus-4-7`
 - `claude-opus-4-8`
 - `claude-opus-5`
+- `claude-pdf-`
 - `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-session-`
