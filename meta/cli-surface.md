@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 50
+- Commands: 53
 - Options: 123
-- Env vars: 433
+- Env vars: 434
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 175
+- Models: 181
 - Providers: 8
 
 ## Commands
@@ -29,9 +29,12 @@
 - `details`
 - `disable`
 - `doctor`
+- `edit-chrome-settings`
 - `edit-hook`
 - `edit-memory-settings`
 - `edit-permission-rules`
+- `edit-sandbox-settings`
+- `edit-skill-overrides`
 - `enable`
 - `eval`
 - `gateway`
@@ -83,9 +86,12 @@
 - `details <name>`
 - `disable [plugin]`
 - `doctor`
+- `edit-chrome-settings`
 - `edit-hook`
 - `edit-memory-settings`
 - `edit-permission-rules`
+- `edit-sandbox-settings`
+- `edit-skill-overrides`
 - `enable <plugin>`
 - `eval [target]`
 - `gateway`
@@ -538,6 +544,7 @@
 - `CLAUDE_CODE_ORGANIZATION_UUID`
 - `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS`
 - `CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE`
+- `CLAUDE_CODE_PLUGIN_DIRS`
 - `CLAUDE_CODE_PROJECT_DIR_NAME`
 - `CLAUDE_CODE_PROPAGATE_TRACEPARENT`
 - `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`
@@ -895,8 +902,8 @@ _None detected_
 - `claude-code-remote`
 - `claude-code-sparse-paths.json`
 - `claude-code-url-handler.desktop`
-- `claude-code-user`
 - `claude-code.d.ts.`
+- `claude-code.hostOnlyNativeTool`
 - `claude-community`
 - `claude-context`
 - `claude-coworker`
@@ -910,6 +917,7 @@ _None detected_
 - `claude-empty-`
 - `claude-eval-9`
 - `claude-eval-auth-`
+- `claude-export-importC`
 - `claude-fable-`
 - `claude-fable-5`
 - `claude-fable-5-1`
@@ -919,6 +927,7 @@ _None detected_
 - `claude-haiku-`
 - `claude-haiku-3-55`
 - `claude-haiku-4`
+- `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-http-`
 - `claude-in-chrome8`
@@ -948,6 +957,7 @@ _None detected_
 - `claude-opus-4-7`
 - `claude-opus-4-8`
 - `claude-opus-5`
+- `claude-opus-5-5`
 - `claude-pdf-`
 - `claude-plugin-`
 - `claude-plugin-directory`
@@ -966,10 +976,14 @@ _None detected_
 - `claude-security`
 - `claude-seed`
 - `claude-seed-admin-`
+- `claude-seed-attrs-`
+- `claude-seed-ids-`
+- `claude-seed-index-`
+- `claude-seed-listings-`
+- `claude-seed-reads-`
 - `claude-seed-stage-`
 - `claude-self-hosted-runner`
 - `claude-settings`
-- `claude-shallow-`
 - `claude-skill-`
 - `claude-socks-`
 - `claude-sonnet-3-7`
@@ -995,9 +1009,7 @@ _None detected_
 - `gemini-extension.json`
 - `haiku-3-5`
 - `haiku-4-5`
-- `o5-2q`
 - `o5-bmin`
-- `o5-Er`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`
@@ -1005,6 +1017,7 @@ _None detected_
 - `opus-4-7`
 - `opus-4-8`
 - `opus-5`
+- `opus-5-5`
 - `opus-limit`
 - `opus-warning`
 - `sonnet-3-7`
