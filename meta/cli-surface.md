@@ -4,11 +4,11 @@
 
 - Commands: 53
 - Options: 123
-- Env vars: 434
+- Env vars: 435
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 181
+- Models: 185
 - Providers: 8
 
 ## Commands
@@ -267,7 +267,7 @@
 - `--add-dir <directories...>`
 - `--add-dir <directory>`
 - `--agent <agent>`
-- `--agents <json>`
+- `--agents <json-or-file>`
 - `--all`
 - `--allow-dangerously-skip-permissions`
 - `--allow-real-servers`
@@ -422,6 +422,7 @@
 - `AWS_LAMBDA_BENCHMARK_MODE`
 - `AWS_LAMBDA_FUNCTION_NAME`
 - `AWS_LOGIN_CACHE_DIRECTORY`
+- `AWS_PROFILE`
 - `AWS_REGION`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
@@ -870,6 +871,7 @@ _None detected_
 - `claude-ai-external-token`
 - `claude-ai-oauth`
 - `claude-api`
+- `claude-apps-gateway`
 - `claude-artifact-preview-`
 - `claude-audio-`
 - `claude-channel-`
@@ -904,6 +906,8 @@ _None detected_
 - `claude-code-url-handler.desktop`
 - `claude-code.d.ts.`
 - `claude-code.hostOnlyNativeTool`
+- `claude-code.state.atom`
+- `claude-code.state.derived`
 - `claude-community`
 - `claude-context`
 - `claude-coworker`
@@ -917,7 +921,7 @@ _None detected_
 - `claude-empty-`
 - `claude-eval-9`
 - `claude-eval-auth-`
-- `claude-export-importC`
+- `claude-export-import`
 - `claude-fable-`
 - `claude-fable-5`
 - `claude-fable-5-1`
@@ -937,6 +941,7 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
+- `claude-lsremote-`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
