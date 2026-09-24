@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 185
+- Models: 186
 - Providers: 8
 
 ## Commands
@@ -870,6 +870,7 @@ _None detected_
 - `claude-ai`
 - `claude-ai-external-token`
 - `claude-ai-oauth`
+- `claude-ai:`
 - `claude-api`
 - `claude-apps-gateway`
 - `claude-artifact-preview-`
@@ -904,6 +905,7 @@ _None detected_
 - `claude-code-remote`
 - `claude-code-sparse-paths.json`
 - `claude-code-url-handler.desktop`
+- `claude-code-user`
 - `claude-code.d.ts.`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
@@ -930,7 +932,6 @@ _None detected_
 - `claude-gateway`
 - `claude-haiku-`
 - `claude-haiku-3-55`
-- `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-http-`
