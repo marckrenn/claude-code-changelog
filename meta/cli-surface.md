@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 53
-- Options: 123
-- Env vars: 435
+- Options: 124
+- Env vars: 419
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 186
+- Models: 184
 - Providers: 8
 
 ## Commands
@@ -156,6 +156,7 @@
 - `--case`
 - `--chrome`
 - `--claudeai`
+- `--client-data-url`
 - `--client-id`
 - `--client-secret`
 - `--concurrency`
@@ -282,6 +283,7 @@
 - `--case <glob>`
 - `--chrome`
 - `--claudeai`
+- `--client-data-url <url>`
 - `--client-id <clientId>`
 - `--client-secret`
 - `--config <key=value>`
@@ -489,7 +491,6 @@
 - `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCOUNT_UUID`
 - `CLAUDE_CODE_ACTION`
-- `CLAUDE_CODE_ADDITIONAL_PROTECTION`
 - `CLAUDE_CODE_AGENT`
 - `CLAUDE_CODE_ALT_SCREEN_FULL_REPAINT`
 - `CLAUDE_CODE_API_BASE_URL`
@@ -509,9 +510,7 @@
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
-- `CLAUDE_CODE_DISABLE_NONSTREAMING_FALLBACK`
 - `CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP`
-- `CLAUDE_CODE_DISABLE_THINKING`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_ENABLE_APPEND_SUBAGENT_PROMPT`
 - `CLAUDE_CODE_ENABLE_AWAY_SUMMARY`
@@ -547,7 +546,6 @@
 - `CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE`
 - `CLAUDE_CODE_PLUGIN_DIRS`
 - `CLAUDE_CODE_PROJECT_DIR_NAME`
-- `CLAUDE_CODE_PROPAGATE_TRACEPARENT`
 - `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`
 - `CLAUDE_CODE_RATE_LIMIT_TIER`
 - `CLAUDE_CODE_REFUSAL_FALLBACK_CATCH_ALL`
@@ -563,12 +561,7 @@
 - `CLAUDE_CODE_SESSION_KIND`
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SIMPLE`
-- `CLAUDE_CODE_SKIP_ANTHROPIC_AWS_AUTH`
-- `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
-- `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
-- `CLAUDE_CODE_SKIP_MANTLE_AUTH`
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
-- `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SPAWN_TIMESTAMP_MS`
 - `CLAUDE_CODE_STARTUP_FAILURE_RESULTS`
@@ -590,8 +583,6 @@
 - `CLAUDE_CONFIG_DIR`
 - `CLAUDE_COWORK_MEMORY_EXTRA_GUIDELINES`
 - `CLAUDE_COWORK_MEMORY_INDEX_CONTENT`
-- `CLAUDE_ENABLE_BYTE_WATCHDOG`
-- `CLAUDE_ENABLE_BYTE_WATCHDOG_BEDROCK`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_INTERNAL_ASSISTANT_TEAM_NAME`
 - `CLAUDE_JOB_DIR`
@@ -635,11 +626,6 @@
 - `DISABLE_ERROR_REPORTING`
 - `DISABLE_GROWTHBOOK`
 - `DISABLE_INSTALLATION_CHECKS`
-- `DISABLE_PROMPT_CACHING`
-- `DISABLE_PROMPT_CACHING_FABLE`
-- `DISABLE_PROMPT_CACHING_HAIKU`
-- `DISABLE_PROMPT_CACHING_OPUS`
-- `DISABLE_PROMPT_CACHING_SONNET`
 - `DISABLE_TELEMETRY`
 - `DISPLAY`
 - `DO_NOT_TRACK`
@@ -870,7 +856,6 @@ _None detected_
 - `claude-ai`
 - `claude-ai-external-token`
 - `claude-ai-oauth`
-- `claude-ai:`
 - `claude-api`
 - `claude-apps-gateway`
 - `claude-artifact-preview-`
@@ -886,6 +871,7 @@ _None detected_
 - `claude-code-20250219`
 - `claude-code-bash`
 - `claude-code-cli`
+- `claude-code-client-data-v1`
 - `claude-code-debug.txt`
 - `claude-code-device`
 - `claude-code-docs`
@@ -906,7 +892,7 @@ _None detected_
 - `claude-code-sparse-paths.json`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
-- `claude-code.d.ts.`
+- `claude-code.d.ts`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
 - `claude-code.state.derived`
@@ -932,7 +918,6 @@ _None detected_
 - `claude-gateway`
 - `claude-haiku-`
 - `claude-haiku-3-55`
-- `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-http-`
 - `claude-in-chrome8`
@@ -942,7 +927,6 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
-- `claude-lsremote-`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
@@ -958,7 +942,6 @@ _None detected_
 - `claude-opus-4-1-20250805`
 - `claude-opus-4-20250514`
 - `claude-opus-4-5`
-- `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
 - `claude-opus-4-7`
 - `claude-opus-4-8`
@@ -1011,6 +994,7 @@ _None detected_
 - `claude-test:`
 - `claude-test:author`
 - `claude-test:runner`
+- `claude-trash`
 - `claude-vscode`
 - `gemini-extension.json`
 - `haiku-3-5`
