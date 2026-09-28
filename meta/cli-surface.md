@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 184
+- Models: 193
 - Providers: 8
 
 ## Commands
@@ -856,6 +856,7 @@ _None detected_
 - `claude-ai`
 - `claude-ai-external-token`
 - `claude-ai-oauth`
+- `claude-ai:`
 - `claude-api`
 - `claude-apps-gateway`
 - `claude-artifact-preview-`
@@ -918,6 +919,7 @@ _None detected_
 - `claude-gateway`
 - `claude-haiku-`
 - `claude-haiku-3-55`
+- `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-http-`
 - `claude-in-chrome8`
@@ -927,6 +929,7 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
+- `claude-lsremote-`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
@@ -942,6 +945,7 @@ _None detected_
 - `claude-opus-4-1-20250805`
 - `claude-opus-4-20250514`
 - `claude-opus-4-5`
+- `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
 - `claude-opus-4-7`
 - `claude-opus-4-8`
@@ -956,6 +960,8 @@ _None detected_
 - `claude-plugin-test-`
 - `claude-plugins-community`
 - `claude-plugins-official`
+- `claude-pr-steward-is-working`
+- `claude-pr-steward-watching`
 - `claude-proactive`
 - `claude-prompt`
 - `claude-pwd-ps-`
@@ -982,6 +988,7 @@ _None detected_
 - `claude-sonnet-4-5-20250929`
 - `claude-sonnet-4-6`
 - `claude-sonnet-5`
+- `claude-sonnet-5-5`
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-tag-data-viz`
@@ -999,6 +1006,7 @@ _None detected_
 - `gemini-extension.json`
 - `haiku-3-5`
 - `haiku-4-5`
+- `o5-BE`
 - `o5-bmin`
 - `opus-4`
 - `opus-4-1`
@@ -1016,6 +1024,7 @@ _None detected_
 - `sonnet-4-5-20250929`
 - `sonnet-4-6`
 - `sonnet-5`
+- `sonnet-5-5`
 - `sonnet-limit`
 - `sonnet-warning`
 

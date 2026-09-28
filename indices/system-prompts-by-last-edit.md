@@ -1,11 +1,11 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **21**
+- Total prompt files: **23**
 
 ## Categories
 
 - System prompts (1)
-- Tool prompts (20)
+- Tool prompts (22)
 
 ## System prompts (1)
 
@@ -13,24 +13,26 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-user-memory-project-one.md`](../system-prompts/system-prompt-user-memory-project-one.md) | Assist with authorized security testing and educational contexts. | 4,192 | 2.1.207 | 2.1.283 |
+| [`system-prompt-user-memory-project-one.md`](../system-prompts/system-prompt-user-memory-project-one.md) | Assist with authorized security testing and educational contexts. | 4,192 | 2.1.207 | 2.1.284 |
 
-## Tool prompts (20)
+## Tool prompts (22)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.283 |
+| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.284 |
+| [`tool-description-file-pattern-matching-10.md`](../system-prompts/tool-description-file-pattern-matching-10.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 1,525 | 2.1.284 | 2.1.284 |
+| [`tool-description-read-local-file-content-4.md`](../system-prompts/tool-description-read-local-file-content-4.md) | Reads a file from the local filesystem. | 1,357 | 2.1.284 | 2.1.284 |
+| [`tool-description-file-pattern-matching-9.md`](../system-prompts/tool-description-file-pattern-matching-9.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 1,331 | 2.1.283 | 2.1.284 |
+| [`tool-description-file-pattern-matching-8.md`](../system-prompts/tool-description-file-pattern-matching-8.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 1,150 | 2.1.282 | 2.1.284 |
+| [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | A powerful search tool built on ripgrep. | 1,115 | 2.1.118 | 2.1.284 |
+| [`tool-description-file-pattern-matching-7.md`](../system-prompts/tool-description-file-pattern-matching-7.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 982 | 2.1.281 | 2.1.284 |
+| [`tool-description-file-pattern-matching-6.md`](../system-prompts/tool-description-file-pattern-matching-6.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 827 | 2.1.280 | 2.1.284 |
+| [`tool-description-edit.md`](../system-prompts/tool-description-edit.md) | Tool Description: … - Source: native-prompt-markdown-tool Summary Performs exact string replacements in files. | 285 | 2.1.118 | 2.1.284 |
+| [`tool-description-write.md`](../system-prompts/tool-description-write.md) | Writes a file to the local filesystem. | 280 | 2.1.118 | 2.1.284 |
 | [`tool-description-launch-new-handle-complex-multi.md`](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks. | 1,977 | 2.1.118 | 2.1.283 |
-| [`tool-description-file-pattern-matching-9.md`](../system-prompts/tool-description-file-pattern-matching-9.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 1,331 | 2.1.283 | 2.1.283 |
-| [`tool-description-file-pattern-matching-8.md`](../system-prompts/tool-description-file-pattern-matching-8.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 1,150 | 2.1.282 | 2.1.283 |
-| [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | A powerful search tool built on ripgrep. | 1,115 | 2.1.118 | 2.1.283 |
 | [`tool-description-read-local-file-content-3.md`](../system-prompts/tool-description-read-local-file-content-3.md) | Reads a file from the local filesystem. | 1,061 | 2.1.283 | 2.1.283 |
-| [`tool-description-file-pattern-matching-7.md`](../system-prompts/tool-description-file-pattern-matching-7.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 982 | 2.1.281 | 2.1.283 |
-| [`tool-description-file-pattern-matching-6.md`](../system-prompts/tool-description-file-pattern-matching-6.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 827 | 2.1.280 | 2.1.283 |
-| [`tool-description-edit.md`](../system-prompts/tool-description-edit.md) | Tool Description: … - Source: native-prompt-markdown-tool Summary Performs exact string replacements in files. | 285 | 2.1.118 | 2.1.283 |
-| [`tool-description-write.md`](../system-prompts/tool-description-write.md) | Writes a file to the local filesystem. | 280 | 2.1.118 | 2.1.283 |
 | [`tool-description-read-local-file-content-2.md`](../system-prompts/tool-description-read-local-file-content-2.md) | Reads a file from the local filesystem. | 765 | 2.1.282 | 2.1.282 |
 | [`tool-description-file-pattern-matching-5.md`](../system-prompts/tool-description-file-pattern-matching-5.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 685 | 2.1.278 | 2.1.282 |
 | [`tool-description-file-pattern-matching-4.md`](../system-prompts/tool-description-file-pattern-matching-4.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 556 | 2.1.277 | 2.1.280 |
