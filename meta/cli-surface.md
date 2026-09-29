@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 53
-- Options: 124
+- Commands: 56
+- Options: 127
 - Env vars: 419
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 193
+- Models: 179
 - Providers: 8
 
 ## Commands
@@ -23,12 +23,14 @@
 - `auto-mode`
 - `clear`
 - `config`
+- `configure`
 - `critique`
 - `defaults`
 - `design-login`
 - `details`
 - `disable`
 - `doctor`
+- `drop-worktree-registrations`
 - `edit-chrome-settings`
 - `edit-hook`
 - `edit-memory-settings`
@@ -63,6 +65,7 @@
 - `show`
 - `status`
 - `tag`
+- `test`
 - `ultrareview`
 - `uninstall`
 - `update`
@@ -80,12 +83,14 @@
 - `auto-mode`
 - `clear`
 - `config`
+- `configure <plugin>`
 - `critique`
 - `defaults`
 - `design-login`
 - `details <name>`
 - `disable [plugin]`
 - `doctor`
+- `drop-worktree-registrations`
 - `edit-chrome-settings`
 - `edit-hook`
 - `edit-memory-settings`
@@ -125,6 +130,7 @@
 - `show`
 - `status`
 - `tag [path]`
+- `test [dir]`
 - `ultrareview [target]`
 - `uninstall <plugin>`
 - `update`
@@ -165,9 +171,11 @@
 - `--continue`
 - `--cwd`
 - `--dangerously-skip-permissions`
+- `--data-size`
 - `--debug`
 - `--debug-file`
 - `--description`
+- `--desktop`
 - `--disable-slash-commands`
 - `--disallowed-tools`
 - `--disallowedTools`
@@ -241,6 +249,7 @@
 - `--tools`
 - `--transport`
 - `--trust-plugin`
+- `--values-stdin`
 - `--verbose`
 - `--with`
 - `--worktree`
@@ -291,8 +300,10 @@
 - `--cwd <dir>`
 - `--cwd <path>`
 - `--dangerously-skip-permissions`
+- `--data-size [plugin]`
 - `--debug-file <path>`
 - `--description <text>`
+- `--desktop`
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--dry-run`
@@ -359,6 +370,7 @@
 - `--tmux`
 - `--tools <tools...>`
 - `--trust-plugin`
+- `--values-stdin`
 - `--verbose`
 - `--with <components...>`
 - `--yes`
@@ -834,25 +846,16 @@ _None detected_
 
 ## Models
 
-- `claude-1.3`
-- `claude-1.3-100k`
-- `claude-2.0`
-- `claude-2.1`
 - `claude-3-`
 - `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
-- `claude-3-5-haiku-latest`
 - `claude-3-5-sonnet`
 - `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
-- `claude-3-7-sonnet-latest`
 - `claude-3-haiku`
 - `claude-3-opus`
-- `claude-3-opus-20240229`
 - `claude-3-sonnet`
-- `claude-3-sonnet-20240229`
-- `claude-4-opus-20250514`
 - `claude-ai`
 - `claude-ai-external-token`
 - `claude-ai-oauth`
@@ -875,7 +878,6 @@ _None detected_
 - `claude-code-client-data-v1`
 - `claude-code-debug.txt`
 - `claude-code-device`
-- `claude-code-docs`
 - `claude-code-error-tracking`
 - `claude-code-github-action`
 - `claude-code-guide`
@@ -892,7 +894,6 @@ _None detected_
 - `claude-code-remote`
 - `claude-code-sparse-paths.json`
 - `claude-code-url-handler.desktop`
-- `claude-code-user`
 - `claude-code.d.ts`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
@@ -925,11 +926,8 @@ _None detected_
 - `claude-in-chrome8`
 - `claude-in-slack`
 - `claude-in-teams`
-- `claude-instant-1.1`
-- `claude-instant-1.1-100k`
-- `claude-instant-1.2`
 - `claude-local`
-- `claude-lsremote-`
+- `claude-lsremote-A`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
@@ -989,6 +987,7 @@ _None detected_
 - `claude-sonnet-4-6`
 - `claude-sonnet-5`
 - `claude-sonnet-5-5`
+- `claude-ssh-config-`
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-tag-data-viz`
@@ -1001,7 +1000,6 @@ _None detected_
 - `claude-test:`
 - `claude-test:author`
 - `claude-test:runner`
-- `claude-trash`
 - `claude-vscode`
 - `gemini-extension.json`
 - `haiku-3-5`
