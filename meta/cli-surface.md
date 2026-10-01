@@ -3,7 +3,7 @@
 ## Summary
 
 - Commands: 56
-- Options: 127
+- Options: 126
 - Env vars: 419
 - Config keys: 0
 - Tools: 10
@@ -162,7 +162,6 @@
 - `--case`
 - `--chrome`
 - `--claudeai`
-- `--client-data-url`
 - `--client-id`
 - `--client-secret`
 - `--concurrency`
@@ -292,7 +291,6 @@
 - `--case <glob>`
 - `--chrome`
 - `--claudeai`
-- `--client-data-url <url>`
 - `--client-id <clientId>`
 - `--client-secret`
 - `--config <key=value>`
@@ -885,17 +883,16 @@ _None detected_
 - `claude-code-keeper`
 - `claude-code-manifest-v1`
 - `claude-code-marketplace`
-- `claude-code-mcp.d.tsX`
+- `claude-code-mcp`
 - `claude-code-model-catalog-v1`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
-- `claude-code-plugins.d.ts`
 - `claude-code-release-signing-key`
 - `claude-code-remote`
 - `claude-code-sparse-paths.json`
+- `claude-code-tools`
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
-- `claude-code.d.ts`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
 - `claude-code.state.derived`
@@ -933,6 +930,7 @@ _None detected_
 - `claude-md`
 - `claude-md-and-agents-md`
 - `claude-md-or-agents-md`
+- `claude-mods`
 - `claude-mythos-`
 - `claude-mythos-5`
 - `claude-mythos-5-1`
