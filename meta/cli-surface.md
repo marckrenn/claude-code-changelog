@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 180
+- Models: 181
 - Providers: 8
 
 ## Commands
@@ -905,6 +905,7 @@ _None detected_
 - `claude-desktop`
 - `claude-desktop-3p`
 - `claude-dev`
+- `claude-device`
 - `claude-device-hooks-`
 - `claude-empty-`
 - `claude-eval-9`
