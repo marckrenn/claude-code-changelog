@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 56
-- Options: 126
+- Options: 127
 - Env vars: 419
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 181
+- Models: 182
 - Providers: 8
 
 ## Commands
@@ -200,6 +200,7 @@
 - `--keep-data`
 - `--keep-temp`
 - `--label`
+- `--marketplace`
 - `--max-cost-usd`
 - `--mcp-config`
 - `--message`
@@ -324,6 +325,7 @@
 - `--keep-data`
 - `--keep-temp`
 - `--label <prefix>`
+- `--marketplace <source>`
 - `--max-cost-usd <usd>`
 - `--mcp-config <config>`
 - `--mcp-config <configs...>`
@@ -892,7 +894,6 @@ _None detected_
 - `claude-code-sparse-paths.json`
 - `claude-code-tools`
 - `claude-code-url-handler.desktop`
-- `claude-code-user`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
 - `claude-code.state.derived`
@@ -960,8 +961,10 @@ _None detected_
 - `claude-plugins-official`
 - `claude-pr-steward-is-working`
 - `claude-pr-steward-watching`
+- `claude-preview-`
 - `claude-proactive`
 - `claude-prompt`
+- `claude-publish-`
 - `claude-pwd-ps-`
 - `claude-resume-`
 - `claude-review`
