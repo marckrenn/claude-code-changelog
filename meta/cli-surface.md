@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 180
+- Models: 181
 - Providers: 8
 
 ## Commands
@@ -926,6 +926,7 @@ _None detected_
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-local`
+- `claude-lsremote-`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
