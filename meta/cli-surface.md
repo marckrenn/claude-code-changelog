@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 182
+- Models: 184
 - Providers: 8
 
 ## Commands
@@ -863,6 +863,7 @@ _None detected_
 - `claude-api`
 - `claude-apps-gateway`
 - `claude-artifact-preview-`
+- `claude-artifacts`
 - `claude-audio-`
 - `claude-channel-`
 - `claude-chrome-screenshots-`
@@ -918,7 +919,6 @@ _None detected_
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
-- `claude-haiku-`
 - `claude-haiku-3-5`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
@@ -963,6 +963,7 @@ _None detected_
 - `claude-pr-steward-watching`
 - `claude-preview-`
 - `claude-proactive`
+- `claude-prod`
 - `claude-prompt`
 - `claude-publish-`
 - `claude-pwd-ps-`
@@ -1007,6 +1008,7 @@ _None detected_
 - `gemini-extension.json`
 - `haiku-3-5`
 - `haiku-4-5`
+- `haiku-5-5`
 - `o5-BE`
 - `o5-bmin`
 - `opus-4`
