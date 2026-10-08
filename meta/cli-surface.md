@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 56
-- Options: 127
-- Env vars: 419
+- Options: 129
+- Env vars: 421
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 184
+- Models: 187
 - Providers: 8
 
 ## Commands
@@ -217,6 +217,7 @@
 - `--permission-mode`
 - `--plugin-dir`
 - `--plugin-url`
+- `--port`
 - `--post`
 - `--print`
 - `--prune`
@@ -234,6 +235,7 @@
 - `--scaffold`
 - `--scope`
 - `--session-id`
+- `--session-tunnel`
 - `--setting-sources`
 - `--settings`
 - `--sparse`
@@ -341,6 +343,7 @@
 - `--permission-mode <mode>`
 - `--plugin-dir <path>`
 - `--plugin-url <url>`
+- `--port <port>`
 - `--post`
 - `--prune`
 - `--publish-report`
@@ -356,6 +359,7 @@
 - `--scaffold`
 - `--scope <scope>`
 - `--session-id <uuid>`
+- `--session-tunnel`
 - `--setting-sources <sources>`
 - `--settings <file-or-json>`
 - `--sparse <paths...>`
@@ -469,6 +473,7 @@
 - `C`
 - `C9_PID`
 - `C9_USER`
+- `CCR_AGENT_PROXY_TOKEN_FILE_DESCRIPTOR`
 - `CCR_ON_BRANCH_DEFAULT_GUARD`
 - `CCR_SHR_SSE_HINTS`
 - `CCR_SPAWN_TIMESTAMP_MS`
@@ -772,6 +777,7 @@
 - `SELF_HOSTED_RUNNER_PUSH_OUTCOME_ON_RELEASE`
 - `SELF_HOSTED_RUNNER_REMOVE_SESSION_STATE`
 - `SELF_HOSTED_RUNNER_RETIRE_AT`
+- `SELF_HOSTED_RUNNER_SERVER_AUTO_MODE_LISTS`
 - `SELF_HOSTED_RUNNER_SESSION_IDLE_MS`
 - `SELF_HOSTED_RUNNER_SESSION_STOP_GRACE_MS`
 - `SELF_HOSTED_RUNNER_SIGKILL_TIMEOUT_MS`
@@ -866,6 +872,8 @@ _None detected_
 - `claude-artifacts`
 - `claude-audio-`
 - `claude-channel-`
+- `claude-checkpoint-index-H`
+- `claude-checkpoint-index.`
 - `claude-chrome-screenshots-`
 - `claude-cli`
 - `claude-cli-design-sync`
@@ -919,9 +927,10 @@ _None detected_
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
-- `claude-haiku-3-5`
+- `claude-haiku-3-55`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
+- `claude-haiku-5-5`
 - `claude-http-`
 - `claude-in-chrome`
 - `claude-in-slack`

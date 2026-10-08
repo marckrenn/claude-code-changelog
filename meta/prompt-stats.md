@@ -1,8 +1,8 @@
-# Prompt Stats 2.1.294
+# Prompt Stats 2.1.295
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
-| system | [User Memory Project One](../system-prompts/system-prompt-user-memory-project-one.md) | 17139 | 4192 | 2.1.207 | 2.1.294 |
+| system | [User Memory Project One](../system-prompts/system-prompt-user-memory-project-one.md) | 17139 | 4192 | 2.1.207 | 2.1.295 |
 | system | [User Memory Project One 2](../system-prompts/system-prompt-user-memory-project-one-2.md) | 17542 | 4253 | 2.1.287 | 2.1.287 |
 | system | [User Memory Project One 3](../system-prompts/system-prompt-user-memory-project-one-3.md) | 18482 | 4642 | 2.1.288 | 2.1.288 |
 | system | [User Memory Project One 4](../system-prompts/system-prompt-user-memory-project-one-4.md) | 19422 | 5031 | 2.1.289 | 2.1.289 |
@@ -11,17 +11,22 @@
 | system | [User Memory Project One 7](../system-prompts/system-prompt-user-memory-project-one-7.md) | 22242 | 6198 | 2.1.292 | 2.1.292 |
 | system | [User Memory Project One 8](../system-prompts/system-prompt-user-memory-project-one-8.md) | 23182 | 6587 | 2.1.293 | 2.1.293 |
 | system | [User Memory Project One 9](../system-prompts/system-prompt-user-memory-project-one-9.md) | 24122 | 6976 | 2.1.294 | 2.1.294 |
-| tool | [launch-new-handle-complex-multi](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | 8107 | 1977 | 2.1.118 | 2.1.293 |
-| tool | [executes-given-bash-command-returns](../system-prompts/tool-description-executes-given-bash-command-returns.md) | 11971 | 3060 | 2.1.118 | 2.1.294 |
+| system | [User Memory Project One 10](../system-prompts/system-prompt-user-memory-project-one-10.md) | 25062 | 7365 | 2.1.295 | 2.1.295 |
+| tool | [launch-new-handle-complex-multi](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | 8107 | 1977 | 2.1.118 | 2.1.295 |
+| tool | [executes-given-bash-command-returns](../system-prompts/tool-description-executes-given-bash-command-returns.md) | 11971 | 3060 | 2.1.118 | 2.1.295 |
 | tool | [File Pattern Matching](../system-prompts/tool-description-file-pattern-matching.md) | 965 | 255 | 2.1.121 | 2.1.121 |
 | tool | [Read Local File Content](../system-prompts/tool-description-read-local-file-content.md) | 2611 | 723 | 2.1.150 | 2.1.150 |
 | tool | [Schedule Resume Work Dynamic](../system-prompts/tool-description-schedule-resume-work-dynamic-mode.md) | 3273 | 939 | 2.1.118 | 2.1.118 |
 | tool | [Invoke In Conversation](../system-prompts/tool-description-invoke-in-conversation.md) | 1704 | 425 | 2.1.128 | 2.1.128 |
-| tool | [Edit](../system-prompts/tool-description-edit.md) | 22507 | 285 | 2.1.118 | 2.1.294 |
+| tool | [Edit](../system-prompts/tool-description-edit.md) | 22856 | 285 | 2.1.118 | 2.1.295 |
+| tool | [Executes Given Bash Command Returns](../system-prompts/tool-description-executes-given-bash-command-returns.md) | 12124 | 3102 | 2.1.118 | 2.1.295 |
 | tool | [File Pattern Matching 2](../system-prompts/tool-description-file-pattern-matching-2.md) | 1235 | 324 | 2.1.293 | 2.1.293 |
-| tool | [File Pattern Matching 3](../system-prompts/tool-description-file-pattern-matching-3.md) | 1632 | 440 | 2.1.294 | 2.1.294 |
-| tool | [Grep](../system-prompts/tool-description-grep.md) | 27443 | 1115 | 2.1.118 | 2.1.294 |
+| tool | [File Pattern Matching 3](../system-prompts/tool-description-file-pattern-matching-3.md) | 1630 | 440 | 2.1.294 | 2.1.295 |
+| tool | [File Pattern Matching 4](../system-prompts/tool-description-file-pattern-matching-4.md) | 2029 | 556 | 2.1.295 | 2.1.295 |
+| tool | [Grep](../system-prompts/tool-description-grep.md) | 27857 | 1115 | 2.1.118 | 2.1.295 |
+| tool | [Launch New Handle Complex Multi](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | 8263 | 2021 | 2.1.118 | 2.1.295 |
 | tool | [Read Local File Content 2](../system-prompts/tool-description-read-local-file-content-2.md) | 2766 | 765 | 2.1.293 | 2.1.293 |
 | tool | [Read Local File Content 3](../system-prompts/tool-description-read-local-file-content-3.md) | 3487 | 1061 | 2.1.294 | 2.1.294 |
-| tool | [Write](../system-prompts/tool-description-write.md) | 14962 | 280 | 2.1.118 | 2.1.294 |
+| tool | [Read Local File Content 4](../system-prompts/tool-description-read-local-file-content-4.md) | 4208 | 1357 | 2.1.295 | 2.1.295 |
+| tool | [Write](../system-prompts/tool-description-write.md) | 15213 | 280 | 2.1.118 | 2.1.295 |
 | tool | [fetches-full-schema-definitions-deferred](../system-prompts/tool-description-fetches-full-schema-definitions-deferred.md) | 1443 | 395 | 2.1.118 | 2.1.118 |
