@@ -4,11 +4,11 @@
 
 - Commands: 56
 - Options: 129
-- Env vars: 421
+- Env vars: 420
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 187
+- Models: 188
 - Providers: 8
 
 ## Commands
@@ -485,7 +485,6 @@
 - `CLAUDE_AGENT_SDK_CLIENT_APP`
 - `CLAUDE_AGENT_SDK_VERSION`
 - `CLAUDE_AGENTS_SELECT`
-- `CLAUDE_AUTO_BACKGROUND_TASKS`
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BG_AUTH_SNAPSHOT_PATH`
@@ -872,7 +871,6 @@ _None detected_
 - `claude-artifacts`
 - `claude-audio-`
 - `claude-channel-`
-- `claude-checkpoint-index-H`
 - `claude-checkpoint-index.`
 - `claude-chrome-screenshots-`
 - `claude-cli`
@@ -903,6 +901,7 @@ _None detected_
 - `claude-code-sparse-paths.json`
 - `claude-code-tools`
 - `claude-code-url-handler.desktop`
+- `claude-code-user`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
 - `claude-code.state.derived`
@@ -978,6 +977,7 @@ _None detected_
 - `claude-pwd-ps-`
 - `claude-resume-`
 - `claude-review`
+- `claude-runner-prep-`
 - `claude-runner-upstream-`
 - `claude-security`
 - `claude-seed`
