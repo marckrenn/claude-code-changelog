@@ -1,41 +1,3 @@
-# Tool Description: executes-given-bash-command-returns
-
-- Source: native-reference-match
-
-## Summary
-
-Executes a given bash command and returns its output.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
-| `EXPR_21` | None | None |
-| `EXPR_22` | None | None |
-| `EXPR_23` | None | None |
-| `EXPR_24` | None | None |
-
-# Raw Prompt Text
 # Tool Description: 374421d8
 
 - Source: native-prompt-markdown-tool
@@ -53,17 +15,17 @@ IMPORTANT: Avoid using this tool to run `find`, `grep`, `cat`, `head`, `tail`, `
 
  - File search: Use Glob (NOT find or ls)
  - Content search: Use Grep (NOT grep or rg)
- - Read files: Use Read (NOT cat${EXPR_1})
- - Edit files: Use Edit (NOT sed${EXPR_2})
- - Write files: Use Write (NOT echo >${EXPR_3} <<EOF)
- - Communication: Output text directly (NOT echo${EXPR_4})
+ - Read files: Use Read (NOT cat${PATH})
+ - Edit files: Use Edit (NOT sed${PATH})
+ - Write files: Use Write (NOT echo >${PATH} <<EOF)
+ - Communication: Output text directly (NOT echo${PATH})
 While the Bash tool can do similar things, it’s better to use the built-in tools as they provide a better user experience and make it easier to review tool calls and give permission.
 
 ### Instructions
  - If your command will create new directories or files, first use this tool to run `ls` to verify the parent directory exists and is the correct location.
- - Always quote file paths that contain spaces with double quotes in your command (e.g., cd "path with spaces${EXPR_5}")
+ - Always quote file paths that contain spaces with double quotes in your command (e.g., cd "path with spaces${PATH}")
  - Try to maintain your current working directory throughout the session by using absolute paths and avoiding usage of `cd`. You may use `cd` if the User explicitly requests it.
- - You may specify an optional timeout in milliseconds (up to 600000ms / ${EXPR_6} minutes). By default, your command will timeout after 120000ms (${EXPR_7} minutes).
+ - You may specify an optional timeout in milliseconds (up to 600000ms / ${NUM} minutes). By default, your command will timeout after 120000ms (${NUM} minutes).
  - You can use the `run_in_background` parameter to run the command in the background. Only use this if you don't need the result immediately and are OK being notified when the command completes later. You do not need to check the output right away - you'll be notified when it finishes. You do not need to use '&' at the end of the command when using this parameter.
  - When issuing multiple commands:
   - If the commands are independent and can run in parallel, make multiple Bash tool calls in a single message. Example: if you need to run "git status" and "git diff", send a single message with two Bash tool calls in parallel.
@@ -80,7 +42,7 @@ While the Bash tool can do similar things, it’s better to use the built-in too
   - If your command is long running and you would like to be notified when it finishes — use `run_in_background`. No sleep needed.
   - Do not retry failing commands in a sleep loop — diagnose the root cause.
   - If waiting for a background task you started with `run_in_background`, you will be notified when it completes — do not poll.
-  - Long leading `sleep` commands are blocked. To poll until a condition is met, use Monitor with an until-loop (e.g. `until <check>; do sleep ${EXPR_8}; done`) — you get a notification when the loop exits. Do not chain shorter sleeps to work around the block.
+  - Long leading `sleep` commands are blocked. To poll until a condition is met, use Monitor with an until-loop (e.g. `until <check>; do sleep ${NUM}; done`) — you get a notification when the loop exits. Do not chain shorter sleeps to work around the block.
 
 
 ### Committing changes with git
@@ -93,27 +55,27 @@ Git Safety Protocol:
 - NEVER update the git config
 - NEVER run destructive git commands (push --force, reset --hard, checkout ., restore ., clean -f, branch -D) unless the user explicitly requests these actions. Taking unauthorized destructive actions is unhelpful and can result in lost work, so it's best to ONLY run these commands when given direct instructions
 - NEVER skip hooks (--no-verify, --no-gpg-sign, etc) unless the user explicitly requests it
-- NEVER run force push to main${EXPR_9}, warn the user if they request it
+- NEVER run force push to main${PATH}, warn the user if they request it
 - CRITICAL: Always create NEW commits rather than amending, unless the user explicitly requests a git amend. When a pre-commit hook fails, the commit did NOT happen — so --amend would modify the PREVIOUS commit, which may result in destroying work or losing previous changes. Instead, after hook failure, fix the issue, re-stage, and create a NEW commit
 - When staging files, prefer adding specific files by name rather than using "git add -A" or "git add .", which can accidentally include sensitive files (.env, credentials) or large binaries
 - NEVER commit changes unless the user explicitly asks you to. It is VERY IMPORTANT to only commit when explicitly asked, otherwise the user will feel that you are being too proactive
 
-${EXPR_10}. Run the following bash commands in parallel, each using the Bash tool:
+${NUM}. Run the following bash commands in parallel, each using the Bash tool:
   - Run a git status command to see all untracked files. IMPORTANT: Never use the -uall flag as it can cause memory issues on large repos.
   - Run a git diff command to see both staged and unstaged changes that will be committed.
   - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
-${EXPR_11}. Analyze all staged changes (both previously staged and newly added) and draft a commit message:
+${NUM}. Analyze all staged changes (both previously staged and newly added) and draft a commit message:
   - Summarize the nature of the changes (eg. new feature, enhancement to an existing feature, bug fix, refactoring, test, docs, etc.). Ensure the message accurately reflects the changes and their purpose (i.e. "add" means a wholly new feature, "update" means an enhancement to an existing feature, "fix" means a bug fix, etc.).
   - Do not commit files that likely contain secrets (.env, credentials.json, etc). Warn the user if they specifically request to commit those files
-  - Draft a concise (${EXPR_12}-${EXPR_13} sentences) commit message that focuses on the "why" rather than the "what"
+  - Draft a concise (${NUM}-${NUM} sentences) commit message that focuses on the "why" rather than the "what"
   - Ensure it accurately reflects the changes and their purpose
-${EXPR_14}. Run the following commands in parallel:
+${NUM}. Run the following commands in parallel:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
-   Co-Authored-By: Claude Sonnet ${EXPR_15} <noreply@anthropic.com>
+   Co-Authored-By: Claude Sonnet ${NUM} <noreply@anthropic.com>
    - Run git status after the commit completes to verify success.
    Note: git status depends on the commit completing, so run it sequentially after the commit.
-${EXPR_16}. If the commit fails due to pre-commit hook: fix the issue and create a NEW commit
+${NUM}. If the commit fails due to pre-commit hook: fix the issue and create a NEW commit
 
 Important notes:
 - NEVER run additional commands to read or explore code, besides git bash commands
@@ -127,49 +89,49 @@ Important notes:
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   Co-Authored-By: Claude Sonnet ${EXPR_17} <noreply@anthropic.com>
+   Co-Authored-By: Claude Sonnet ${NUM} <noreply@anthropic.com>
    EOF
    )"
-<${EXPR_18}>
+<${PATH}>
 
 ### Creating pull requests
 Use the gh command via the Bash tool for ALL GitHub-related tasks including working with issues, pull requests, checks, and releases. If given a Github URL use the gh command to get the information needed.
 
 IMPORTANT: When the user asks you to create a pull request, follow these steps carefully:
 
-${EXPR_19}. Run the following bash commands in parallel using the Bash tool, in order to understand the current state of the branch since it diverged from the main branch:
+${NUM}. Run the following bash commands in parallel using the Bash tool, in order to understand the current state of the branch since it diverged from the main branch:
    - Run a git status command to see all untracked files (never use -uall flag)
    - Run a git diff command to see both staged and unstaged changes that will be committed
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
    - Run a git log command and `git diff [base-branch]...HEAD` to understand the full commit history for the current branch (from the time it diverged from the base branch)
-${EXPR_20}. Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (NOT just the latest commit, but ALL commits that will be included in the pull request!!!), and draft a pull request title and summary:
-   - Keep the PR title short (under ${EXPR_21} characters)
-   - Use the description${EXPR_22} for details, not the title
-${EXPR_23}. Run the following commands in parallel:
+${NUM}. Analyze all changes that will be included in the pull request, making sure to look at all relevant commits (NOT just the latest commit, but ALL commits that will be included in the pull request!!!), and draft a pull request title and summary:
+   - Keep the PR title short (under ${NUM} characters)
+   - Use the description${PATH} for details, not the title
+${NUM}. Run the following commands in parallel:
    - Create new branch if needed
    - Push to remote with -u flag if needed
    - Create PR using gh pr create with the format below. Use a HEREDOC to pass the body to ensure correct formatting.
 <example>
 gh pr create --title "the pr title" --body "$(cat <<'EOF'
 #### Summary
-<${EXPR_24}-${EXPR_25} bullet points>
+<${NUM}-${NUM} bullet points>
 
 #### Test plan
 [Bulleted markdown checklist of TODOs for testing the pull request...]
 
-🤖 Generated with [Claude Code](${EXPR_26})
+🤖 Generated with [Claude Code](${URL})
 EOF
 )"
-<${EXPR_27}>
+<${PATH}>
 
 Important:
 - DO NOT use the TodoWrite or Agent tools
 - Return the PR URL when you're done, so the user can see it
 
 ### Other common operations
-- View comments on a Github PR: gh api repos${EXPR_28}
+- View comments on a Github PR: gh api repos${PATH}
 {
-  "$schema": "${EXPR_29}
+  "$schema": "${URL}
   "type": "object",
   "properties": {
     "command": {
@@ -177,11 +139,11 @@ Important:
       "type": "string"
     },
     "timeout": {
-      "description": "Optional timeout in milliseconds (max ${EXPR_30})",
+      "description": "Optional timeout in milliseconds (max ${NUM})",
       "type": "number"
     },
     "description": {
-      "description": "Clear, concise description of what this command does in active voice. Never use words like \"complex\" or \"risk\" in the description - just describe what it does.\n\nFor simple commands (git, npm, standard CLI tools), keep it brief (${EXPR_31}-${EXPR_32} words):\n- ls → \"List files in current directory\"\n- git status → \"Show working tree status\"\n- npm install → \"Install package dependencies\"\n\nFor commands that are harder to parse at a glance (piped commands, obscure flags, etc.), add enough context to clarify what it does:\n- find . -name \"*.tmp\" -exec rm {} \\; → \"Find and delete all .tmp files recursively\"\n- git reset --hard origin${EXPR_33} → \"Discard all local changes and match remote main\"\n- curl -s url | jq '.data[]' → \"Fetch JSON from URL and extract data array elements\"",
+      "description": "Clear, concise description of what this command does in active voice. Never use words like \"complex\" or \"risk\" in the description - just describe what it does.\n\nFor simple commands (git, npm, standard CLI tools), keep it brief (${NUM}-${NUM} words):\n- ls → \"List files in current directory\"\n- git status → \"Show working tree status\"\n- npm install → \"Install package dependencies\"\n\nFor commands that are harder to parse at a glance (piped commands, obscure flags, etc.), add enough context to clarify what it does:\n- find . -name \"*.tmp\" -exec rm {} \\; → \"Find and delete all .tmp files recursively\"\n- git reset --hard origin${PATH} → \"Discard all local changes and match remote main\"\n- curl -s url | jq '.data[]' → \"Fetch JSON from URL and extract data array elements\"",
       "type": "string"
     },
     "run_in_background": {
