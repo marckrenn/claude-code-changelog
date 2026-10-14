@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 188
+- Models: 187
 - Providers: 8
 
 ## Commands
@@ -874,7 +874,6 @@ _None detected_
 - `claude-artifacts`
 - `claude-audio-`
 - `claude-channel-`
-- `claude-checkpoint-index-H`
 - `claude-checkpoint-index.`
 - `claude-chrome-screenshots-`
 - `claude-cli`
