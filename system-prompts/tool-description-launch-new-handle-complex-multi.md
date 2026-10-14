@@ -1,3 +1,29 @@
+# Tool Description: launch-new-handle-complex-multi
+
+- Source: native-reference-match
+
+## Summary
+
+Launch a new agent to handle complex, multi-step tasks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+
+# Raw Prompt Text
 # Tool Description: 455e36bd
 
 - Source: native-prompt-markdown-tool
@@ -10,7 +36,7 @@ Launch a new agent to handle complex, multi-step tasks.
 Launch a new agent to handle complex, multi-step tasks. Each agent type has specific capabilities and tools available to it.
 
 Available agent types and the tools they have access to:
-- Explore: Fast agent specialized for exploring codebases. Use this when you need to quickly find files by patterns (eg. "src${PATH}**/*.tsx"), search code for keywords (eg. "API endpoints"), or answer questions about the codebase (eg. "how do API endpoints work?"). When calling this agent, specify the desired thoroughness level: "quick" for basic searches, "medium" for moderate exploration, or "very thorough" for comprehensive analysis across multiple locations and naming conventions. (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
+- Explore: Fast agent specialized for exploring codebases. Use this when you need to quickly find files by patterns (eg. "src${EXPR_1}**/*.tsx"), search code for keywords (eg. "API endpoints"), or answer questions about the codebase (eg. "how do API endpoints work?"). When calling this agent, specify the desired thoroughness level: "quick" for basic searches, "medium" for moderate exploration, or "very thorough" for comprehensive analysis across multiple locations and naming conventions. (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
 - general-purpose: General-purpose agent for researching complex questions, searching for code, and executing multi-step tasks. When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries use this agent to perform the search for you. (Tools: *)
 - Plan: Software architect agent for designing implementation plans. Use this when you need to plan the implementation strategy for a task. Returns step-by-step plans, identifies critical files, and considers architectural trade-offs. (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
 - statusline-setup: Use this agent to configure the user's Claude Code status line setting. (Tools: Read, Edit)
@@ -41,7 +67,7 @@ Brief the agent like a smart colleague who just walked into the room — it hasn
 - Explain what you're trying to accomplish and why.
 - Describe what you've already learned or ruled out.
 - Give enough context about the surrounding problem that the agent can make judgment calls rather than just following a narrow instruction.
-- If you need a short response, say so ("report in under ${NUM} words").
+- If you need a short response, say so ("report in under ${EXPR_2} words").
 - Lookups: hand over the exact command. Investigations: hand over the question — prescribed steps become dead weight when the premise is wrong.
 
 Terse command-style prompts produce shallow, generic work.
@@ -52,19 +78,19 @@ Example usage:
 
 <example>
 user: "What's left on this branch before we can ship?"
-assistant: <thinking>A survey question across git state, tests, and config. I'll delegate it and ask for a short report so the raw command output stays out of my context.<${PATH}>
+assistant: <thinking>A survey question across git state, tests, and config. I'll delegate it and ask for a short report so the raw command output stays out of my context.<${EXPR_3}>
 Agent({
   description: "Branch ship-readiness audit",
-  prompt: "Audit what's left before this branch can ship. Check: uncommitted changes, commits ahead of main, whether tests exist, whether the GrowthBook gate is wired up, whether CI-relevant files changed. Report a punch list — done vs. missing. Under ${NUM} words."
+  prompt: "Audit what's left before this branch can ship. Check: uncommitted changes, commits ahead of main, whether tests exist, whether the GrowthBook gate is wired up, whether CI-relevant files changed. Report a punch list — done vs. missing. Under ${EXPR_4} words."
 })
 <commentary>
 The prompt is self-contained: it states the goal, lists what to check, and caps the response length. The agent's report comes back as the tool result; relay the findings to the user.
-<${PATH}>
-<${PATH}>
+<${EXPR_5}>
+<${EXPR_6}>
 
 <example>
 user: "Can you get a second opinion on whether this migration is safe?"
-assistant: <thinking>I'll ask the code-reviewer agent — it won't see my analysis, so it can give an independent read.<${PATH}>
+assistant: <thinking>I'll ask the code-reviewer agent — it won't see my analysis, so it can give an independent read.<${EXPR_7}>
 Agent({
   description: "Independent migration review",
   subagent_type: "code-reviewer",
@@ -72,15 +98,15 @@ Agent({
 })
 <commentary>
 The agent starts with no context from this conversation, so the prompt briefs it: what to assess, the relevant background, and what form the answer should take.
-<${PATH}>
-<${PATH}>
+<${EXPR_8}>
+<${EXPR_9}>
 
 {
-  "$schema": "${URL}
+  "$schema": "${EXPR_10}
   "type": "object",
   "properties": {
     "description": {
-      "description": "A short (${NUM}-${NUM} word) description of the task",
+      "description": "A short (${EXPR_11}-${EXPR_12} word) description of the task",
       "type": "string"
     },
     "prompt": {
