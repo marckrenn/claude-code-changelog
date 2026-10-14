@@ -3,8 +3,8 @@
 ## Summary
 
 - Commands: 56
-- Options: 129
-- Env vars: 420
+- Options: 130
+- Env vars: 421
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -176,6 +176,7 @@
 - `--description`
 - `--desktop`
 - `--disable-slash-commands`
+- `--disallow-tools`
 - `--disallowed-tools`
 - `--disallowedTools`
 - `--dry-run`
@@ -306,6 +307,7 @@
 - `--description <text>`
 - `--desktop`
 - `--disable-slash-commands`
+- `--disallow-tools <tools...>`
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--dry-run`
 - `--effort <level>`
@@ -549,6 +551,7 @@
 - `CLAUDE_CODE_HOVER_REST`
 - `CLAUDE_CODE_IDLE_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_IDLE_TOKEN_THRESHOLD`
+- `CLAUDE_CODE_JIT_POLICY_AFTER_STARTUP`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_TURNS`
 - `CLAUDE_CODE_MCP_ALLOWLIST_ENV`
@@ -871,6 +874,7 @@ _None detected_
 - `claude-artifacts`
 - `claude-audio-`
 - `claude-channel-`
+- `claude-checkpoint-index-H`
 - `claude-checkpoint-index.`
 - `claude-chrome-screenshots-`
 - `claude-cli`
@@ -901,7 +905,6 @@ _None detected_
 - `claude-code-sparse-paths.json`
 - `claude-code-tools`
 - `claude-code-url-handler.desktop`
-- `claude-code-user`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
 - `claude-code.state.derived`
@@ -926,7 +929,7 @@ _None detected_
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
-- `claude-haiku-3-55`
+- `claude-haiku-3-5B`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-haiku-5-5`
@@ -979,6 +982,7 @@ _None detected_
 - `claude-review`
 - `claude-runner-prep-`
 - `claude-runner-upstream-`
+- `claude-sandbox-`
 - `claude-security`
 - `claude-seed`
 - `claude-seed-admin-`
@@ -1018,7 +1022,6 @@ _None detected_
 - `haiku-3-5`
 - `haiku-4-5`
 - `haiku-5-5`
-- `o5-BE`
 - `o5-bmin`
 - `opus-4`
 - `opus-4-1`
