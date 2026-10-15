@@ -1,15 +1,17 @@
-# Prompt Stats 2.1.300
+# Prompt Stats 2.1.301
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
-| system | [User Memory Project Work 2](../system-prompts/system-prompt-user-memory-project-work-2.md) | 16713 | 4047 | 2.1.299 | 2.1.300 |
+| system | [User Memory Project One](../system-prompts/system-prompt-user-memory-project-one.md) | 17147 | 4135 | 2.1.301 | 2.1.301 |
 | tool | [launch-new-handle-complex-multi](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | 8107 | 1977 | 2.1.118 | 2.1.300 |
-| tool | [executes-given-bash-command-returns](../system-prompts/tool-description-executes-given-bash-command-returns.md) | 11971 | 3060 | 2.1.118 | 2.1.300 |
+| tool | [executes-given-bash-command-returns](../system-prompts/tool-description-executes-given-bash-command-returns.md) | 11971 | 3060 | 2.1.118 | 2.1.301 |
 | tool | [File Pattern Matching](../system-prompts/tool-description-file-pattern-matching.md) | 965 | 255 | 2.1.121 | 2.1.121 |
 | tool | [Read Local File Content](../system-prompts/tool-description-read-local-file-content.md) | 2611 | 723 | 2.1.150 | 2.1.150 |
 | tool | [Schedule Resume Work Dynamic](../system-prompts/tool-description-schedule-resume-work-dynamic-mode.md) | 3273 | 939 | 2.1.118 | 2.1.118 |
 | tool | [Invoke In Conversation](../system-prompts/tool-description-invoke-in-conversation.md) | 1704 | 425 | 2.1.128 | 2.1.128 |
-| tool | [Edit](../system-prompts/tool-description-edit.md) | 23903 | 285 | 2.1.118 | 2.1.300 |
-| tool | [Grep](../system-prompts/tool-description-grep.md) | 29099 | 1115 | 2.1.118 | 2.1.300 |
-| tool | [Write](../system-prompts/tool-description-write.md) | 15966 | 280 | 2.1.118 | 2.1.300 |
+| tool | [Edit](../system-prompts/tool-description-edit.md) | 24252 | 285 | 2.1.118 | 2.1.301 |
+| tool | [File Pattern Matching 2](../system-prompts/tool-description-file-pattern-matching-2.md) | 1235 | 324 | 2.1.301 | 2.1.301 |
+| tool | [Grep](../system-prompts/tool-description-grep.md) | 29513 | 1115 | 2.1.118 | 2.1.301 |
+| tool | [Read Local File Content 2](../system-prompts/tool-description-read-local-file-content-2.md) | 2766 | 765 | 2.1.301 | 2.1.301 |
+| tool | [Write](../system-prompts/tool-description-write.md) | 16217 | 280 | 2.1.118 | 2.1.301 |
 | tool | [fetches-full-schema-definitions-deferred](../system-prompts/tool-description-fetches-full-schema-definitions-deferred.md) | 1443 | 395 | 2.1.118 | 2.1.118 |
