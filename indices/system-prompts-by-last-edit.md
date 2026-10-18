@@ -1,33 +1,36 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **16**
+- Total prompt files: **19**
 
 ## Categories
 
-- System prompts (2)
-- Tool prompts (14)
+- System prompts (3)
+- Tool prompts (16)
 
-## System prompts (2)
+## System prompts (3)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-user-memory-project-one-3.md`](../system-prompts/system-prompt-user-memory-project-one-3.md) | Assist with authorized security testing and educational contexts. | 4,643 | 2.1.303 | 2.1.303 |
+| [`system-prompt-user-memory-project-one.md`](../system-prompts/system-prompt-user-memory-project-one.md) | Assist with authorized security testing and educational contexts. | 4,135 | 2.1.301 | 2.1.303 |
 | [`system-prompt-user-memory-project-one-2.md`](../system-prompts/system-prompt-user-memory-project-one-2.md) | Assist with authorized security testing and educational contexts. | 4,254 | 2.1.302 | 2.1.302 |
-| [`system-prompt-user-memory-project-one.md`](../system-prompts/system-prompt-user-memory-project-one.md) | Assist with authorized security testing and educational contexts. | 4,135 | 2.1.301 | 2.1.302 |
 
-## Tool prompts (14)
+## Tool prompts (16)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.302 |
-| [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | A powerful search tool built on ripgrep. | 1,115 | 2.1.118 | 2.1.302 |
+| [`tool-description-executes-given-bash-command-returns.md`](../system-prompts/tool-description-executes-given-bash-command-returns.md) | Executes a given bash command and returns its output. | 3,060 | 2.1.118 | 2.1.303 |
+| [`tool-description-read-local-file-content-4.md`](../system-prompts/tool-description-read-local-file-content-4.md) | Reads a file from the local filesystem. | 1,357 | 2.1.303 | 2.1.303 |
+| [`tool-description-grep.md`](../system-prompts/tool-description-grep.md) | A powerful search tool built on ripgrep. | 1,115 | 2.1.118 | 2.1.303 |
+| [`tool-description-file-pattern-matching-4.md`](../system-prompts/tool-description-file-pattern-matching-4.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 556 | 2.1.303 | 2.1.303 |
+| [`tool-description-file-pattern-matching-3.md`](../system-prompts/tool-description-file-pattern-matching-3.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 440 | 2.1.302 | 2.1.303 |
+| [`tool-description-edit.md`](../system-prompts/tool-description-edit.md) | Tool Description: … - Source: native-prompt-markdown-tool Summary Performs exact string replacements in files. | 285 | 2.1.118 | 2.1.303 |
+| [`tool-description-write.md`](../system-prompts/tool-description-write.md) | Writes a file to the local filesystem. | 280 | 2.1.118 | 2.1.303 |
 | [`tool-description-read-local-file-content-3.md`](../system-prompts/tool-description-read-local-file-content-3.md) | Reads a file from the local filesystem. | 1,061 | 2.1.302 | 2.1.302 |
-| [`tool-description-file-pattern-matching-3.md`](../system-prompts/tool-description-file-pattern-matching-3.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 440 | 2.1.302 | 2.1.302 |
-| [`tool-description-edit.md`](../system-prompts/tool-description-edit.md) | Tool Description: … - Source: native-prompt-markdown-tool Summary Performs exact string replacements in files. | 285 | 2.1.118 | 2.1.302 |
-| [`tool-description-write.md`](../system-prompts/tool-description-write.md) | Writes a file to the local filesystem. | 280 | 2.1.118 | 2.1.302 |
 | [`tool-description-read-local-file-content-2.md`](../system-prompts/tool-description-read-local-file-content-2.md) | Reads a file from the local filesystem. | 765 | 2.1.301 | 2.1.301 |
 | [`tool-description-file-pattern-matching-2.md`](../system-prompts/tool-description-file-pattern-matching-2.md) | Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so… | 324 | 2.1.301 | 2.1.301 |
 | [`tool-description-launch-new-handle-complex-multi.md`](../system-prompts/tool-description-launch-new-handle-complex-multi.md) | Launch a new agent to handle complex, multi-step tasks. | 1,977 | 2.1.118 | 2.1.300 |
