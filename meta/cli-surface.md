@@ -4,11 +4,11 @@
 
 - Commands: 56
 - Options: 130
-- Env vars: 421
+- Env vars: 420
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 190
+- Models: 189
 - Providers: 8
 
 ## Commands
@@ -514,7 +514,6 @@
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_ATTRIBUTION_HEADER`
-- `CLAUDE_CODE_AUTO_COMPACT_WINDOW`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
 - `CLAUDE_CODE_BRIDGE_MCP_CARRIER`
 - `CLAUDE_CODE_BRIDGE_SESSION_ID`
@@ -604,6 +603,7 @@
 - `CLAUDE_COWORK_MEMORY_INDEX_CONTENT`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_INTERNAL_ASSISTANT_TEAM_NAME`
+- `CLAUDE_INTERNAL_FC_OVERRIDES`
 - `CLAUDE_JOB_DIR`
 - `CLAUDE_LOCAL_OAUTH_API_BASE`
 - `CLAUDE_LOCAL_OAUTH_APPS_BASE`
@@ -720,7 +720,6 @@
 - `NODE_CLUSTER_SCHED_POLICY`
 - `NODE_DEBUG`
 - `NODE_ENV`
-- `NODE_ENVC`
 - `NODE_EXTRA_CA_CERTS`
 - `NODE_OPTIONS`
 - `NODE_REPL_EXTERNAL_MODULE`
@@ -885,7 +884,6 @@ _None detected_
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-bash`
-- `claude-code-cli`
 - `claude-code-client-data-v1`
 - `claude-code-debug.txt`
 - `claude-code-device`
@@ -931,7 +929,7 @@ _None detected_
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
-- `claude-haiku-3-5B`
+- `claude-haiku-3-5`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-haiku-5-5`
@@ -940,7 +938,6 @@ _None detected_
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-local`
-- `claude-lsremote-K`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
@@ -1018,6 +1015,7 @@ _None detected_
 - `claude-test-execute`
 - `claude-test:`
 - `claude-test:author`
+- `claude-test:explorer`
 - `claude-test:runner`
 - `claude-vscode`
 - `gemini-extension.json`
