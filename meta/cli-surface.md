@@ -4,11 +4,11 @@
 
 - Commands: 56
 - Options: 130
-- Env vars: 420
+- Env vars: 419
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 189
+- Models: 190
 - Providers: 8
 
 ## Commands
@@ -431,7 +431,6 @@
 - `ANTHROPIC_VERTEX_BASE_URL`
 - `ANTHROPIC_WORKSPACE_ID`
 - `API_FORCE_IDLE_TIMEOUT`
-- `API_TIMEOUT_MS`
 - `APP_URL`
 - `APPDATA`
 - `AUTOMODE_DECISION_LOG`
@@ -938,6 +937,7 @@ _None detected_
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-local`
+- `claude-lsremote-F`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
