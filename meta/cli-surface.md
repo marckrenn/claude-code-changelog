@@ -4,11 +4,11 @@
 
 - Commands: 56
 - Options: 130
-- Env vars: 419
+- Env vars: 423
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 190
+- Models: 189
 - Providers: 8
 
 ## Commands
@@ -132,6 +132,7 @@
 - `tag [path]`
 - `test [dir]`
 - `ultrareview [target]`
+- `uninstall`
 - `uninstall <plugin>`
 - `update`
 - `update [name]`
@@ -402,8 +403,6 @@
 
 - `__CFB`
 - `__MINIMATCH_TESTING_PLATFORM__`
-- `AGENT_PROXY_AUTH_TOKEN`
-- `AGENT_PROXY_URL`
 - `AI_AGENT`
 - `ALACRITTY_LOG`
 - `ALL_PROXY`
@@ -581,6 +580,7 @@
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
 - `CLAUDE_CODE_SPAWN_TIMESTAMP_MS`
+- `CLAUDE_CODE_SPAWNED_BY_SERVER`
 - `CLAUDE_CODE_STARTUP_FAILURE_RESULTS`
 - `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB`
 - `CLAUDE_CODE_SUBSCRIPTION_TYPE`
@@ -619,6 +619,8 @@
 - `CLAUDE_SECURESTORAGE_CONFIG_DIR`
 - `CLAUDE_SESSION_INGRESS_TOKEN_FILE`
 - `CLAUDE_SLOW_FIRST_BYTE_MS`
+- `CLAUDE_SSH_DAEMON_CHILD`
+- `CLAUDE_SSH_RUN_DIR`
 - `CLAUDE_STREAM_IDLE_TIMEOUT_MS`
 - `CLAUDE_TMPDIR`
 - `CLAUDE_TRUSTED_DEVICE_TOKEN`
@@ -752,13 +754,16 @@
 - `RUNNER_OS`
 - `S`
 - `SDK_NATIVE_BIN`
+- `SELF_HOSTED_RUNNER_AGENT_PROXY_URL`
 - `SELF_HOSTED_RUNNER_BASE_DIR`
+- `SELF_HOSTED_RUNNER_CHECKOUT_HOOK_TIMEOUT_MS`
 - `SELF_HOSTED_RUNNER_CLIENT_LABEL`
 - `SELF_HOSTED_RUNNER_CONFIGURE_GIT`
 - `SELF_HOSTED_RUNNER_CONFINE_REPO_SETTINGS`
 - `SELF_HOSTED_RUNNER_DEBUG_DIR`
 - `SELF_HOSTED_RUNNER_DEBUG_TOKEN_DIR`
 - `SELF_HOSTED_RUNNER_DEFER_SHUTDOWN_MAX_MS`
+- `SELF_HOSTED_RUNNER_DIFF_FINDS_NESTED_REPOSITORY`
 - `SELF_HOSTED_RUNNER_DRAIN_GRACE_MS`
 - `SELF_HOSTED_RUNNER_DRAIN_MARKER_FILE`
 - `SELF_HOSTED_RUNNER_DRAIN_WAIT_MS`
@@ -928,7 +933,6 @@ _None detected_
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
-- `claude-haiku-3-5`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-haiku-5-5`
@@ -937,7 +941,7 @@ _None detected_
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-local`
-- `claude-lsremote-E`
+- `claude-lsremote-T`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
