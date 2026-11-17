@@ -4,11 +4,11 @@
 
 - Commands: 56
 - Options: 131
-- Env vars: 427
+- Env vars: 428
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 207
+- Models: 206
 - Providers: 8
 
 ## Commands
@@ -726,6 +726,7 @@
 - `NODE_CLUSTER_SCHED_POLICY`
 - `NODE_DEBUG`
 - `NODE_ENV`
+- `NODE_ENVI`
 - `NODE_EXTRA_CA_CERTS`
 - `NODE_OPTIONS`
 - `NODE_REPL_EXTERNAL_MODULE`
@@ -1044,7 +1045,6 @@ _None detected_
 - `haiku-3-5`
 - `haiku-4-5`
 - `haiku-5-5`
-- `O4-PT`
 - `o5-bmin`
 - `opus-3`
 - `opus-4`
