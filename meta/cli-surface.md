@@ -4,11 +4,11 @@
 
 - Commands: 56
 - Options: 131
-- Env vars: 430
+- Env vars: 433
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 211
+- Models: 212
 - Providers: 8
 
 ## Commands
@@ -528,6 +528,7 @@
 - `CLAUDE_CODE_DAEMON_COLD_START`
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
+- `CLAUDE_CODE_DISABLE_FEATURE_FLAGS`
 - `CLAUDE_CODE_DISABLE_NESTED_SESSION_ID`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP`
@@ -595,6 +596,7 @@
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TEE_SDK_STDOUT`
 - `CLAUDE_CODE_TEST_ALLOW_REAL_NETWORK`
+- `CLAUDE_CODE_THREAD_CPU_ONE_IN`
 - `CLAUDE_CODE_TMPDIR`
 - `CLAUDE_CODE_USE_ANTHROPIC_AWS`
 - `CLAUDE_CODE_USE_ANTHROPIC_GOOGLE_CLOUD`
@@ -818,6 +820,7 @@
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
 - `TMUX`
+- `TZ`
 - `USER`
 - `V`
 - `VERBOSE_SSR`
@@ -1047,6 +1050,7 @@ _None detected_
 - `claude-test:runner`
 - `claude-ultrareview-eval-`
 - `claude-vscode`
+- `claude-wt-admin-`
 - `gemini-extension.json`
 - `haiku-3`
 - `haiku-3-5`
