@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 56
-- Options: 131
-- Env vars: 433
+- Commands: 57
+- Options: 132
+- Env vars: 434
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 212
+- Models: 215
 - Providers: 8
 
 ## Commands
@@ -58,6 +58,7 @@
 - `remove`
 - `reset`
 - `reset-project-choices`
+- `restore-set-aside`
 - `sandbox`
 - `serve`
 - `setup`
@@ -123,6 +124,7 @@
 - `remove <name>`
 - `reset`
 - `reset-project-choices`
+- `restore-set-aside <plugin>`
 - `sandbox`
 - `serve`
 - `setup`
@@ -180,6 +182,7 @@
 - `--disallow-tools`
 - `--disallowed-tools`
 - `--disallowedTools`
+- `--discard`
 - `--dry-run`
 - `--effort`
 - `--email`
@@ -311,6 +314,7 @@
 - `--disable-slash-commands`
 - `--disallow-tools <tools...>`
 - `--disallowedTools, --disallowed-tools <tools...>`
+- `--discard`
 - `--dry-run`
 - `--effort <level>`
 - `--email <email>`
@@ -488,6 +492,7 @@
 - `CLAUDE_AGENT_SDK_VERSION`
 - `CLAUDE_AGENTS_SELECT`
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
+- `CLAUDE_AX_SCREEN_READER`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BG_AUTH_SNAPSHOT_PATH`
 - `CLAUDE_BG_BACKEND`
@@ -952,6 +957,7 @@ _None detected_
 - `claude-fable-`
 - `claude-fable-5`
 - `claude-fable-5-1`
+- `claude-fable-5-2`
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
@@ -972,6 +978,7 @@ _None detected_
 - `claude-mythos-`
 - `claude-mythos-5`
 - `claude-mythos-5-1`
+- `claude-mythos-5-2`
 - `claude-mythos-preview`
 - `claude-nfa-`
 - `claude-opus-4`
@@ -997,6 +1004,7 @@ _None detected_
 - `claude-pr-steward-watching`
 - `claude-preview-`
 - `claude-proactive`
+- `claude-process-`
 - `claude-prod`
 - `claude-prompt`
 - `claude-publish-`
