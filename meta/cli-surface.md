@@ -4,11 +4,11 @@
 
 - Commands: 58
 - Options: 133
-- Env vars: 442
+- Env vars: 443
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 217
+- Models: 218
 - Providers: 8
 
 ## Commands
@@ -811,6 +811,7 @@
 - `SELF_HOSTED_RUNNER_SIGKILL_TIMEOUT_MS`
 - `SELF_HOSTED_RUNNER_STARTUP_TIMEOUT_MS`
 - `SELF_HOSTED_RUNNER_TRUST_WORKSPACE`
+- `SELF_HOSTED_RUNNER_USE_ANTHROPIC_GH`
 - `SESSION_INGRESS_URL`
 - `SESSIONNAME`
 - `SHELL`
@@ -1006,6 +1007,7 @@ _None detected_
 - `claude-opus-4-8`
 - `claude-opus-5`
 - `claude-opus-5-5`
+- `claude-paste-`
 - `claude-pdf-`
 - `claude-platform`
 - `claude-plugin-`

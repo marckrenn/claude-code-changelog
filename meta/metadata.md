@@ -7,13 +7,13 @@
 
 ## Bundle
 
-- Entry bytes: 82256177 bytes
-- Entry lines: 1214220
+- Entry bytes: 84170378 bytes
+- Entry lines: 1219780
 
 ## Inventory
 
 - File count: 4
-- Size bytes: 365843546
+- Size bytes: 371430490
 
 ### Extension Counts
 
@@ -33,18 +33,18 @@ _None detected_
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-11-17 22:27:54 UTC
+- Snapshot generated at: 2026-11-17 22:31:19 UTC
 - Node runtime: `v24.22.3`
-- Config hash: `d7c7e8d62aae6101b51afbc76463e892362724b86baac596173a8c06aa55ddaa`
-- Embedded build timestamp: 2026-11-13 18:52:23 UTC
-- Relative to embedded build timestamp: 4d 3h 35m 31s (2026-11-13 18:52:23 UTC → 2026-11-17 22:27:54 UTC)
+- Config hash: `6772fcd6d7951f9a7c9ff32ae56d50ef7c04888ce980adca80aeb8bb9908e781`
+- Embedded build timestamp: 2026-11-16 17:02:27 UTC
+- Relative to embedded build timestamp: 1d 5h 28m 52s (2026-11-16 17:02:27 UTC → 2026-11-17 22:31:19 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 77,354
+- Total prompt tokens: 70,788
 - Token p95 / p99: 7,153 / 7,153
 
 ### By Kind
 
-- `system`: 59,909 tokens (77.4%)
-- `tool`: 17,445 tokens (22.6%)
+- `system`: 50,976 tokens (72.0%)
+- `tool`: 19,812 tokens (28.0%)
