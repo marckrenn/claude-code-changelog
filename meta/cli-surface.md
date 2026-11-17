@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 208
+- Models: 207
 - Providers: 8
 
 ## Commands
@@ -988,7 +988,7 @@ _None detected_
 - `claude-pr-steward-is-working`
 - `claude-pr-steward-watching`
 - `claude-preview-`
-- `claude-proactiveN`
+- `claude-proactive`
 - `claude-prod`
 - `claude-prompt`
 - `claude-publish-`
@@ -1046,7 +1046,6 @@ _None detected_
 - `haiku-5-5`
 - `O4-PT`
 - `o5-bmin`
-- `o5-mA`
 - `opus-3`
 - `opus-4`
 - `opus-4-0`
