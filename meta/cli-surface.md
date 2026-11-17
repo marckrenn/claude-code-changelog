@@ -4,11 +4,11 @@
 
 - Commands: 58
 - Options: 133
-- Env vars: 443
+- Env vars: 446
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 218
+- Models: 213
 - Providers: 8
 
 ## Commands
@@ -800,6 +800,9 @@
 - `SELF_HOSTED_RUNNER_LOG_FILE`
 - `SELF_HOSTED_RUNNER_MAX_HOLD_MS`
 - `SELF_HOSTED_RUNNER_MAX_LIFETIME_MS`
+- `SELF_HOSTED_RUNNER_NESTED_MODEL_ACCESS`
+- `SELF_HOSTED_RUNNER_NESTED_MODEL_ALLOW`
+- `SELF_HOSTED_RUNNER_NESTED_MODEL_CALL_BUDGET`
 - `SELF_HOSTED_RUNNER_POOL_SECRET`
 - `SELF_HOSTED_RUNNER_POST_SESSION_HOOK_TIMEOUT_MS`
 - `SELF_HOSTED_RUNNER_PUSH_OUTCOME_ON_RELEASE`
@@ -930,6 +933,7 @@ _None detected_
 - `claude-code-bash`
 - `claude-code-client-data-v1`
 - `claude-code-debug.txt`
+- `claude-code-desktop`
 - `claude-code-device`
 - `claude-code-docs`
 - `claude-code-error-tracking`
@@ -951,6 +955,7 @@ _None detected_
 - `claude-code-url-handler.desktop`
 - `claude-code-user`
 - `claude-code.hostOnlyNativeTool`
+- `claude-code.js`
 - `claude-code.state.atom`
 - `claude-code.state.derived`
 - `claude-community`
@@ -1069,13 +1074,6 @@ _None detected_
 - `claude-tag-troubleshoot`
 - `claude-team-lead-entry-v1`
 - `claude-test`
-- `claude-test-draft`
-- `claude-test-execute`
-- `claude-test:`
-- `claude-test:author`
-- `claude-test:conductor`
-- `claude-test:explorer`
-- `claude-test:runner`
 - `claude-ultrareview-eval-`
 - `claude-vscode`
 - `claude-wt-admin-`
