@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 57
-- Options: 131
-- Env vars: 440
+- Commands: 58
+- Options: 133
+- Env vars: 442
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 216
+- Models: 217
 - Providers: 8
 
 ## Commands
@@ -71,6 +71,7 @@
 - `update`
 - `validate`
 - `workspace-trust`
+- `worktree-hook`
 - `xaa`
 
 ### Specs
@@ -140,6 +141,7 @@
 - `update <plugin>`
 - `validate <path>`
 - `workspace-trust`
+- `worktree-hook`
 - `xaa`
 
 ## Options
@@ -219,6 +221,7 @@
 - `--no-scaffold`
 - `--no-session-persistence`
 - `--output-dir`
+- `--path`
 - `--permission-mode`
 - `--plugin-dir`
 - `--plugin-url`
@@ -256,6 +259,7 @@
 - `--transport`
 - `--trust-plugin`
 - `--trust-workspace`
+- `--trusted-folder`
 - `--values-stdin`
 - `--verbose`
 - `--with`
@@ -340,6 +344,7 @@
 - `--mcp-config <configs...>`
 - `--mocks <mode>`
 - `--model <model>`
+- `--name <slug>`
 - `--no-browser`
 - `--no-chrome`
 - `--no-post`
@@ -347,6 +352,7 @@
 - `--no-scaffold`
 - `--no-session-persistence`
 - `--output-dir <dir>`
+- `--path <absolute>`
 - `--permission-mode <mode>`
 - `--plugin-dir <path>`
 - `--plugin-url <url>`
@@ -381,6 +387,7 @@
 - `--tools <tools...>`
 - `--trust-plugin`
 - `--trust-workspace`
+- `--trusted-folder <absolute>`
 - `--values-stdin`
 - `--verbose`
 - `--with <components...>`
@@ -818,12 +825,14 @@
 - `SWE_BENCH_INSTANCE_ID`
 - `SWE_BENCH_RUN_ID`
 - `SWE_BENCH_TASK_ID`
+- `TEMP`
 - `TERM`
 - `TERM_PROGRAM`
 - `TERMINAL_EMULATOR`
 - `TERMINATOR_UUID`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
+- `TMP`
 - `TMUX`
 - `TSC_NONPOLLING_WATCHER`
 - `TSC_WATCHDIRECTORY`
@@ -975,7 +984,7 @@ _None detected_
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-local`
-- `claude-lsremote-`
+- `claude-lsremote-v`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
@@ -998,6 +1007,7 @@ _None detected_
 - `claude-opus-5`
 - `claude-opus-5-5`
 - `claude-pdf-`
+- `claude-platform`
 - `claude-plugin-`
 - `claude-plugin-directory`
 - `claude-plugin-npm-view-`
