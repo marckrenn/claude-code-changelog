@@ -102,6 +102,32 @@ Launch a new agent to handle complex, multi-step tasks.
 | `EXPR_12` | None | None |
 
 # Raw Prompt Text
+# Tool Description: launch-new-handle-complex-multi
+
+- Source: native-reference-match
+
+## Summary
+
+Launch a new agent to handle complex, multi-step tasks.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+
+# Raw Prompt Text
 # Tool Description: 455e36bd
 
 - Source: native-prompt-markdown-tool
