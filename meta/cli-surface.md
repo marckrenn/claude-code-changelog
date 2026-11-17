@@ -8,7 +8,7 @@
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 189
+- Models: 206
 - Providers: 8
 
 ## Commands
@@ -859,16 +859,26 @@ _None detected_
 
 ## Models
 
+- `claude-2.0`
+- `claude-2.1`
 - `claude-3-`
 - `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
+- `claude-3-5-haiku-latest`
 - `claude-3-5-sonnet`
+- `claude-3-5-sonnet-20240620`
 - `claude-3-5-sonnet-20241022`
+- `claude-3-5-sonnet-latest`
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
+- `claude-3-7-sonnet-latest`
 - `claude-3-haiku`
+- `claude-3-haiku-20240307`
 - `claude-3-opus`
+- `claude-3-opus-20240229`
+- `claude-3-opus-latest`
 - `claude-3-sonnet`
+- `claude-3-sonnet-20240229`
 - `claude-ai`
 - `claude-ai-external-token`
 - `claude-ai-oauth`
@@ -879,7 +889,6 @@ _None detected_
 - `claude-artifacts`
 - `claude-audio-`
 - `claude-channel-`
-- `claude-checkpoint-index-H`
 - `claude-checkpoint-index.`
 - `claude-chrome-screenshots-`
 - `claude-cli`
@@ -910,6 +919,7 @@ _None detected_
 - `claude-code-sparse-paths.json`
 - `claude-code-tools`
 - `claude-code-url-handler.desktop`
+- `claude-code-user`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
 - `claude-code.state.derived`
@@ -955,10 +965,8 @@ _None detected_
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
-- `claude-opus-4-1-20250805`
 - `claude-opus-4-20250514`
 - `claude-opus-4-5`
-- `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
 - `claude-opus-4-7`
 - `claude-opus-4-8`
@@ -976,7 +984,7 @@ _None detected_
 - `claude-pr-steward-is-working`
 - `claude-pr-steward-watching`
 - `claude-preview-`
-- `claude-proactive`
+- `claude-proactiveN`
 - `claude-prod`
 - `claude-prompt`
 - `claude-publish-`
@@ -1009,6 +1017,9 @@ _None detected_
 - `claude-sonnet-5-5`
 - `claude-sparse-`
 - `claude-ssh-config-`
+- `claude-staging.ai`
+- `claude-staging.fedstart.com`
+- `claude-staging.palantirfedstart.com`
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-tag-data-viz`
@@ -1025,11 +1036,14 @@ _None detected_
 - `claude-test:runner`
 - `claude-vscode`
 - `gemini-extension.json`
+- `haiku-3`
 - `haiku-3-5`
 - `haiku-4-5`
 - `haiku-5-5`
 - `o5-bmin`
+- `opus-3`
 - `opus-4`
+- `opus-4-0`
 - `opus-4-1`
 - `opus-4-5`
 - `opus-4-6`
@@ -1039,8 +1053,11 @@ _None detected_
 - `opus-5-5`
 - `opus-limit`
 - `opus-warning`
+- `sonnet-3`
+- `sonnet-3-5`
 - `sonnet-3-7`
 - `sonnet-4`
+- `sonnet-4-0`
 - `sonnet-4-5`
 - `sonnet-4-5-20250929`
 - `sonnet-4-6`
