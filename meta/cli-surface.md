@@ -4,11 +4,11 @@
 
 - Commands: 56
 - Options: 131
-- Env vars: 429
+- Env vars: 430
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 207
+- Models: 211
 - Providers: 8
 
 ## Commands
@@ -557,6 +557,7 @@
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_TURNS`
 - `CLAUDE_CODE_MCP_ALLOWLIST_ENV`
+- `CLAUDE_CODE_MEMORY_PUSH_DELETE_MODE`
 - `CLAUDE_CODE_MESSAGING_SOCKET`
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
 - `CLAUDE_CODE_OAUTH_REFRESH_TOKEN`
@@ -951,6 +952,7 @@ _None detected_
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
+- `claude-haiku-3-55`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-haiku-5-5`
@@ -1002,6 +1004,8 @@ _None detected_
 - `claude-runner-upstream-`
 - `claude-sandbox-`
 - `claude-security`
+- `claude-security-plugin`
+- `claude-security-review-closing`
 - `claude-seed`
 - `claude-seed-admin-`
 - `claude-seed-attrs-`
@@ -1041,6 +1045,7 @@ _None detected_
 - `claude-test:conductor`
 - `claude-test:explorer`
 - `claude-test:runner`
+- `claude-ultrareview-eval-`
 - `claude-vscode`
 - `gemini-extension.json`
 - `haiku-3`
