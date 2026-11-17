@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 57
-- Options: 132
-- Env vars: 434
+- Options: 131
+- Env vars: 440
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 215
+- Models: 216
 - Providers: 8
 
 ## Commands
@@ -30,7 +30,6 @@
 - `details`
 - `disable`
 - `doctor`
-- `drop-worktree-registrations`
 - `edit-chrome-settings`
 - `edit-hook`
 - `edit-memory-settings`
@@ -71,6 +70,7 @@
 - `uninstall`
 - `update`
 - `validate`
+- `workspace-trust`
 - `xaa`
 
 ### Specs
@@ -91,7 +91,6 @@
 - `details <name>`
 - `disable [plugin]`
 - `doctor`
-- `drop-worktree-registrations`
 - `edit-chrome-settings`
 - `edit-hook`
 - `edit-memory-settings`
@@ -140,6 +139,7 @@
 - `update [name]`
 - `update <plugin>`
 - `validate <path>`
+- `workspace-trust`
 - `xaa`
 
 ## Options
@@ -228,7 +228,6 @@
 - `--prune`
 - `--publish-report`
 - `--push`
-- `--registry`
 - `--remote`
 - `--remote-control-session-name-prefix`
 - `--replay-user-messages`
@@ -356,7 +355,6 @@
 - `--prune`
 - `--publish-report`
 - `--push`
-- `--registry <url>`
 - `--remote <name>`
 - `--remote-control-session-name-prefix <prefix>`
 - `--replay-user-messages`
@@ -559,6 +557,7 @@
 - `CLAUDE_CODE_HOVER_REST`
 - `CLAUDE_CODE_IDLE_THRESHOLD_MINUTES`
 - `CLAUDE_CODE_IDLE_TOKEN_THRESHOLD`
+- `CLAUDE_CODE_IGNORE_PERSISTED_TRUST`
 - `CLAUDE_CODE_JIT_POLICY_AFTER_STARTUP`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_TURNS`
@@ -737,6 +736,7 @@
 - `NODE_ENV`
 - `NODE_ENVI`
 - `NODE_EXTRA_CA_CERTS`
+- `NODE_INSPECTOR_IPC`
 - `NODE_OPTIONS`
 - `NODE_REPL_EXTERNAL_MODULE`
 - `NODE_TEST_CONTEXT`
@@ -825,12 +825,16 @@
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
 - `TMUX`
+- `TSC_NONPOLLING_WATCHER`
+- `TSC_WATCHDIRECTORY`
+- `TSC_WATCHFILE`
 - `TZ`
 - `USER`
 - `V`
 - `VERBOSE_SSR`
 - `VERCEL`
 - `VSCODE_GIT_ASKPASS_MAIN`
+- `VSCODE_INSPECTOR_OPTIONS`
 - `VTE_VERSION`
 - `WAYLAND_DISPLAY`
 - `WEBSITE_SITE_NAME`
@@ -958,6 +962,7 @@ _None detected_
 - `claude-fable-5`
 - `claude-fable-5-1`
 - `claude-fable-5-2`
+- `claude-for-chrome`
 - `claude-for-financial-services`
 - `claude-for-legal`
 - `claude-gateway`
@@ -970,6 +975,7 @@ _None detected_
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-local`
+- `claude-lsremote-`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
@@ -994,6 +1000,7 @@ _None detected_
 - `claude-pdf-`
 - `claude-plugin-`
 - `claude-plugin-directory`
+- `claude-plugin-npm-view-`
 - `claude-plugin-session-`
 - `claude-plugin-telemetry-v1`
 - `claude-plugin-test`
@@ -1048,6 +1055,7 @@ _None detected_
 - `claude-tag-oncall`
 - `claude-tag-plugins`
 - `claude-tag-troubleshoot`
+- `claude-team-lead-entry-v1`
 - `claude-test`
 - `claude-test-draft`
 - `claude-test-execute`
@@ -1075,8 +1083,6 @@ _None detected_
 - `opus-4-8`
 - `opus-5`
 - `opus-5-5`
-- `opus-limit`
-- `opus-warning`
 - `sonnet-3`
 - `sonnet-3-5`
 - `sonnet-3-7`
@@ -1088,7 +1094,6 @@ _None detected_
 - `sonnet-5`
 - `sonnet-5-5`
 - `sonnet-limit`
-- `sonnet-warning`
 
 ## Providers
 
