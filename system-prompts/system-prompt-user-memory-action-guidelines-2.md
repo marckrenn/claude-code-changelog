@@ -1,4 +1,4 @@
-# System Prompt: user-memory-action-guidelines-2
+# System Prompt: user-memory-action-guidelines
 
 - Source: native-reference-match
 
