@@ -3,7 +3,7 @@
 ## Summary
 
 - Commands: 56
-- Options: 130
+- Options: 131
 - Env vars: 423
 - Config keys: 0
 - Tools: 10
@@ -253,6 +253,7 @@
 - `--tools`
 - `--transport`
 - `--trust-plugin`
+- `--trust-workspace`
 - `--values-stdin`
 - `--verbose`
 - `--with`
@@ -377,6 +378,7 @@
 - `--tmux`
 - `--tools <tools...>`
 - `--trust-plugin`
+- `--trust-workspace`
 - `--values-stdin`
 - `--verbose`
 - `--with <components...>`
@@ -569,6 +571,7 @@
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
+- `CLAUDE_CODE_REMOTE_SESSION_ORIGIN`
 - `CLAUDE_CODE_RESTRICTED`
 - `CLAUDE_CODE_SAFE_MODE`
 - `CLAUDE_CODE_SCRIPT_CAPS`
@@ -754,7 +757,6 @@
 - `RUNNER_OS`
 - `S`
 - `SDK_NATIVE_BIN`
-- `SELF_HOSTED_RUNNER_AGENT_PROXY_URL`
 - `SELF_HOSTED_RUNNER_BASE_DIR`
 - `SELF_HOSTED_RUNNER_CHECKOUT_HOOK_TIMEOUT_MS`
 - `SELF_HOSTED_RUNNER_CLIENT_LABEL`
@@ -908,7 +910,6 @@ _None detected_
 - `claude-code-sparse-paths.json`
 - `claude-code-tools`
 - `claude-code-url-handler.desktop`
-- `claude-code-user`
 - `claude-code.hostOnlyNativeTool`
 - `claude-code.state.atom`
 - `claude-code.state.derived`
@@ -941,7 +942,6 @@ _None detected_
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-local`
-- `claude-lsremote-T`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
@@ -1007,6 +1007,7 @@ _None detected_
 - `claude-sonnet-4-6`
 - `claude-sonnet-5`
 - `claude-sonnet-5-5`
+- `claude-sparse-`
 - `claude-ssh-config-`
 - `claude-swarm`
 - `claude-swarm-`
@@ -1019,6 +1020,7 @@ _None detected_
 - `claude-test-execute`
 - `claude-test:`
 - `claude-test:author`
+- `claude-test:conductor`
 - `claude-test:explorer`
 - `claude-test:runner`
 - `claude-vscode`
