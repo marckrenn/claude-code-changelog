@@ -4,11 +4,11 @@
 
 - Commands: 56
 - Options: 131
-- Env vars: 428
+- Env vars: 429
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 206
+- Models: 207
 - Providers: 8
 
 ## Commands
@@ -518,6 +518,7 @@
 - `CLAUDE_CODE_BRIDGE_MCP_CARRIER`
 - `CLAUDE_CODE_BRIDGE_SESSION_ID`
 - `CLAUDE_CODE_BYOC_ENABLE_DATADOG`
+- `CLAUDE_CODE_CHILD_SESSION`
 - `CLAUDE_CODE_CLASSIFIER_SUMMARY`
 - `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_COORDINATOR_EXTRA_TOOLS`
@@ -527,6 +528,7 @@
 - `CLAUDE_CODE_DAEMON_COLD_START`
 - `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
+- `CLAUDE_CODE_DISABLE_NESTED_SESSION_ID`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
@@ -716,7 +718,6 @@
 - `MAX_THINKING_TOKENS`
 - `MCP_CLIENT_SECRET`
 - `METADATA_SERVER_DETECTION`
-- `MIMALLOC_PURGE_DELAY`
 - `MSYSTEM`
 - `N`
 - `NETLIFY`
@@ -921,6 +922,7 @@ _None detected_
 - `claude-code-plugins`
 - `claude-code-release-signing-key`
 - `claude-code-remote`
+- `claude-code-side-query-2026-09-29`
 - `claude-code-sparse-paths.json`
 - `claude-code-tools`
 - `claude-code-url-handler.desktop`
