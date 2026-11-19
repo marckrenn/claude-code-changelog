@@ -4,11 +4,11 @@
 
 - Commands: 58
 - Options: 133
-- Env vars: 444
+- Env vars: 443
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 213
+- Models: 214
 - Providers: 8
 
 ## Commands
@@ -489,8 +489,6 @@
 - `CCR_SHR_SSE_HINTS`
 - `CCR_SPAWN_TIMESTAMP_MS`
 - `CF_PAGES`
-- `CHOKIDAR_INTERVAL`
-- `CHOKIDAR_USEPOLLING`
 - `CIRCLECI`
 - `CLAUDE_AFTER_LAST_COMPACT`
 - `CLAUDE_AGENT_SDK_CLIENT_APP`
@@ -607,7 +605,6 @@
 - `CLAUDE_CODE_SUPERVISED`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TEE_SDK_STDOUT`
-- `CLAUDE_CODE_TEST_ALLOW_REAL_NETWORK`
 - `CLAUDE_CODE_THREAD_CPU_ONE_IN`
 - `CLAUDE_CODE_TMPDIR`
 - `CLAUDE_CODE_USE_ANTHROPIC_AWS`
@@ -813,6 +810,7 @@
 - `SELF_HOSTED_RUNNER_SESSION_IDLE_MS`
 - `SELF_HOSTED_RUNNER_SESSION_STOP_GRACE_MS`
 - `SELF_HOSTED_RUNNER_SIGKILL_TIMEOUT_MS`
+- `SELF_HOSTED_RUNNER_SKIP_AGENT_PROXY_CHECK`
 - `SELF_HOSTED_RUNNER_STARTUP_TIMEOUT_MS`
 - `SELF_HOSTED_RUNNER_TRUST_WORKSPACE`
 - `SELF_HOSTED_RUNNER_USE_ANTHROPIC_GH`
@@ -830,6 +828,7 @@
 - `SWE_BENCH_INSTANCE_ID`
 - `SWE_BENCH_RUN_ID`
 - `SWE_BENCH_TASK_ID`
+- `SYSTEMROOT`
 - `TERM`
 - `TERM_PROGRAM`
 - `TERMINAL_EMULATOR`
@@ -945,6 +944,7 @@ _None detected_
 - `claude-code-model-catalog-v1`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
+- `claude-code-previous`
 - `claude-code-release-signing-key`
 - `claude-code-remote`
 - `claude-code-side-query-2026-09-29`
@@ -1081,6 +1081,7 @@ _None detected_
 - `haiku-4-5`
 - `haiku-5-5`
 - `o5-bmin`
+- `O6-cs`
 - `opus-3`
 - `opus-4`
 - `opus-4-0`
@@ -1101,7 +1102,6 @@ _None detected_
 - `sonnet-4-6`
 - `sonnet-5`
 - `sonnet-5-5`
-- `sonnet-limit`
 
 ## Providers
 
