@@ -4,11 +4,11 @@
 
 - Commands: 58
 - Options: 133
-- Env vars: 411
+- Env vars: 410
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 221
+- Models: 220
 - Providers: 8
 
 ## Commands
@@ -449,6 +449,7 @@
 - `AWS_REGION`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
+- `AWS_WEB_IDENTITY_TOKEN_FILE`
 - `AZURE_ADDITIONALLY_ALLOWED_TENANTS`
 - `AZURE_AUTHORITY_HOST`
 - `AZURE_CLIENT_CERTIFICATE_PASSWORD`
@@ -470,9 +471,11 @@
 - `BUGHUNTER_DEV_BUNDLE_B64`
 - `BUGHUNTER_FLEET_SIZE`
 - `BUILDKITE`
+- `BUN_CRASH_REPORT_URL`
 - `BUN_DISABLE_DYNAMIC_CHUNK_SIZE`
 - `BUN_ENV`
 - `BUN_INSPECT_NOTIFY`
+- `BUN_OPTIONS`
 - `C`
 - `C9_PID`
 - `C9_USER`
@@ -707,7 +710,6 @@
 - `NODE_CLUSTER_SCHED_POLICY`
 - `NODE_DEBUG`
 - `NODE_ENV`
-- `NODE_ENVI`
 - `NODE_EXTRA_CA_CERTS`
 - `NODE_INSPECTOR_IPC`
 - `NODE_OPTIONS`
@@ -719,9 +721,6 @@
 - `NODE_USE_ENV_PROXY`
 - `NODE_USE_SYSTEM_CA`
 - `OSTYPE`
-- `OTEL_EXPORTER_OTLP_ENDPOINT`
-- `OTEL_EXPORTER_OTLP_HEADERS`
-- `OTEL_EXPORTER_OTLP_INSECURE`
 - `OTEL_EXPORTER_PROMETHEUS_HOST`
 - `OTEL_EXPORTER_PROMETHEUS_PORT`
 - `OTEL_LOG_TOOL_CONTENT`
@@ -881,12 +880,12 @@ _None detected_
 - `claude-ai-oauth`
 - `claude-ai:`
 - `claude-api`
+- `claude-approvals`
 - `claude-apps-gateway`
 - `claude-artifact-preview-`
 - `claude-artifacts`
 - `claude-audio-`
 - `claude-channel-`
-- `claude-checkpoint-index.`
 - `claude-chrome-screenshots-`
 - `claude-cli`
 - `claude-cli-design-sync`
@@ -961,7 +960,6 @@ _None detected_
 - `claude-in-slack`
 - `claude-in-teams`
 - `claude-local`
-- `claude-lsremote-v`
 - `claude-mcp-browser-bridge-`
 - `claude-md`
 - `claude-md-and-agents-md`
