@@ -4,11 +4,11 @@
 
 - Commands: 58
 - Options: 133
-- Env vars: 410
+- Env vars: 409
 - Config keys: 0
 - Tools: 10
 - Skills: 10
-- Models: 220
+- Models: 223
 - Providers: 8
 
 ## Commands
@@ -440,6 +440,7 @@
 - `APPDATA`
 - `AUTOMODE_DECISION_LOG`
 - `AWS_ACCESS_KEY_ID`
+- `AWS_CONFIG_FILE`
 - `AWS_DEFAULT_REGION`
 - `AWS_EXECUTION_ENV`
 - `AWS_LAMBDA_BENCHMARK_MODE`
@@ -449,6 +450,7 @@
 - `AWS_REGION`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
+- `AWS_SHARED_CREDENTIALS_FILE`
 - `AWS_WEB_IDENTITY_TOKEN_FILE`
 - `AZURE_ADDITIONALLY_ALLOWED_TENANTS`
 - `AZURE_AUTHORITY_HOST`
@@ -595,9 +597,6 @@
 - `CLAUDE_INTERNAL_ASSISTANT_TEAM_NAME`
 - `CLAUDE_INTERNAL_FC_OVERRIDES`
 - `CLAUDE_JOB_DIR`
-- `CLAUDE_LOCAL_OAUTH_API_BASE`
-- `CLAUDE_LOCAL_OAUTH_APPS_BASE`
-- `CLAUDE_LOCAL_OAUTH_CONSOLE_BASE`
 - `CLAUDE_MEMORY_STORES`
 - `CLAUDE_PTY_HEARTBEAT_MS`
 - `CLAUDE_PTY_HOST_EXEC`
@@ -875,6 +874,7 @@ _None detected_
 - `claude-3-opus-latest`
 - `claude-3-sonnet`
 - `claude-3-sonnet-20240229`
+- `claude-agent-proxy`
 - `claude-ai`
 - `claude-ai-external-token`
 - `claude-ai-oauth`
@@ -917,6 +917,7 @@ _None detected_
 - `claude-code-previous`
 - `claude-code-release-signing-key`
 - `claude-code-remote`
+- `claude-code-sessions`
 - `claude-code-settings-signing-key`
 - `claude-code-side-query-2026-09-29`
 - `claude-code-sparse-paths.json`
@@ -1005,6 +1006,7 @@ _None detected_
 - `claude-pwd-ps-`
 - `claude-resume-`
 - `claude-review`
+- `claude-runner-`
 - `claude-runner-prep-`
 - `claude-runner-upstream-`
 - `claude-sandbox-`
