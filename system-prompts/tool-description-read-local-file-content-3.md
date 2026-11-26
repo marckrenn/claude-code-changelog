@@ -1,4 +1,4 @@
-# Tool Description: read-local-file-content-3
+# Tool Description: read-local-file-content-2
 
 - Source: native-reference-match
 
