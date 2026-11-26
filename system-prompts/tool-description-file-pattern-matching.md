@@ -1,5 +1,20 @@
 # Tool Description: file-pattern-matching
 
+- Source: native-reference-match
+
+## Summary
+
+Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: file-pattern-matching
+
 - Source: native-prompt-markdown-tool
 
 ## Summary
@@ -13,7 +28,7 @@ Fast file pattern matching tool that works with any codebase size - Supports glo
 - Use this tool when you need to find files by name patterns
 - When you are doing an open ended search that may require multiple rounds of globbing and grepping, use the Agent tool instead
 {
-  "$schema": "${URL}
+  "$schema": "${EXPR_1}
   "type": "object",
   "properties": {
     "pattern": {
