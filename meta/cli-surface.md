@@ -6,8 +6,8 @@
 - Options: 133
 - Env vars: 409
 - Config keys: 0
-- Tools: 10
-- Skills: 10
+- Tools: 23
+- Skills: 13
 - Models: 223
 - Providers: 8
 
@@ -830,27 +830,43 @@ _None detected_
 
 - `Agent`
 - `Bash`
+- `CronCreate`
+- `CronDelete`
+- `CronList`
+- `DeferredToolPlaceholder`
 - `Edit`
-- `Glob`
-- `Grep`
+- `EnterWorktree`
+- `ExitWorktree`
+- `ListAgents`
+- `Monitor`
+- `NotebookEdit`
 - `Read`
+- `ReportFindings`
 - `ScheduleWakeup`
+- `SendMessage`
 - `Skill`
+- `TaskStop`
 - `ToolSearch`
+- `WebFetch`
+- `WebSearch`
+- `Workflow`
 - `Write`
 
 ## Skills
 
 - `claude-api`
+- `code-review`
+- `dataviz`
+- `fewer-permission-prompts`
 - `init`
 - `keybindings-help`
-- `less-permission-prompts`
 - `loop`
-- `review`
-- `schedule`
+- `plugin-authoring`
+- `run`
 - `security-review`
 - `simplify`
 - `update-config`
+- `workflow-authoring`
 
 ## Models
 
