@@ -11,9 +11,25 @@
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 # Tool Description: file-pattern-matching-${NUM}
+
+- Source: native-reference-match
+
+## Summary
+
+- Fast file pattern matching tool that works with any codebase size - Supports glob patterns like "**/*.js" or "src/**/*.ts" - Returns matching file paths so…
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+# Tool Description: file-pattern-matching-${EXPR_1}
 
 - Source: native-reference-match
 
@@ -43,7 +59,7 @@ Fast file pattern matching tool that works with any codebase size - Supports glo
 - Use this tool when you need to find files by name patterns
 - When you are doing an open ended search that may require multiple rounds of globbing and grepping, use the Agent tool instead
 {
-  "$schema": "${EXPR_1}
+  "$schema": "${EXPR_2}
   "type": "object",
   "properties": {
     "pattern": {
