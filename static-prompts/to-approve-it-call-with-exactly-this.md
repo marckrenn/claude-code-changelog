@@ -1,0 +1,1 @@
+To approve it, call ${…} with exactly this input, where "message" is a JSON object rather than a string${…}: ${…}. Approving ends your process; a plain-text acknowledgment does not shut you down. To decline, for example because you're mid-task, send the same input with "approve": false and a "reason".

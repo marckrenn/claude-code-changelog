@@ -1,0 +1,4 @@
+- **`browser`** (default) — opens the system browser for an authorization-code (PKCE) sign-in on the loopback redirect URI.
+- **`broker`** — signs in through the OS identity broker (Web Account Manager on Windows, the Company Portal SSO extension on macOS), so it can satisfy Conditional Access policies that require a compliant or managed device or token protection. Requires **Tenant ID**, **Client ID**, and **Scope**. The app registration must list the broker redirect URIs `ms-appx-web://Microsoft.AAD.BrokerPlugin/{client-id}` (Windows) and `msauth.com.anthropic.claudefordesktop://auth` (macOS) under the **Mobile and desktop applications** platform, and the device must be Entra-registered (macOS also needs the Company Portal SSO extension). Not supported on Linux. When the broker is not available on a device, sign-in falls back to the system browser.
+
+App versions that predate this key always use the system browser.

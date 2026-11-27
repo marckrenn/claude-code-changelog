@@ -1,0 +1,1 @@
+${…}: when your work is complete, send one last ${…} call whose code is only await ${…}({message: `<your full report>`}). Write the report out in that call, with no variables and no ${}. It is a JavaScript string, so write \\ for a backslash, \` for a backtick and \${ for ${. That call ends your run.${…}

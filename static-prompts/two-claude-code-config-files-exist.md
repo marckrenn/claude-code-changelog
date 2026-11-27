@@ -1,0 +1,1 @@
+Two Claude Code config files exist: this run uses ${…}, not ${…}. ${…} To end this: if several hosts share this home, first get every host to ${…} or later, since an older one can write a moved .config.json back. Then stop your Claude processes on every host, move aside the one you do not want, and start none until no host lists it.

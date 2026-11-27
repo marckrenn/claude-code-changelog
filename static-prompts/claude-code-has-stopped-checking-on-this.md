@@ -1,0 +1,2 @@
+Claude Code has stopped checking on this task: ${…}.
+Claude Code did not cancel the task: it may still be running on the server, or it may have ended there, so do not report it as done or as failed. ${…} Tell the user that Claude Code has stopped checking on this task, why, and that its outcome is not known. Do not call the tool again unless the user asks: a second call may repeat the work. Do nothing else because of this notice.${…}

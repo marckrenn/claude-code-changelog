@@ -1,0 +1,1 @@
+CLAUDE_CODE_NO_MODEL_FALLBACK tripwire: a model-fallback pivot was attempted while the no-fallback guarantee is active. This branch should be unreachable — the availability chain must be built via buildAvailabilityFallbackChain() so it collapses to [primary] under the env var. The stack trace identifies the call site.

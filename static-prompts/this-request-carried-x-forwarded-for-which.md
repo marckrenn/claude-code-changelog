@@ -1,0 +1,1 @@
+ This request carried X-Forwarded-For, which the gateway ignored because ${…} is not in listen.trusted_proxies. If ${…} is your load balancer and adds the connecting address to that header itself, list it there first so each developer is counted separately. If it is your load balancer but does not, or many developers still share an address after that

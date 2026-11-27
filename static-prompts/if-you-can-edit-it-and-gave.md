@@ -1,0 +1,1 @@
+. If you can edit it and gave its link, approving also lets comments sent to Claude reach this session again, where Claude may answer them unattended — unless its auto-replies were stopped (those stay stopped until you ask to resume them; auto-replies only paused by an interrupt — Ctrl+C or Stop — do resume)

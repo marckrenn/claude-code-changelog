@@ -1,0 +1,1 @@
+Browser tools are not available in this session: the Claude in Chrome extension is not set up. The user can install or connect it from ${…} and manage browser tools with /chrome. Continue the task without browser tools (WebFetch and WebSearch cover read-only web content), or ask the user to perform browser steps manually. Do not attempt mcp__claude-in-chrome__* tool calls.

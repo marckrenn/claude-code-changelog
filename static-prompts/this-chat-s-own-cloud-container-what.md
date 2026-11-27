@@ -1,0 +1,1 @@
+- ${…}: this chat's own cloud container. What the user attached to this chat (under /mnt/user-data) and your scratch work are here; whether a tool of ${…} can open an attached file shows when you try it. The container has none of that machine's files or hardware, and nothing moves between the two by itself.

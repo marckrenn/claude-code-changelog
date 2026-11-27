@@ -1,0 +1,1 @@
+Your design system is at ${…}. These files of it are already on disk in ${…} (saved before this turn; the names below are inside that folder, the system's own, listed as data), so do NOT read THESE with the Artifact tool, whatever the line that named this design system, or the type's instructions, say about reading them:

@@ -1,0 +1,1 @@
+For Anthropic-managed git (the git mount) the runner would have written the session a certificate file, the public certificate authorities plus that file's, and did not${…}. So git inside the session that goes to the mount checks it against that file alone, as it did under the variable, and fails there if the file holds only your company's certificate authority. 

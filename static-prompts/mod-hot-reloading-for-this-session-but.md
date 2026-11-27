@@ -1,0 +1,1 @@
+${…} mod hot-reloading for this session, but the hooks modules of the mods under ${…} had NOT loaded when this notice was written. They count as a person's hooks modules, not an organization's. The reason: ${…}. You get no further notice about them, so do not say they are running, and /reload-plugins does not load them sooner. A mod with no hooks module did load.

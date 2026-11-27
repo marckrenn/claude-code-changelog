@@ -1,0 +1,1 @@
+${…} Publish only the changed files the same way (the same `url`; `root`: the folder that holds them at their served paths; `file_path`: one changed file's absolute path; `files`: the other changed ones); send the index only when you ${…}, keeping every other key and its `createdOnFiles` object as you last wrote or read it. ${…}

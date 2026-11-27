@@ -1,0 +1,1 @@
+Writing your own environment replaces the built-in default document — the auto mode context that defines trusted hosts, sensitive targets, and repository scope. The editor starts from the full default text so you can edit rather than rewrite; deleting all your environment entries later restores the default.

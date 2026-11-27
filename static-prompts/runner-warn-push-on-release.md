@@ -1,0 +1,1 @@
+[runner:warn] push-on-release: '${…}' NOT pushed — ${…} is reachable from this runner only through the session's git mount and the release push addresses the plain upstream; its commits exist only in this runner's checkout, so push from inside the session (those pushes use the mount) or preserve them in a post-session hook

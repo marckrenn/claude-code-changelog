@@ -1,0 +1,1 @@
+Every monitor expires after `timeout_ms` (default ${…}, at most ${…}): it is killed and you get one notice with the event count. Re-arm it if you still need the watch; for a long watch (PR monitoring, log tails) set `timeout_ms` to the maximum and re-arm on each expiry, and widen the filter if an expiry with no events was unexpected.

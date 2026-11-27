@@ -1,0 +1,1 @@
+. Automatic loading of claude.ai connectors is disabled in this Claude Code session (disableClaudeAiConnectors setting or ENABLE_CLAUDEAI_MCP_SERVERS env var), so ${…} may already have a connector on claude.ai that scheduled tasks can use — do not assert that the user must connect one; suggest checking https://claude.ai/customize/connectors.

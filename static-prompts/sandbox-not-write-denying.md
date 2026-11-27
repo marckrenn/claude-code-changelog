@@ -1,0 +1,1 @@
+[sandbox] Not write-denying ${…}: it is a symbolic link or belongs to another account, and a deny there would apply to whatever it points to. Claude Code keeps no files there while it is like this. To fix it, remove it (or ask its owner or an admin to), or set CLAUDE_CODE_TMPDIR to a folder only you can write.

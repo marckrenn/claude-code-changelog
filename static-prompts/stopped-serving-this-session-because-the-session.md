@@ -1,0 +1,1 @@
+${…} ${…}. ${…} stopped serving this session because the session had run nothing there for a while: an idle computer frees its place for other sessions, and nothing on ${…} needs restarting. ${…}; if the task still needs ${…} files, tools or logins, do not do that part here: ${…}. Do not poll or schedule a wait for ${…}.

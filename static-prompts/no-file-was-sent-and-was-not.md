@@ -1,0 +1,1 @@
+No file was sent and ${…} was not called: this call has an argument that ${…} does not list. You were asked for a file's path for ${…}, and the name of an argument is sent to the connector as text too, so Claude Code sends ${…} only the arguments it lists. Do not retry with that argument; you may call ${…} with the arguments it lists.

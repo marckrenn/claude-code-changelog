@@ -1,0 +1,1 @@
+Only create or edit a shared memory skill when the user explicitly asks — never proactively. Keep the set small — fewer than 10 workspace-wide skills and at most 30 in total, each a genuinely reusable, repeatable workflow. If a skills folder grows past that, move unused or low-value skills out of it into regular memory files, so they stay as memories but stop loading as skills.

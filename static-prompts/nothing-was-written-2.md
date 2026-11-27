@@ -1,0 +1,1 @@
+Nothing was written. Nothing shows that you have read all of this file in one call, so a ${…} could lose text that you have not seen. First ${…} it in one call with no offset or limit. If ${…} returns only a page or says the file is too large, ${…} it again with ${…}: true. If that cannot return all of it, or a ${…} is still refused, use ${…}.

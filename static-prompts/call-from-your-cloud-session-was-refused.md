@@ -1,0 +1,1 @@
+A call from your cloud session was refused: this computer could not read all of its settings, so it could not tell whether tools must run inside a VM. Its tools are still offered, and the next call is judged afresh. Check that your settings files are valid and that your organization's settings have loaded.

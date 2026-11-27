@@ -1,0 +1,1 @@
+This model cannot be sent a PDF file, only its pages as images. Before you write anything else, call the ${…} tool with file_path set to this path and pages: "1-${…}", as a tool call and not as text; that reads all of it. A call without pages fails. Do not describe, quote or summarise the file until the tool has returned its pages.

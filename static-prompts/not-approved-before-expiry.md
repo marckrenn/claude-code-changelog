@@ -1,0 +1,1 @@
+${…} ${…} ${…} not approved before expiry${…}. Not delivered to that session's Claude, and nothing is waiting there. Do not wait for a reply, and do not resend unprompted: while the two sessions' permission modes differ a resend is only held again. Tell your user what was not delivered and why; send ${…} again, edited if that helps, when they ask.

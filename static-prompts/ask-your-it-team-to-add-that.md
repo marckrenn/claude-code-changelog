@@ -1,0 +1,1 @@
+Ask your IT team to add that root to this computer's certificate store, if it is valid and they trust it as a root, and add the cross-certificate to the CA file your organization configured. Or ask them to have the proxy or gateway send the cross-certificate right after its own issuing CA, and keep both out of that file and that CA out of the store.

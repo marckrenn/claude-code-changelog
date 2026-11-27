@@ -1,0 +1,1 @@
+The context has filled up once already, and ${…} PDF pages have been asked for; the most before you give your answer is ${…}. "${…}" was not read. Read no more PDF pages now: answer from what you have read, tell the user which pages you did not reach, and that they can ask you to go on in their next message.

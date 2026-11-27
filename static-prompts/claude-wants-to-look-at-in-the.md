@@ -1,0 +1,1 @@
+Claude wants to look at ${…} in the artifact viewer inside this session: a private copy is opened in a headless browser and a picture comes back. Nothing is published. The page can load only from the few public sites an artifact page may use (such as Google Fonts), over HTTPS, and only where this organization's network settings allow them.

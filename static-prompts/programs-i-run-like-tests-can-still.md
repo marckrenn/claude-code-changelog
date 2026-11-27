@@ -1,0 +1,1 @@
+- Programs I run, like tests, can still force-push or merge the request with your credentials. So can a shell alias or function of yours that runs git, glab or the like under another name, such as g for git. Only this session's permission mode covers them, and every other command I run: here, ${…}.${…}${…}

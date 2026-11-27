@@ -1,0 +1,1 @@
+Refusing to use ${…} as an isolation worktree: ${…} registers it (${…}) and its .git leads to that entry, but the entry's commondir file now names another repository, ${…}, not ${…}. Unless you edited that file yourself (git wrote ../.. there), treat the worktree as tampered with: run no git in it, copy out what you need and delete it. ${…}

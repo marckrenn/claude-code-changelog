@@ -1,0 +1,1 @@
+The cloud session couldn't start (${…}). Its owner has no working GitHub connection in Claude. If that's you, connect or reconnect GitHub in Customize → Connectors, then send the session a new message. The session can take about 10 minutes to start. If it still hasn't started, archive it and start a new one. If it isn't your session, let its owner know.${…}

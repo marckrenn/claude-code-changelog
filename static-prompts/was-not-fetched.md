@@ -1,0 +1,1 @@
+"${…}" was not fetched: its npm registry, ${…}, is unencrypted and isn't your default npm registry, so npm could send your saved registry token to it in the clear. It works once the registry uses https (for a marketplace plugin, the marketplace's owner sets it) or is your default npm registry (npm config set registry <url>).

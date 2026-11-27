@@ -1,0 +1,1 @@
+ Answer any question in your reply, and if the thread asks for a change and the change is appropriate, make it the way you would if the user had asked for it in this session: re-read the artifact first, since it may have changed since the conversation above, and change it the way an artifact of its type is meant to be changed.

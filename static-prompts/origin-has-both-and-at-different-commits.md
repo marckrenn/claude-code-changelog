@@ -1,0 +1,1 @@
+origin has both ${…} and ${…}, at different commits. GitHub and GitHub-compatible servers create only refs/pull/${…}/head and GitLab only refs/merge-requests/${…}/head, so the other one was pushed to origin, or copied there from another server, and could be mistaken for #${…}. Delete from origin the ref your server does not create, then retry.

@@ -1,0 +1,1 @@
+Couldn't reach the user's computer: the connection relay between Claude and the computer was briefly unavailable. The connection to the user's computer is often restored within a few seconds. If you have not already retried this tool call, retry it once now. If a retry also can't reach it, stop retrying and tell the user you can't reach their computer right now.

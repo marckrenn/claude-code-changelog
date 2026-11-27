@@ -1,0 +1,1 @@
+Resume transcript${…} has ${…} user/assistant records but none carry parentUuid links; only ${…} reached the resumed conversation. Conversation reconstruction walks parentUuid from the last record, so unlinked records are dropped — the file's producer must chain records (parentUuid null on the first, the previous record's uuid on each subsequent one).

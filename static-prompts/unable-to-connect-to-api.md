@@ -1,0 +1,1 @@
+Unable to connect to API: SSL certificate verification failed (${…}). The certificates the server sent don't lead to a trusted authority. If the server leaves out an intermediate certificate, which browsers fetch by themselves, whoever runs it must have it send its full chain. If it is a TLS-inspecting corporate proxy or a gateway signed by a private CA, ${…}

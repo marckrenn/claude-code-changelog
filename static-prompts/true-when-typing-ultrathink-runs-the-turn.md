@@ -1,0 +1,1 @@
+True when typing `ultrathink` runs the turn at xhigh effort, and when the session is already at xhigh or max, where the turn stays as it is. The terminal colors the word by this rule, and hosts should color it only while this is true. Absent means a Claude Code too old to report it, which does not raise the turn in a host's chat box.

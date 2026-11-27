@@ -1,0 +1,1 @@
+Until you answer, a cloud session in auto mode asks you before most commands here, as in Manual mode. Whatever you answer, a session set to edit files without asking can still create, edit, move and delete files here, in its folder and any other folder you or your settings let Claude work in, as it would locally.

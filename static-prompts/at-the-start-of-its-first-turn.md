@@ -1,0 +1,1 @@
+${…} At the start of its first turn the checkout was at commit ${…}, committed ${…}. Before any tool call, start your first reply with one line that tells the user both. Then carry on with the task. Stop and ask only if the task needs work that isn't here. Leave the line out if you were asked for output in a fixed form, such as JSON only.

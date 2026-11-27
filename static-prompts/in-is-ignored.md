@@ -1,0 +1,1 @@
+${…} in ${…} is ignored: a project's settings can give MCP servers more time to connect, not less. A value that isn't a positive number counts as 30 seconds. To shorten the time, use --settings or managed settings. Your user settings also shorten it unless a project's settings file sets a longer time, and your shell environment does if no other settings file's value applies.

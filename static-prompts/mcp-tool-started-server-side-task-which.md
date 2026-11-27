@@ -1,0 +1,1 @@
+MCP tool "${…}" started server-side task ${…}, which runs on as background task ${…}. Its result goes to the main conversation, not to you, so do not wait for it and do not repeat this call. Do what you can without it. In your report, say that task ${…} is still running, that its result goes to the main conversation, and what the result is needed for.${…}

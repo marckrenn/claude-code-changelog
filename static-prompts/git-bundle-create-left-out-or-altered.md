@@ -1,0 +1,1 @@
+git bundle create left out or altered ${…}: another ref in this repository (a branch or tag spelled like it) makes the name ambiguous, or the temporary ref was rewritten while the bundle was made, so the upload would not carry your changes as captured. Make sure nothing else is writing to this checkout, rename or delete such a branch or tag (see `git for-each-ref`), then retry.

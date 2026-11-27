@@ -1,0 +1,5 @@
+  - Avoid unnecessary `Start-Sleep` commands:
+    - Do not sleep between commands that can run immediately — just run them.${…}
+    - Do not retry failing commands in a sleep loop — diagnose the root cause or consider an alternative approach.${…}${…}
+    - If you must poll an external process, use a check command rather than sleeping first.
+    - If you must sleep, keep the duration short to avoid blocking the user.

@@ -1,0 +1,1 @@
+⚠ ${…} tool call(s) still running at script end (${…}) — they run on and their effects happen; what a .then(self.log) logs arrives as late output, anything else is not in this result. Do not re-issue them; await a call whose result the script needs. You will be told when they have ended. A loop left running ends at its next sleep() or timer, or when none of its calls is running.

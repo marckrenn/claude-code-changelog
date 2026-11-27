@@ -1,0 +1,1 @@
+- Not reachable right now: ${…}. Do not call ${…}. Do everything in the task that does not need ${…}, here, in this turn; then, if anything is waiting on ${…}, tell the user ${…} not answering, what ${…} about why and what brings ${…} back, and exactly what is waiting. Do not stand in for ${…} here, and do not stop at "tell me when ${…} back" while other work remains.${…}

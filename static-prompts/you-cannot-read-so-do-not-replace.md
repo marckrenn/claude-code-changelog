@@ -1,0 +1,1 @@
+You cannot read ${…}, so do not replace or remove ${…}. Tell the user that ${…}, then publish again without ${…} or with your ${…}. Only if the user explicitly asks to replace or remove ${…} anyway, publish again with force:true, which also overwrites any newer edit to the other files this publish writes or removes.

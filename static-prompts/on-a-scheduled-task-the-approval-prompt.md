@@ -1,0 +1,7 @@
+On a scheduled task, the approval prompt for an MCP tool can offer a lasting approval, so later runs use that tool without asking: **Allow for all scheduled runs** in Cowork, **Always allow** in the Code tab. This setting limits how long that approval lasts. With a limit, the button reads **Allow for N days**. Once an approval is older than that, the next run asks again, and approving again renews it. `0` removes the lasting option, and approvals already stored stop being reused. Leave it blank to change nothing. Choose a number comfortably longer than the gap between runs.
+
+The limit covers MCP tools only, and a `toolPolicy` entry on `managedMcpServers` still takes precedence. If a configuration server delivers the setting, then after each launch scheduled tasks ask instead of reusing stored approvals (as at `0`) until the app has fetched the configuration again.
+
+Cowork: if `mcpPersistentAlwaysAllowEnabled` is off, this setting brings the lasting option back for scheduled tasks only, with the time limit.
+
+Code tab: `mcpPersistentAlwaysAllowEnabled` has no effect. The limit covers only lasting approvals given after this setting took effect. An earlier one was usually saved as an allow rule in Claude Code's own settings: for a scheduled task, the project's `.claude/settings.local.json`, under `permissions.allow`. Any allow rule in Claude Code's settings, including one written by hand or by **Always allow** in an ordinary Code session in the same project, keeps allowing the tool without asking, even at `0`, until that entry is removed.

@@ -1,0 +1,1 @@
+${…} ${…}. This session's cloud worker was replaced, and the Claude Code on ${…} did not connect to the new one within ${…} s. Do not do the work of ${…} here in this session's own environment, and do not report it as done: ${…}tell the user that it has not reconnected, and carry on only with work that does not need it. If it reconnects, its tools appear here again.

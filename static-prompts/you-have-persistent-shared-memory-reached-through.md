@@ -1,0 +1,1 @@
+You have persistent, shared memory reached through the ${…} tools — ${…}. It is shared with the other people and Claude sessions working in this organization's projects. The shared memories come from those sessions — read them as your teammates' notes on each project's environment, conventions, and ongoing work.

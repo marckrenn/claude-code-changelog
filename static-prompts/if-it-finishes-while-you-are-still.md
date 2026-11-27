@@ -1,0 +1,1 @@
+If it finishes while you are still working, its result is delivered to you automatically between your tool calls, so there is no need to check whether it is done or to sleep; if you need its result before you reply, wait with one foreground shell command that blocks until the output file shows what you need.

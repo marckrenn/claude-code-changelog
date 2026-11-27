@@ -1,0 +1,1 @@
+Plugin marketplace '${…}' couldn't be fetched: its repository, or one of its submodules, isn't among this session's repositories or is misnamed in settings. If your access and your organization's policies allow it, you can choose that repository when you start a session, or ask Claude to add that repository to this session.

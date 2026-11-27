@@ -1,0 +1,1 @@
+Nothing was stashed: ${…} is no longer the plain folder it was when /teleport looked at this checkout (a link or another folder stands there now, or it could not be looked at), so git's writes could land in another repository. If you did not do this, look at what .git is now before running git here again; if you moved it yourself, run /teleport again.

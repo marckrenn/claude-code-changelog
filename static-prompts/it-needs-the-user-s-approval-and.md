@@ -1,0 +1,1 @@
+${…}It needs the user's approval, and it was not put to them, because an earlier permission prompt went unanswered. Such prompts are shown again once the user types something. Do not get the same effect another way to avoid the approval. Go on with other work and tell the user which step was skipped and still needs their approval.

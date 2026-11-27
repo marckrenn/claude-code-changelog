@@ -1,0 +1,1 @@
+Claude Code can't tell if this server is connected on claude.ai. Your account has a connector with the same address up to the "?", and claude.ai doesn't send Claude Code the rest. If it's this server and you connected it, its tools load as a claude.ai connector the next time you start Claude Code. If not, choose Connect on claude.ai.

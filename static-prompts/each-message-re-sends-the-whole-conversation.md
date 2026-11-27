@@ -1,0 +1,1 @@
+Each message re-sends the whole conversation, so long conversations use up your plan's usage limits faster. With your current settings, Claude Code autocompacts (replaces older messages with a summary) at ${…}. Compacting earlier can reduce usage, but it happens more often, and some details can be lost each time.

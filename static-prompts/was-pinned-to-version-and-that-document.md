@@ -1,0 +1,1 @@
+${…}. ${…} was pinned to version ${…} and that document has changed or may have been deleted (the server named no current version): read it back — if it still exists, re-plan its write against what it holds now and pin to its version; if it is gone, drop that entry, or re-create it with a "set" entry and no if_version only if it should exist again. ${…}

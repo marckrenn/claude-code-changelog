@@ -1,0 +1,1 @@
+This REPL context is new: variables, functions and timers from earlier scripts in this conversation don't exist in it, even those a compaction summary lists as still defined. Define again what you need before you use it. Before you repeat an action from an earlier script, such as writing a file, running a command or sending a message, check whether it already happened.

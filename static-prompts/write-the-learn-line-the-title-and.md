@@ -1,0 +1,1 @@
+Write the learn line, the title and the explanation in the language the session’s Language instruction names; if there is none, in the language the user has been writing in. Keep the labels learn:, tag:, explain:, the word none, and the tags You should know / Heads up exactly as written, in English.

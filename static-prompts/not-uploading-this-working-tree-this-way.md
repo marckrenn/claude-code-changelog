@@ -1,0 +1,1 @@
+Not uploading this working tree this way: ${…} names ${…}, and the upload's own git runs would have to trust what it names. If you did not put it there yourself, remove it. If you did, move it to your user settings (~/.claude/settings.json), managed settings or your shell (or pass the settings inline). Then restart Claude Code.

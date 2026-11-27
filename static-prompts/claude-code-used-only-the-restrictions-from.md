@@ -1,0 +1,1 @@
+Claude Code used only the restrictions from the managed settings it received, because they come from an organization that this computer's forceLoginOrgUUID setting does not allow. Their environment variables, hooks and helpers were not used. Sign in to an allowed organization, or ask your administrator.

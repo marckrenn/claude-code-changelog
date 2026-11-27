@@ -1,0 +1,1 @@
+it is declared by remotely managed settings that this session could not verify with the server, or that have not been approved on this machine yet — make sure Claude Code can reach your managed-settings server, and approve the managed-settings dialog once in an interactive session (or ask your admin)

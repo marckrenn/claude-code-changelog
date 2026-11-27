@@ -1,0 +1,1 @@
+only a session with an idle limit from Anthropic's control plane, whose checkouts hold no uncommitted changes and are still at the commit that the runner checked out and whose own folder under --base-dir/_sessions holds only what the runner put there, is released early (--release-idle-session-min is not set)

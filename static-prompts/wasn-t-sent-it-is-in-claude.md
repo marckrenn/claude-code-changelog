@@ -1,0 +1,1 @@
+wasn't sent. It is in Claude Code's folder of saved sessions. This session's organization keeps conversations for a limited time, and another sign-in may keep the history longer, so such a file goes only to a session that Claude Code can confirm is in that organization. It can't confirm that before the receiver's first reply. Don't send a copy instead.

@@ -1,0 +1,1 @@
+${…} was not sent: the organization's settings or the user's role don't allow sending files to this connector's tool, or Claude's upload service couldn't check them. Don't retry now. Tell the user their admin can check the settings, and that if the settings already allow it, trying again later may work. ${…}

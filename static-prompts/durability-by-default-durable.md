@@ -1,0 +1,3 @@
+## Durability
+
+By default (durable: false) the job lives only in this Claude session — nothing is written to disk, and the job is gone when Claude exits. Pass durable: true to write to .claude/scheduled_tasks.json so the job survives restarts. If Claude Code can't tell which organization this session is signed in to, the job stays session-only even with durable: true. If the result says "Session-only" after durable: true, tell the user that the job won't survive restarts. Only use durable: true when the user explicitly asks for the task to persist ("keep doing this every day", "set this up permanently"). Most "remind me in 5 minutes" / "check back in an hour" requests should stay session-only.

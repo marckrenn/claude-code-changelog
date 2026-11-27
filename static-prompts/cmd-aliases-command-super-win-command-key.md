@@ -1,0 +1,1 @@
+- `cmd` (aliases: `command`, `super`, `win`) — Command key on macOS, Windows key on Windows, Super key on Linux; not the same as `meta`. Most terminals never send it (only ones that report the Super modifier, such as through the Kitty keyboard protocol or xterm `modifyOtherKeys`), so prefer `ctrl` for bindings that should work everywhere

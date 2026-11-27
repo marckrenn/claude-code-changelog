@@ -1,0 +1,1 @@
+oidc.groups_jsonpath ${…} is not a JSONPath that the gateway reads: after $ it takes only .name (letters, digits and _, not starting with a digit), ['any other name'], [*] and [?@.field=='value'], and it must start with .name or ['name']. For a plain claim name or a JSON Pointer, use oidc.groups_claim

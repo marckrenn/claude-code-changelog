@@ -1,0 +1,1 @@
+git status and git add run that filter with your access, so if you don't recognize it, look at the repository's git config first. Then run git status, commit the files you really changed (git add <file>, then git commit), and retry. Don't remove a filter that encrypts these files: they would upload unencrypted.

@@ -1,0 +1,1 @@
+CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS is set. In bypass permissions mode, once managed settings and plugin hooks have loaded, Claude in Chrome actions in any Chrome connected to your account can run without auto mode's safety check, a permission prompt, or the Chrome extension's site permissions. If you didn't set it, check your shell profile.

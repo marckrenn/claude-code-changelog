@@ -1,0 +1,1 @@
+This runner couldn’t set up a TLS connection to your self-hosted agent proxy (details below), and the session may be tried on another runner. Ask the team that manages the proxy to check its certificate, and the team that manages your runners to check the CA and client certificate files the runner uses. If the session doesn’t continue after that, send a new message.

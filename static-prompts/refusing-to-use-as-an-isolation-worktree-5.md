@@ -1,0 +1,1 @@
+Refusing to use ${…} as an isolation worktree: ${…}'s worktree list has an entry for it (${…}), but a .git directory of its own stands in place of the .git file that registration gave it. If you cloned a repository here yourself, move it outside ${…}; if you did not, run no git in it: copy out what you need and delete it. ${…}

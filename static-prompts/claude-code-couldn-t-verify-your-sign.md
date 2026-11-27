@@ -1,0 +1,1 @@
+Claude Code couldn't verify your sign-in with Anthropic yet (its sign-in token was still being refreshed, often by another Claude Code process), so it couldn't load your organization's settings. ${…} requires them before a session can start. ${…} if this persists, sign in again (claude auth login).${…}

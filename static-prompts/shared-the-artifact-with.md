@@ -1,0 +1,1 @@
+Shared the artifact${…} (${…}) with ${…}: they ${…}${…}, and each gets claude.ai's usual invite email.${…} The card, not your `people` hints, decided who they are — do not name individuals as shared-with unless the person confirms who they picked. They can change or undo this from the Share menu on the artifact's page.

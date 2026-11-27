@@ -1,0 +1,1 @@
+[plugins] could not read your git ssh settings: no private temporary directory could be made under ${…} (the path must not contain '${…}'). Plugin and marketplace clones ignore your core.sshCommand and ssh.variant and use GIT_SSH_COMMAND, GIT_SSH or plain ssh. Set CLAUDE_CODE_TMPDIR to a usable directory to fix this.

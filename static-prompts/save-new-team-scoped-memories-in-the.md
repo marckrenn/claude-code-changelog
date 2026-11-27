@@ -1,0 +1,1 @@
+Save new team-scoped memories in the writable store `${…}` under `${…}`, and keep its index `${…}` current — the ${…} tool prompt describes the index format. If the user explicitly asks you to remember something, save it immediately as whichever type fits best. If they ask you to forget something, find the relevant document and rewrite it with ${…} without that content.

@@ -1,0 +1,1 @@
+No MCP connectors are currently connected in this Claude Code session, but a claude.ai connector for this account exists and is still connecting or failed to connect client-side. Scheduled tasks use connectors server-side on claude.ai, so do not assert that the user must connect one; they can check https://claude.ai/customize/connectors.

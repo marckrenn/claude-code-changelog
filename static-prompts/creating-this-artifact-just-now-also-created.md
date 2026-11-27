@@ -1,0 +1,1 @@
+Creating this Artifact just now also created its content: a new, empty Claude Docs document (project ${…}${…}). Do not create it again: a connector `batch` whose container says `create` for this Artifact only repeats what creating the Artifact already did. ${…} Nothing is published to this URL for its content — never index.html or any of the type's files. ${…}

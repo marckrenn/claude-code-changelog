@@ -1,0 +1,1 @@
+This computer's settings require a sign-in to Anthropic that this app cannot use, ${…}. Ask your administrator about that setting (enforceAnthropicSignIn). To use Claude Code in a terminal on this computer instead, run `claude auth login` there. Choose the account or organization that has your Claude subscription.${…}

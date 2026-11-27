@@ -1,0 +1,1 @@
+${…} is enabled only by ${…}, while ${…}, so it is not treated as the organization's: its hooks module runs in the user tier, and does not load where only managed hooks may. It can be seated only once managed settings the session vouches for enable it: this machine's own, or remote managed settings once the server confirms them.

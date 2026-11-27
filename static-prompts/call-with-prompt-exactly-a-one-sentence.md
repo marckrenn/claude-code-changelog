@@ -1,0 +1,4 @@
+call ${…} with `prompt` exactly `${…}`, a one-sentence `reason`, `noop: true` only if this pass changed nothing and you have nothing new to tell the user (a pass with `noop: true` is folded away on the screen at the next wake-up, so a first Ready or Still needed report, or a question, is never one), and `delaySeconds`:
+   - ${…} if you pushed in this pass, or left a red check's log to a later pass and no check is pending, or `mergeable` is `UNKNOWN`, or gh says "no checks reported" within five minutes of a push: checks take a moment to show up. Any later, this repository runs no checks on that head, which counts as green and as nothing running.
+   - ${…} while checks run (bucket `pending`). A check that has been pending for over an hour counts as not running.
+   - ${…} when nothing is running.

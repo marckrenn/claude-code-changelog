@@ -1,0 +1,1 @@
+Underline misspelled words in the prompt input as you type, using an installed ${…} or ${…} (off unless "enabled" is true; does nothing if none is installed). Read from user, flag and managed settings only (the whole block from the highest-precedence of those applies); ignored in project .claude/settings.json and .claude/settings.local.json.

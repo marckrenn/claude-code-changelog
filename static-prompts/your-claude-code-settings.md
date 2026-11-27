@@ -1,0 +1,1 @@
+Your Claude Code settings. If the sandbox is still turned on there, Claude Code warns that it isn't available and runs commands without it. If your settings require the sandbox, Claude Code won't start. To turn it off, run /sandbox or set sandbox.enabled to false in your settings file. Where policy manages these settings, that is up to your administrator.

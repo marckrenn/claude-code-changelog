@@ -1,0 +1,1 @@
+materializeWorkTree: with fetchesFrom, the arguments must be -c pairs if any, then fetch or ls-remote, then options, then --end-of-options, then that remote's name. Each option must carry its value after '=' (--depth=1), begin with --no-, or be one of ${…}. A fetch needs --no-recurse-submodules. No option may begin with --rec.

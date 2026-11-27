@@ -1,0 +1,1 @@
+${…} ${…}. ${…} Claude told this session it had stopped serving it, ${…}. ${…}; if the task needs ${…} files, tools or logins, do not do that part here: tell the user that ${…} signed off and that opening Claude on ${…} again with Remote Control on is what usually brings ${…} back.${…} Do not poll or schedule a wait for ${…}.

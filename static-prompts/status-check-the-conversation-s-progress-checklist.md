@@ -1,0 +1,1 @@
+Status check: the conversation's progress checklist has not changed for at least ${…} minutes. The owner sees only that checklist and your reports, and a conversation that shows no change reads as stuck. Now ${…}, where the message is the whole checklist as it stands (✓ done, ✱ in progress, ○ not started) and its ✱ line says what is running right now, then continue the work.

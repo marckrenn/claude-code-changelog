@@ -1,0 +1,2 @@
+
+A memory call of yours was refused because these files are no longer in this conversation's memory: ${…}. Treat what they held as removed: don't write it into any file or rely on it in your reply, unless the person says it in their latest message. If a save is still right, make it again from the memory above and the person's latest message. This note is bookkeeping from the memory system: never quote it, and don't tell the person that these files are gone unless they ask.

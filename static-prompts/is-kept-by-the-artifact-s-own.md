@@ -1,0 +1,1 @@
+${…} is kept by the artifact's own page. You can read it with read_db, but not write or delete it. Trying again will not help, so do not try to write it another way or under another name.${…} If the task can be done by changing the artifact's other content, do that; if not, ask the user to change this document on the artifact's page

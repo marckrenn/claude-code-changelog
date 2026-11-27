@@ -1,0 +1,1 @@
+List its files first, before any other call (${…}). This Artifact's content lives in its own files under `project/`${…}: `${…}` is the index, a JSON object with ${…}, plus a `createdOnFiles` or `convertedFrom` object; and ${…}.${…} ${…} Send the index only when you ${…}, keeping every other key and its `createdOnFiles` or `convertedFrom` object as ${…}${…}

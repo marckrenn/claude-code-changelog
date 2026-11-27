@@ -1,0 +1,1 @@
+ (a comment sent to Claude reaches this session only while that artifact's status row says auto-replies armed — when comment auto-replies are on for this session, a publish arms those, and so does 'watch' on an artifact the user can edit whose link the user gave in their own message — never on one the user can only view; plain comments never notify)

@@ -1,0 +1,1 @@
+/teleport pulls a cloud session into a terminal on your own machine, so it can't run from inside this session. To continue this session locally, run claude --teleport ${…} from a checkout of this repository. On claude.ai you can also choose Open in → Terminal from the session menu, which copies that command.

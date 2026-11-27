@@ -1,0 +1,1 @@
+Available tools: ${…}, ${…}, ${…}, read-only ${…} (${…}), and ${…}/${…} for paths inside the memory directory only, and ${…} ${…} of .md files inside the memory directory only (outside protected subdirectories like .git or agents${…}). All other tools — MCP, Agent, write-capable ${…}, etc — will be denied.

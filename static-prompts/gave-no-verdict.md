@@ -1,0 +1,1 @@
+${…} gave no verdict${…}${…}${…}. This is a hard failure, not a transient one: the check cannot or does not judge this request, so retrying this action will get the same answer. Don't retry it. Continue with other tasks that don't require it; if it is essential, stop and tell the user that auto mode could not evaluate it. ${…}

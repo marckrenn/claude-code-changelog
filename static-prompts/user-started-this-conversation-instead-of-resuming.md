@@ -1,0 +1,1 @@
+The user started this conversation instead of resuming an earlier, inactive one (session ${…}), so its history was not re-sent. That conversation's transcript (JSON lines, one entry per line) is saved at ${…}. When the user refers to earlier work, look it up there ${…}, reading only what you need, rather than asking them to repeat it.${…}

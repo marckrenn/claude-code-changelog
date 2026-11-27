@@ -1,0 +1,1 @@
+The sessions whose transcripts lost lines, in the order each first lost one. Present only when 'transcript' is listed; never empty. Usually session_id alone. A CLI that started a new session after the loss, as /clear does, lists the earlier session, and lists session_id only if that session lost lines too.

@@ -1,0 +1,1 @@
+organization settings are not available for this sign-in (404); to sign in again, run ${…}; if that does not help, check that this network's proxy isn't answering in Anthropic's place, and ask your administrator to check your access to the organization; if the problem continues, run `claude auth logout` to sign out of all accounts and clear any cached settings

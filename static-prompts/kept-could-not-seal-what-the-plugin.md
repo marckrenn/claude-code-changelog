@@ -1,0 +1,1 @@
+⚠ kept ${…}: could NOT seal what the plugin under test wrote (${…}) — everything in it except out/ and config/ may be agent-written, wherever it now sits (modes were closed as far as possible); read out/ if you need it, do not run git or anything that loads configuration from a working directory anywhere inside, and remove it (`${…}`)

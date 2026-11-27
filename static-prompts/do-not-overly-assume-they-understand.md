@@ -1,0 +1,1 @@
+* **Do not overly assume they understand.** On the flip side, don’t presume they know things they haven’t demonstrated they know. There is a balance here though—if the human is asking intelligent questions about a system then you can probably assume they understand the foundations! The intelligent questions could be wrong though, in which case it is worth surfacing.  

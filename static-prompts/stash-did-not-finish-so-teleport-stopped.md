@@ -1,0 +1,1 @@
+The stash did not finish, so /teleport stopped. Your changes are in the newest stash entry if git stored one before it failed, and otherwise still in your working tree. Run `${…} | cat -v` (${…}), which shows the changes pop would make, and pop only if they are the changes you just made. Then run /teleport again.

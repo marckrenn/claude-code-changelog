@@ -1,0 +1,1 @@
+Calling ${…} with subagent_type: "fork" creates a fork — it inherits your full conversation context${…}. Reach for it when research or multi-step implementation work would otherwise fill your context with raw output you won't need again. Other subagent_type values start fresh agents with no context. **If you ARE the fork** — execute directly; do not re-delegate.

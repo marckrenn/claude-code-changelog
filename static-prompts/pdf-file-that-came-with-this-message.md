@@ -1,0 +1,1 @@
+The PDF file that came with this message was read before your reply. The `${…}` call and result that follow are that read. You did not make it. The result shows no pictures, charts or scanned pages. If the answer may be in one of those, open its page before you reply: call `${…}` on the file with `pages` set to that page's number.

@@ -1,0 +1,1 @@
+The account you chose isn't in an organization that's set up to use Claude through another provider (Amazon Bedrock, Google Vertex AI, Microsoft Foundry or a gateway). Claude Code didn't sign you in. If your company has such an organization, sign in again and choose it. If not, you don't need this sign-in.

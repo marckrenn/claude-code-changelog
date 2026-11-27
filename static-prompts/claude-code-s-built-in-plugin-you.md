@@ -1,0 +1,1 @@
+Claude Code's built-in plugin "You should know" (${…}) shows the person short notes above the prompt that open with "Heads up" or "You should know". A separate background request writes them, and this conversation sees one only if it is sent with a prompt. What follows matters only if the person asks what these notes are, or how to close or stop them.

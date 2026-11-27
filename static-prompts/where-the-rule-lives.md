@@ -1,0 +1,1 @@
+Where the rule lives: 'persistent' (userSettings/projectSettings/localSettings — saved in a settings file), 'session' (cliArg/session — in memory only, for the rest of this session), or 'readonly' (policySettings/flagSettings/command and every other source — the set the terminal's /permissions treats as read-only). Informational for hosts; this request never changes rules.

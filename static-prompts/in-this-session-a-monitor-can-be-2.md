@@ -1,0 +1,1 @@
+In this session a monitor can be counted on only while you are working. After your reply it may stop at any time, often within a minute, and you are told so with the user's next message. To wait for one thing before you answer, run a foreground ${…} command that exits when it happens; for anything longer, tell the user what to check and when.

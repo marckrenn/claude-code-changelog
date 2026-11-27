@@ -1,0 +1,1 @@
+ The ids belong to these connectors: ${…}${…}. For these, set `server` to the connector's name exactly as written here, e.g. `{"server": "${…}", "tools": [...]}` — never the id or any `mcp__` segment — and in the page pass that same name as the `server` argument of `callTool`/`watchTool`, because viewers resolve connectors by name only.

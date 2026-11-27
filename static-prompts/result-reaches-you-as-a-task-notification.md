@@ -1,0 +1,1 @@
+${…}. The result reaches you as a task notification. If the task finishes soon, that happens by itself; once this chat has been quiet for a while, the result may not be fetched until the user sends another message. So do not tell the user you will report back when it is done. Tell them that if they hear nothing, they can send any message here to check on the task.

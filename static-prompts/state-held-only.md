@@ -1,0 +1,1 @@
+state 'held' only: why the policy parked it, absent where it only waits for room in the queue. 'mode-mismatch' / 'no-mode-asserted' are the permission-mode parity holds (the sender runs in a different permission class, or asserted none while this session bypasses permissions); the *-setting causes are a standing crossSessionInbound:'hold'.

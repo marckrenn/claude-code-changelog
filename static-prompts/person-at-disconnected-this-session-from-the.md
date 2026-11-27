@@ -1,0 +1,1 @@
+${…} ${…}. The person at ${…} disconnected this session from the folder it was using there; nothing on ${…} is down. ${…}; if the task needs ${…} files, tools or logins, tell the user what that leaves undone, and ask for the folder again only if the user wants you to. Do not poll or schedule a wait for ${…}.

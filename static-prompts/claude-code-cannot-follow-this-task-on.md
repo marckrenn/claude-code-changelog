@@ -1,0 +1,3 @@
+Claude Code cannot follow this task on its server at the moment: ${…}.
+It did not cancel the task, which may still be running there or may have ended. Its outcome is not known, so do not report it as done or failed. Claude Code keeps checking, less often, while this session runs, and you will get another notification if it learns how the task ended.${…}${…}
+Tell the user in two or three sentences that Claude Code cannot follow the task at the moment, why, ${…}. Unless the user asks, do not call the tool again (that may repeat the work), stop the task, or wait for it. Do nothing else because of this notice.

@@ -1,0 +1,1 @@
+Thread not resolved: resolving is not available from this session (the resolve action requires a credential this session does not hold). This does not block the work itself: if you addressed the thread, reply saying what you did, and leave resolving to the commenter. Do not retry the resolve from this session.

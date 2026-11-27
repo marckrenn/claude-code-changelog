@@ -1,0 +1,1 @@
+The following tools were loaded earlier in this conversation, but their schemas are no longer in your context. A call without the schema can have wrong or missing input. Before you call one of them, use ${…} with query "select:<name>[,<name>...]" to load its schema. Load only the tools that you need. The tools are:

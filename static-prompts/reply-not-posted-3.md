@@ -1,0 +1,1 @@
+Reply not posted: a Claude reply${…} already stands after every "sent to Claude" request on this thread, so another reply would read as a duplicate to the commenter. The draft was discarded. Read the thread (action "comments") if you have not; only if a further reply adds something genuinely new, send it again with acknowledge_duplicate: true.

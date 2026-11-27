@@ -1,0 +1,1 @@
+After a CA renewal, this can mean that this computer trusts two CA certificates with the same name but different keys, and the server's certificates don't say which key signed them. ${…} If no CA was renewed, don't work around this error, because it can also mean that something on the network changed the connection.

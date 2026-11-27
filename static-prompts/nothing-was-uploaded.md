@@ -1,0 +1,1 @@
+Nothing was uploaded. The file is reached through a link, is hard-linked, has an unusually spelled path, or is in an uploads folder but is not one of the user's attachments. Only a person can approve an upload of such a file, and no one is present in this scheduled task run. Do not retry with the file. Say in your report what was not uploaded and why.

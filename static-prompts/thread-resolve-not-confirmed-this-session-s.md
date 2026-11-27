@@ -1,0 +1,1 @@
+thread resolve not confirmed (this session's comment connection failed on this attempt, so the thread may or may not be resolved) — retry the resolve once if you have not already, it is safe to repeat; if it fails again, leave the thread unresolved and, if you addressed it, say so in a reply on the thread

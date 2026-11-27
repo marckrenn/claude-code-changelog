@@ -1,0 +1,1 @@
+Web search, web fetch, and browser tools are unavailable in this session under your organization's web search / connector isolation policy. Do not attempt to reach any external URL via another tool (curl, bash, the browser, or otherwise) — this policy blocks all outbound web access while connector data is in context. Start a new session to use web tools.

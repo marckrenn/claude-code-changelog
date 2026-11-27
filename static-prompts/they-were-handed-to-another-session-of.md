@@ -1,0 +1,1 @@
+${…} — they were handed to another session of this conversation (it resumed the conversation, or you published there). Resuming takes them back here (that session is asked to pause) and lets Claude post unattended public replies to comments sent to Claude for the rest of this session. Deny this if you did not ask for it

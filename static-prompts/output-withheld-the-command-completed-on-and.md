@@ -1,0 +1,1 @@
+(output withheld: the command COMPLETED on ${…} and was not interrupted. What ran after it here — a PostToolUse hook, most likely — was stopped ${…} before it finished, and it may have been meant to check this output, so only the output is withheld. Do not re-run the command just to see the output unless it is safe to repeat.)

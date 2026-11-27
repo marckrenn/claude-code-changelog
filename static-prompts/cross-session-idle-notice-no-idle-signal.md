@@ -1,0 +1,1 @@
+[Cross-session idle notice] No idle signal arrived from "${…}" within ${…} hours; the subscription has expired (it may still be busy, be waiting on its user, refuse inbound requests, run a version without idle notices, or have ended abruptly). Do not keep waiting for it; if you still need to know, ask your user or list the sessions to check its status. ${…}

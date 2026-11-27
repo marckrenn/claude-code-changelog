@@ -1,0 +1,1 @@
+${…}. In this cloud session a host fails to resolve like this when it is outside the session's allowed network domains, or does not exist. If another host has failed the same way, stop trying more sites: carry on without them, and say in your answer that ${…} has to be allowed in the session's network settings. Fetch it again only once the user says it is allowed.

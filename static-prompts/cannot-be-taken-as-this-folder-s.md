@@ -1,0 +1,1 @@
+${…} cannot be taken as this folder's own file: it is a link to another file, has a second name (a hard link), sits in a .claude folder that is a link, or could not be examined. So it cannot be accepted here, and cloud sessions keep using what you accepted before. A plain file with no other name, in a plain .claude folder you can read, changes that.

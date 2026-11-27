@@ -1,0 +1,5 @@
+"Nonessential services" covers these outbound fetches the app runs without: **connector favicons** (the icon proxy), the **artifact-preview** iframe origin, the **MCP Apps widget** iframe origin (`*.claudemcpcontent.com`), and the **spellcheck dictionary** the built-in spellchecker downloads on Linux. Turning this on blocks all of them. (macOS and Windows use the system spellchecker. Windows still downloads a dictionary for a language it cannot check natively; this key does not stop that download.)
+
+**What you lose when this is on:** connectors show without icons, the hosted artifact preview frame does not load (artifacts still render locally, without the CDN chart libraries they can otherwise load), connectors that return MCP Apps show the text tool result instead of the widget, Excel files in the Code tab preview only through Claude’s workspace (the local VM) instead of that frame, and spellcheck underlines are off on Linux.
+
+Destinations are listed under Egress Requirements → Nonessential services.

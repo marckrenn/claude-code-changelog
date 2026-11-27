@@ -1,0 +1,1 @@
+Save new shared memories in `${…}` under `${…}` and keep its index `${…}` current, as the ${…} tool prompt describes. Private memories belong in your personal memory directory, if your system prompt names one; the shared stores are for what teammates should also see. Never save secrets, credentials or other sensitive data to the shared stores.

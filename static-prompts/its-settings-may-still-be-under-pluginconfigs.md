@@ -1,0 +1,1 @@
+${…}its settings may still be under "pluginConfigs" in your user settings file, its stored secrets in ${…}, and its data folder (${…}) may still be there. No command removes them for this id yet; you can take that entry out yourself; leave the data folder until the install records can be read again, because another installed plugin may use it; the stored secrets stay

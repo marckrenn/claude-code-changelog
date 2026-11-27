@@ -1,0 +1,1 @@
+${…} (${…}). Its contents were not attached because the file is too large to read all at once. Read it in portions with the offset and limit parameters, starting with a few hundred lines, or search for specific content instead of reading the whole file. Only if you genuinely need all of it, call ${…} with ${…}: true, which reads it whole when it still fits in your context.${…}

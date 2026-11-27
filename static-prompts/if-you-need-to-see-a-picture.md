@@ -1,0 +1,1 @@
+- If you need to see a picture that a command will write and you know its path, call ${…} on that path in the same message, right after the ${…} call. The calls run in order, so a command that finishes in the foreground will have written the file. Don't do this with ${…} that may outlast its `timeout`.

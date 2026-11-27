@@ -1,0 +1,1 @@
+Another agent in this chat has used the cloud browser since your last call, so a different tab may be in front and your page may have changed. This call was not sent. It is your turn now: list the tabs with browser_tabs, select the tab you were using (open it again if it is gone), and read the page again. Then make the call again if you still need it.

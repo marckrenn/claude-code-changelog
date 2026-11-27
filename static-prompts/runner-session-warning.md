@@ -1,0 +1,1 @@
+[runner:session] WARNING: ${…} update ${…} for ${…} was never acked by the child — the stdin control channel may be severed (wrapper backgrounding without <&0?). Token rotation is NOT reaching the child; it will 401 at token TTL. See docs/self-hosted-runners-guide.md § "The child must keep the runner's stdin".

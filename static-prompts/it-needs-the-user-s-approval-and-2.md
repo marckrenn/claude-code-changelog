@@ -1,0 +1,1 @@
+${…}It needs the user's approval, and no permission prompt can be shown here. Do not get the same effect another way to avoid the approval. You can send this step again in a new piece of code, which gets a check of its own. If it is refused in the same way, tell the user which step needs their approval: they can add a permission rule that allows it with /permissions.

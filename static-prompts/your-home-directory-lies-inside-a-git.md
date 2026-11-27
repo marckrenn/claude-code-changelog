@@ -1,0 +1,1 @@
+your home directory lies inside a git checkout (${…}), so a Claude Code session started there can write the user-level git configuration that capture would run under (${…}, whether or not that file exists yet); ${…}${…}move your home directory out of that checkout, or remove the stray git entry that makes it one

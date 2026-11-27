@@ -1,0 +1,1 @@
+No API resource scope set. On IdPs where the requested scopes decide the access-token audience (e.g. Entra ID), this yields a token for the IdP’s own APIs — not your gateway. Add the gateway’s API scope (Entra: api://GATEWAY_APP_ID/.default). Ignore this if your IdP sets the token audience out-of-band (Keycloak audience mapper, Auth0 default audience, Okta custom-AS audience).

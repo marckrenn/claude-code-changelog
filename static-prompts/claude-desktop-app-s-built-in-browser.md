@@ -1,0 +1,1 @@
+The Claude desktop app's built-in browser needs no enabling: its tools are the ones whose names contain Claude_Browser. ${…}. ${…} If you have no browser tool of any kind, tell the user that the browser in their Claude desktop app is not available in this chat right now and continue with what you can do here.

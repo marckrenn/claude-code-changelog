@@ -1,0 +1,1 @@
+A limit on what Claude may read is set on this computer, so a project's command checks are not run for your cloud session and each command they cover asks you instead. Limits include a Read deny or ask rule, sandbox.filesystem.denyRead, sandbox.credentials.files and permissions.blockReadsOutsideWorkingDirectories. The project's own settings can set one too.

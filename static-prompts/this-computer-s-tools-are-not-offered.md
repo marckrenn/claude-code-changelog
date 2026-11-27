@@ -1,0 +1,1 @@
+This computer's tools are not offered to your cloud session over the device bridge. The bridge cannot check a device's proof, and trusted devices may be required for your organization or could not be checked. Remove the off switch for the session channel from your environment to serve over it instead.

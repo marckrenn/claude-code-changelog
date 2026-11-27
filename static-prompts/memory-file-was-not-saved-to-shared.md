@@ -1,0 +1,1 @@
+The memory file ${…} was NOT saved to shared memory (${…}). ${…} Your other memory files keep syncing. This file stays local only, and its changes will be lost when this session's machine is recycled. Once you change or delete it, the next sync tries again. Tell the user this memory file is not being persisted.

@@ -1,0 +1,1 @@
+Claude Code did not send this request. Your organization sends Claude Code's requests through its gateway, but this computer's managed settings do not name that gateway, so Claude Code does not sign in to it here. ${…}. Ask your IT administrator to name the gateway in this computer's managed settings (forceLoginGatewayUrl), then start Claude Code again.

@@ -1,0 +1,1 @@
+Sandbox is required (sandbox.failIfUnavailable) and stopped being available in this session: ${…}. The command was refused, and so is a request to run it outside the sandbox (dangerouslyDisableSandbox): do not retry it that way. Only commands the user runs themselves with the `!` prefix, and commands their settings exclude from the sandbox, still run.

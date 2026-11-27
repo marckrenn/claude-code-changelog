@@ -1,0 +1,1 @@
+- ${…}${…}. Nothing was replayed. This session cannot tell whether a command that was running on ${…} when it went quiet has finished, is still running, or never ran: before sending any such command again, look at what it did on ${…} with a read-only command. Anything else that needs ${…} you may send now, once the step you are on is done.

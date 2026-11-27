@@ -1,0 +1,1 @@
+Let the sandboxed command create user namespaces of its own (Linux only), as a browser sandbox, rootless podman or a nested bubblewrap does. This gives up the write denies against a hostile command, which can then take the read-only binds that enforce denyWrite and the mandatory denies out of its own view. Default: false.

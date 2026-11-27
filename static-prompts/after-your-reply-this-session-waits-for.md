@@ -1,0 +1,1 @@
+ After your reply, this session waits for a background command's end for up to ${…} ${…} from its start. An end after that, after a restart of the server behind this session, or after many such wake-ups with no message from the user reaches you only when the user writes again, so tell the user what is still running.

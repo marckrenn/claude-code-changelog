@@ -1,0 +1,1 @@
+ A setting (ANTHROPIC_BASE_URL, *_BASE_URL or CLAUDE_CODE_USE_*) took this session off the gateway; it may be in that folder's settings, your own, your organization's, a plugin or --settings. A terminal there reads the same settings files: remove the setting before you run that command to stay on the gateway, or keep it to go on without the gateway.

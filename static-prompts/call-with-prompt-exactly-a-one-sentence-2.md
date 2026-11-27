@@ -1,0 +1,1 @@
+call ${…} with `prompt` exactly `${…}`, a one-sentence `reason`, `noop: true` only if this pass changed nothing and you have nothing new to tell the user (a pass with `noop: true` is folded away on the screen at the next wake-up), and `delaySeconds: ${…}`. If a fetch or a push of this pass failed because the remote didn't answer, give ${…} instead, to try again in ten minutes.

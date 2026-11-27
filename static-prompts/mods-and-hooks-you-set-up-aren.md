@@ -1,0 +1,1 @@
+Mods and hooks you set up aren't running in this session yet, and neither are any checks they make on tool calls. Your organization's settings couldn't be read, so it isn't known whether it allows them. They'll start once the settings are read; hooks that run when a session starts won't run in this one.

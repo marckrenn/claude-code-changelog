@@ -1,0 +1,1 @@
+${…} Do not call ${…} again until a later attached-machines note says ${…} is reachable again, or the user says it is back or asks you to try again; then check what this command did before sending anything else to ${…}. Meanwhile do the rest of the task without ${…}, and tell the user what is paused.

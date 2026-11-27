@@ -1,0 +1,1 @@
+Browser extension is not connected. Please ensure the Claude browser extension is installed and running (${…}), and that you are logged into claude.ai with the same account as Claude Code. If this is your first time connecting to Chrome, you may need to restart Chrome for the installation to take effect. If you continue to experience issues, please report a bug: ${…}

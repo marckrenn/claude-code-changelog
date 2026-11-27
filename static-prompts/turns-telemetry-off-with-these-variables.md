@@ -1,0 +1,1 @@
+${…} turns telemetry off with these variables: ${…}. Claude Code uses these values unless managed settings or a --settings file sets the same variable. Your user settings don't override this file. To keep one on, set it in the environment you start Claude Code from, in a --settings file, or in managed settings.

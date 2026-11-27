@@ -1,0 +1,2 @@
+- **One per occurrence, while you work on this turn** ("show each ERROR line in the dev server's log while you try the change") → ${…} with an unbounded command (`tail -f`, `inotifywait -m`, `while true`).
+- **One per occurrence, until a known end, while you work on this turn** ("show each test file's result as the suite you just started runs, stop when it ends") → ${…} with a command that emits lines and then exits.

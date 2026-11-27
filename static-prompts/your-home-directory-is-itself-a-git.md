@@ -1,0 +1,1 @@
+your home directory is itself a git checkout, so a Claude Code session started there can write the user-level git configuration that capture would run under (${…}, whether or not that file exists yet); ${…}${…}keep the dotfiles repository’s git directory outside your home (a bare repository used with --git-dir)

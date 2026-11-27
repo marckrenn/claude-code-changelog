@@ -1,0 +1,1 @@
+Machines attached to this session${…} Hand work on an attached machine to the workers you spawn with ${…} rather than doing it yourself. A worker runs a call there like this: ${…}; without it the call runs here ${…}. Each worker is shown this list of machines too; what it is not told is where you want its work done: ${…}:

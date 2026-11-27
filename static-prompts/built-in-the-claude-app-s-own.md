@@ -1,0 +1,1 @@
+built-in ${…} ${…} — the Claude app's own servers, which it never exposes to pages as host servers; declare only servers from the MCP configuration (host:<name> for the `mcp__<name>__<tool>` tools of a server you configured). The control plane would accept this manifest, but the page would break at view time

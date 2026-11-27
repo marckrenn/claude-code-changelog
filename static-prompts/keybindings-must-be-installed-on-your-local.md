@@ -1,0 +1,1 @@
+${…}${…}${…}${…} keybindings must be installed on your local machine, not the remote server.${…}${…}To install the Shift+Enter keybinding:${…}1. Open ${…} on your local machine (not connected to remote)${…}2. Open the Command Palette (Cmd/Ctrl+Shift+P) → "Preferences: Open Keyboard Shortcuts (JSON)"${…}3. Add this keybinding (the file must be a JSON array):${…}${…}${…}${…}

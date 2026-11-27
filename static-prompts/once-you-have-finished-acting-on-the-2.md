@@ -1,0 +1,1 @@
+ Once you have finished acting on the thread, post a brief reply saying what you did — first check the thread (${…}${…}): if a Claude reply answering it already stands, do NOT post another — and resolve the thread (${…}); leave it open only if the conversation is still active or the commenter still needs to read an answer from you.

@@ -1,0 +1,1 @@
+Claude Code does not load your organization's settings in the mode this session was launched in, and ${…} requires them before a session can start. If CLAUDE_CODE_ENTRYPOINT or a remote-session variable is set in your environment, unset it and start Claude Code again; otherwise sign in again (claude auth login).

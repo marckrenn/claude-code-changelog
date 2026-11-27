@@ -1,0 +1,1 @@
+ANTHROPIC_PROFILE is set, so Claude Code won't use a Claude account sign-in until you unset that variable and restart. Such a sign-in can also sign the named profile out. To sign in to the named profile, choose Anthropic Console account, then Sign in with your Console account, or run `ant auth login --profile <name>` and restart.

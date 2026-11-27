@@ -1,0 +1,1 @@
+localSettings: not canonicalizing the consent store to ${…} — it (uid ${…}), its .git entry (uid ${…}), or its .claude entry (uid ${…}) is not owned by the current user (uid ${…}); the store stays at the session cwd (the pre-canonicalization behavior). If you own this repo, chown it (including .git and .claude) or run from a directory you own.

@@ -1,0 +1,2 @@
+Device '${…}' did not respond within ${…}s.
+ This call was sent to the user's computer and only the wait for its reply timed out: the tool may still be running there, may already have finished, or may never have started. Do not run it again unless you know that running it twice is harmless and you have not already retried it; otherwise tell the user it may still finish and ask before running it again.

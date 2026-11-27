@@ -1,0 +1,1 @@
+doesn't look like a complete rule, so ${…}. A rule looks like ${…} or ${…}(git *). Check for a missing ")", a space before "(", or text after ")". If a ")" belongs inside your rule, the list may have split there and the quoted text is only part of it: move the whole rule to permissions.${…} in settings this session reads.

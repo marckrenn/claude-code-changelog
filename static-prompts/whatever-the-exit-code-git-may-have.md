@@ -1,0 +1,1 @@
+Whatever the exit code, git may have failed to change some files: the sandbox keeps paths such as settings and skills in .claude read-only. Those files are still as before, so do not commit them, and do not push a commit that this command made. They can run code, so do not redo the command outside the sandbox on your own: tell the user.
